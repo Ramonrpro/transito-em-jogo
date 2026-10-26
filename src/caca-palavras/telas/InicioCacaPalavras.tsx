@@ -97,7 +97,7 @@ export default function InicioCacaPalavras() {
         </div>
       </section>
 
-      <div className="rodape-acoes">
+      <div className="rodape-acoes rodape-acoes-fixo">
         <button type="button" className="botao botao-principal" onClick={() => void novaPartida(tema, nivel)}>
           Começar
         </button>

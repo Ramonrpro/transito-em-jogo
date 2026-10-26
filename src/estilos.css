@@ -329,6 +329,13 @@ button.questao-numero {
   margin-top: 16px;
 }
 
+.rodape-acoes-fixo {
+  position: sticky;
+  bottom: calc(var(--altura-barra) + env(safe-area-inset-bottom) + 8px);
+  padding: 8px 0;
+  background: var(--cor-fundo);
+}
+
 .rodape-acoes .botao {
   flex: 1;
 }

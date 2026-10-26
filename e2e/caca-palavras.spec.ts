@@ -117,3 +117,23 @@ test('recarregar no meio mantém o que foi achado', async ({ page }) => {
   await page.getByRole('button', { name: 'Continuar' }).click()
   await expect(page.getByText('1 de 5', { exact: true })).toBeVisible()
 })
+
+test('"Começar" fica visível acima da barra inferior em 360×640, com e sem partida em andamento', async ({ page }) => {
+  await page.setViewportSize({ width: 360, height: 640 })
+  await page.goto('./#/caca-palavras')
+  const conferir = async () => {
+    const botao = page.getByRole('button', { name: 'Começar' })
+    await expect(botao).toBeVisible()
+    const b = (await botao.boundingBox())!
+    const barra = (await page.locator('nav').last().boundingBox())!
+    expect(b.y).toBeGreaterThanOrEqual(0)
+    expect(b.y + b.height).toBeLessThanOrEqual(barra.y)
+    expect(b.y + b.height).toBeLessThanOrEqual(640)
+  }
+  await conferir()
+  await page.getByRole('button', { name: 'Começar' }).click()
+  await expect(page.locator('[data-celula="0"]')).toBeVisible()
+  await page.goto('./#/caca-palavras')
+  await expect(page.getByRole('button', { name: 'Continuar' })).toBeVisible()
+  await conferir()
+})
