@@ -10,9 +10,35 @@ import type { Tentativa } from '../simulado/tipos.ts'
 import { renderizarRota } from '../testes/renderizar.tsx'
 import { criarRng } from '../util/aleatorio.ts'
 
+const falhas = vi.hoisted(() => ({ importar: false, apagar: false }))
+
+vi.mock('../dados/backup.ts', async (original) => {
+  const real = await original<typeof import('../dados/backup.ts')>()
+  return {
+    ...real,
+    importarCopia: (...args: Parameters<typeof real.importarCopia>) =>
+      falhas.importar ? Promise.reject(new Error('quota')) : real.importarCopia(...args),
+  }
+})
+vi.mock('../dados/repositorio.ts', async (original) => {
+  const real = await original<typeof import('../dados/repositorio.ts')>()
+  return {
+    ...real,
+    criarRepositorio: (...args: Parameters<typeof real.criarRepositorio>) => {
+      const repo = real.criarRepositorio(...args)
+      return { ...repo, apagarTudo: () => (falhas.apagar ? Promise.reject(new Error('quota')) : repo.apagarTudo()) }
+    },
+  }
+})
+
 let fabrica: IDBFactory
 
-afterEach(() => vi.restoreAllMocks())
+afterEach(() => {
+  falhas.importar = false
+  falhas.apagar = false
+  vi.useRealTimers()
+  vi.restoreAllMocks()
+})
 
 function tent(p: { id: string; entregueEm: number }): Tentativa {
   const t = criarTentativa({ modo: 'treino', area: null, qids: ['q1', 'q2'], agora: 1, rng: criarRng(1) })
@@ -85,6 +111,36 @@ test('cancelar a restauração não altera nada', async () => {
   expect(await ids()).toEqual(['a'])
 })
 
+const MSG_GENERICA = 'Não foi possível concluir. Tente de novo.'
+
+test('falha inesperada ao restaurar mostra aviso genérico e libera o campo', async () => {
+  await renderizarComTentativa('/ajustes', tent({ id: 'a', entregueEm: 2 }))
+  falhas.importar = true
+  const entrada = screen.getByLabelText('📂 Restaurar de uma cópia') as HTMLInputElement
+  await userEvent.upload(entrada, arquivo('{}'))
+  await userEvent.click(await screen.findByRole('button', { name: 'Restaurar' }))
+  expect(await screen.findByRole('alert')).toHaveTextContent(MSG_GENERICA)
+  expect(entrada.value).toBe('')
+  expect(await ids()).toEqual(['a'])
+})
+
+test('falha inesperada ao apagar mostra aviso genérico', async () => {
+  await renderizarComTentativa('/ajustes', tent({ id: 'a', entregueEm: 2 }))
+  falhas.apagar = true
+  await userEvent.click(screen.getByText('🗑 Apagar meu histórico'))
+  await userEvent.click(await screen.findByRole('button', { name: 'Apagar' }))
+  expect(await screen.findByRole('alert')).toHaveTextContent(MSG_GENERICA)
+  expect(await ids()).toEqual(['a'])
+})
+
+test('falha inesperada ao salvar cópia mostra aviso genérico', async () => {
+  await renderizarComTentativa('/ajustes', tent({ id: 'a', entregueEm: 2 }))
+  vi.stubGlobal('URL', { createObjectURL: () => { throw new Error('x') }, revokeObjectURL: vi.fn() })
+  await userEvent.click(screen.getByText('💾 Salvar cópia do histórico'))
+  expect(await screen.findByRole('alert')).toHaveTextContent(MSG_GENERICA)
+  vi.unstubAllGlobals()
+})
+
 test('apagar pede confirmação e limpa', async () => {
   await renderizarComTentativa('/ajustes', tent({ id: 'a', entregueEm: 2 }))
   await userEvent.click(screen.getByText('🗑 Apagar meu histórico'))
@@ -96,9 +152,12 @@ test('apagar pede confirmação e limpa', async () => {
 
 test('salvar cópia baixa um JSON com o nome do arquivo', async () => {
   await renderizarComTentativa('/ajustes', tent({ id: 'a', entregueEm: 2 }))
+  const original = { criar: URL.createObjectURL, revogar: URL.revokeObjectURL }
   let blob: Blob | undefined
+  const revogar = vi.fn()
   URL.createObjectURL = vi.fn((b: Blob) => ((blob = b), 'blob:x'))
-  URL.revokeObjectURL = vi.fn()
+  URL.revokeObjectURL = revogar
+  vi.useFakeTimers({ shouldAdvanceTime: true })
   const nomes: string[] = []
   vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(function (this: HTMLAnchorElement) {
     nomes.push(this.download)
@@ -108,6 +167,11 @@ test('salvar cópia baixa um JSON com o nome do arquivo', async () => {
   expect(nomes[0]).toMatch(/^transito-em-jogo-copia-\d{4}-\d{2}-\d{2}\.json$/)
   const json = JSON.parse(await blob!.text())
   expect(json.tentativas.map((t: Tentativa) => t.id)).toEqual(['a'])
+  expect(revogar).not.toHaveBeenCalled()
+  await vi.advanceTimersByTimeAsync(10_000)
+  expect(revogar).toHaveBeenCalledWith('blob:x')
+  URL.createObjectURL = original.criar
+  URL.revokeObjectURL = original.revogar
 })
 
 test('sobre mostra revisão, versão e link para créditos', async () => {

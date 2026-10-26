@@ -7,6 +7,7 @@ import { CONTEUDO_REVISADO_EM } from '../conteudo/index.ts'
 import { CopiaInvalidaError, exportarCopia, importarCopia, nomeArquivoCopia } from '../dados/backup.ts'
 
 const MSG_FORMATO = 'Este arquivo não é uma cópia válida do Trânsito em Jogo.'
+const MSG_GENERICA = 'Não foi possível concluir. Tente de novo.'
 const MSG_VERSAO_NOVA = 'Esta cópia foi feita numa versão mais nova do app. Atualize o app e tente de novo.'
 
 export default function TelaAjustes() {
@@ -16,6 +17,15 @@ export default function TelaAjustes() {
   const [aviso, setAviso] = useState<{ texto: string; erro: boolean } | null>(null)
 
   async function salvarCopia() {
+    try {
+      await baixarCopia()
+      setAviso(null)
+    } catch {
+      setAviso({ texto: MSG_GENERICA, erro: true })
+    }
+  }
+
+  async function baixarCopia() {
     const agora = Date.now()
     const copia = await exportarCopia(banco, agora)
     const url = URL.createObjectURL(new Blob([JSON.stringify(copia)], { type: 'application/json' }))
@@ -25,8 +35,8 @@ export default function TelaAjustes() {
     document.body.appendChild(a)
     a.click()
     a.remove()
-    URL.revokeObjectURL(url)
-    setAviso(null)
+    // Revogar na hora pode cancelar o download no Safari/iOS e em alguns Androids.
+    setTimeout(() => URL.revokeObjectURL(url), 10_000)
   }
 
   async function restaurar(e: ChangeEvent<HTMLInputElement>) {
@@ -34,13 +44,13 @@ export default function TelaAjustes() {
     const arquivo = entrada.files?.[0]
     if (!arquivo) return
     setAviso(null)
-    const ok = await confirmar({
-      titulo: 'Restaurar esta cópia?',
-      texto: 'O histórico atual deste celular será substituído.',
-      confirmar: 'Restaurar',
-    })
-    if (ok) {
-      try {
+    try {
+      const ok = await confirmar({
+        titulo: 'Restaurar esta cópia?',
+        texto: 'O histórico atual deste celular será substituído.',
+        confirmar: 'Restaurar',
+      })
+      if (ok) {
         let bruto: unknown
         try {
           bruto = JSON.parse(await arquivo.text())
@@ -49,12 +59,18 @@ export default function TelaAjustes() {
         }
         await importarCopia(banco, bruto)
         setAviso({ texto: 'Cópia restaurada.', erro: false })
-      } catch (erro) {
-        if (!(erro instanceof CopiaInvalidaError)) throw erro
-        setAviso({ texto: erro.motivo === 'versao-nova' ? MSG_VERSAO_NOVA : MSG_FORMATO, erro: true })
       }
+    } catch (erro) {
+      const texto =
+        erro instanceof CopiaInvalidaError
+          ? erro.motivo === 'versao-nova'
+            ? MSG_VERSAO_NOVA
+            : MSG_FORMATO
+          : MSG_GENERICA
+      setAviso({ texto, erro: true })
+    } finally {
+      entrada.value = ''
     }
-    entrada.value = ''
   }
 
   async function apagar() {
@@ -64,7 +80,11 @@ export default function TelaAjustes() {
       confirmar: 'Apagar',
     })
     if (!ok) return
-    await repo.apagarTudo()
+    try {
+      await repo.apagarTudo()
+    } catch {
+      setAviso({ texto: MSG_GENERICA, erro: true })
+    }
   }
 
   return (
