@@ -85,6 +85,12 @@ export default function Grade(props: Props) {
     }
     const mover = (ev: globalThis.PointerEvent) => {
       if (ev.pointerId !== id) return
+      // Mouse solto fora da janela: o pointerup não chega. Ao voltar, sem botão apertado, conta
+      // como soltura (o gesto vale, como se tivesse soltado onde está agora).
+      if (ev.pointerType === 'mouse' && ev.buttons === 0) {
+        soltar(ev)
+        return
+      }
       const c = casaNoPonto(ev.clientX, ev.clientY)
       if (c < 0 || c === atual) return
       if (!arrastando) {
