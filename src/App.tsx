@@ -3,6 +3,7 @@ import BarraNavegacao from './app/BarraNavegacao'
 import { ProvedorConfirmar } from './app/Confirmar'
 import { ProvedorDados } from './app/contexto'
 import Topo from './app/Topo'
+import TelaHistorico from './historico/TelaHistorico'
 import InicioSimulado from './simulado/telas/InicioSimulado'
 import Resultado from './simulado/telas/Resultado'
 import Revisao from './simulado/telas/Revisao'
@@ -21,7 +22,7 @@ export function Rotas() {
           <Route path="/simulado/:id" element={<TelaQuestao />} />
           <Route path="/simulado/:id/resultado" element={<Resultado />} />
           <Route path="/simulado/:id/revisao" element={<Revisao />} />
-          <Route path="/historico" element={tela('Histórico')} />
+          <Route path="/historico" element={<TelaHistorico />} />
           <Route path="/ajustes" element={tela('Ajustes')} />
           <Route path="/ajustes/creditos" element={tela('Créditos')} />
         </Routes>
