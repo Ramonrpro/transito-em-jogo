@@ -26,15 +26,21 @@ test('erro de renderização mostra o aviso e o botão recarrega', async () => {
   expect(recarregar).toHaveBeenCalled()
 })
 
-test('promessa rejeitada sem tratamento também mostra o aviso', () => {
+test('promessa rejeitada sem tratamento mantém o app e mostra um aviso que se fecha', async () => {
+  vi.spyOn(console, 'error').mockImplementation(() => {})
   render(
     <LimiteErro>
       <p>tudo certo</p>
     </LimiteErro>,
   )
-  expect(screen.getByText('tudo certo')).toBeInTheDocument()
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
   act(() => {
-    window.dispatchEvent(new Event('unhandledrejection'))
+    window.dispatchEvent(Object.assign(new Event('unhandledrejection'), { reason: new Error('x') }))
   })
-  expect(screen.getByRole('alert')).toHaveTextContent('Algo deu errado.')
+  expect(screen.getByText('tudo certo')).toBeInTheDocument()
+  expect(screen.getByRole('alert')).toHaveTextContent('Algo não saiu como esperado. Se o app parar de responder, recarregue.')
+  expect(screen.getByRole('button', { name: 'Recarregar' })).toBeInTheDocument()
+  await userEvent.click(screen.getByRole('button', { name: 'Fechar' }))
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
+  expect(screen.getByText('tudo certo')).toBeInTheDocument()
 })

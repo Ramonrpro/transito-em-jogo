@@ -761,3 +761,27 @@ button.questao-numero {
   color: #b91c1c;
   font-weight: 600;
 }
+
+.aviso-rejeicao {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  top: calc(env(safe-area-inset-top) + 8px);
+  z-index: 40;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  max-width: 536px;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.aviso-rejeicao span {
+  flex: 1 1 100%;
+}

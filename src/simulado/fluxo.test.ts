@@ -141,3 +141,23 @@ test('tentativa apagada nesse meio tempo não é ressuscitada nem registra respo
   expect((await repo.listarErradas()).length).toBe(0)
   expect((await repo.vistas()).size).toBe(0)
 })
+
+test('entrega que falha uma vez pode ser repetida: a rejeição não fica em cache', async () => {
+  const repo = await novoRepo()
+  const t = await iniciar(repo, { modo: 'prova', agora: 0, rng: criarRng(1) })
+  let falhar = true
+  const instavel = {
+    ...repo,
+    salvarTentativa: (x: Tentativa) => {
+      if (falhar) {
+        falhar = false
+        return Promise.reject(new Error('conexão perdida'))
+      }
+      return repo.salvarTentativa(x)
+    },
+  }
+  await expect(entregarEPersistir(instavel, t, 10, false)).rejects.toThrow('conexão perdida')
+  const e = await entregarEPersistir(instavel, t, 11, false)
+  expect(e.entregueEm).toBe(11)
+  expect((await repo.obterTentativa(t.id))!.entregueEm).toBe(11)
+})
