@@ -13,4 +13,5 @@ test('prova sobrevive a recarregar e é entregue pelo mapa', async ({ page }) =>
   await page.getByRole('button', { name: 'Entregar prova' }).click()
   await page.getByRole('button', { name: 'Entregar', exact: true }).click()
   await expect(page).toHaveURL(/\/resultado$/)
+  await expect(page.getByText(/^\d+\/30$/)).toBeVisible()
 })

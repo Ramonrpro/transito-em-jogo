@@ -395,3 +395,109 @@ button.questao-numero {
 .dialogo-acoes .botao {
   flex: 1;
 }
+
+.nota {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-top: 8px;
+}
+
+.selo {
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: 999px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.selo-passou {
+  background: var(--cor-verde);
+}
+
+.selo-reprovou {
+  background: var(--cor-vermelho);
+}
+
+.barras-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0;
+  text-align: left;
+}
+
+.barra-area {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 8px;
+  font-size: 14px;
+}
+
+.barra-area-trilho {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--cor-borda);
+  overflow: hidden;
+}
+
+.barra-area-trilho > div {
+  height: 100%;
+}
+
+.barra-bom {
+  background: var(--cor-verde);
+}
+
+.barra-ruim {
+  background: var(--cor-vermelho);
+}
+
+.barra-area-valor {
+  font-weight: 700;
+}
+
+.ponto-fraco {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fef9c3;
+}
+
+.rodape-resultado {
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.botao-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.questao-revisao {
+  margin: 20px 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--cor-borda);
+  text-align: left;
+}
+
+.questao-revisao .alternativa {
+  flex-wrap: wrap;
+}
+
+.marca {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sem-resposta {
+  margin-bottom: 8px;
+  color: var(--cor-vermelho);
+  font-weight: 700;
+}
