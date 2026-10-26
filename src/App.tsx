@@ -7,6 +7,8 @@ import { ProvedorConfirmar } from './app/Confirmar'
 import { ProvedorDados } from './app/contexto'
 import TelaAjustes from './ajustes/TelaAjustes'
 import TelaCreditos from './ajustes/TelaCreditos'
+import FimPartida from './caca-palavras/telas/FimPartida'
+import InicioCacaPalavras from './caca-palavras/telas/InicioCacaPalavras'
 import TelaPartida from './caca-palavras/telas/TelaPartida'
 import TelaHistorico from './historico/TelaHistorico'
 import InicioSimulado from './simulado/telas/InicioSimulado'
@@ -20,8 +22,10 @@ export function Rotas() {
     <>
       <main className="conteudo">
         <Routes>
-          <Route path="/" element={<Navigate to="/simulado" replace />} />
+          <Route path="/" element={<Navigate to="/caca-palavras" replace />} />
+          <Route path="/caca-palavras" element={<InicioCacaPalavras />} />
           <Route path="/caca-palavras/:id" element={<TelaPartida />} />
+          <Route path="/caca-palavras/:id/fim" element={<FimPartida />} />
           <Route path="/simulado" element={<InicioSimulado />} />
           <Route path="/simulado/:id" element={<TelaQuestao />} />
           <Route path="/simulado/:id/resultado" element={<Resultado />} />

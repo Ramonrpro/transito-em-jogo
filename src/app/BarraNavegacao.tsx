@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 
 export const ABAS: ReadonlyArray<{ rota: string; rotulo: string; icone: string }> = [
+  { rota: '/caca-palavras', rotulo: 'Caça-palavras', icone: '🔤' },
   { rota: '/simulado', rotulo: 'Simulado', icone: '📝' },
   { rota: '/historico', rotulo: 'Histórico', icone: '📊' },
 ]

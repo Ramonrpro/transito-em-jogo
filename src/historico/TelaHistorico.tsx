@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useRepositorio } from '../app/contexto.tsx'
 import Topo from '../app/Topo.tsx'
+import { NIVEIS, nomeTema } from '../caca-palavras/regras.ts'
+import type { Partida } from '../caca-palavras/tipos.ts'
 import { NOMES_AREA } from '../conteudo/areas.ts'
 import { duracaoGastaMs } from '../simulado/tentativa.ts'
 import type { Tentativa } from '../simulado/tipos.ts'
-import { formatarQuando } from '../util/tempo.ts'
+import { formatarMinSeg, formatarQuando } from '../util/tempo.ts'
 
 function rotulo(t: Tentativa): string {
   const placar = `${t.acertos ?? 0}/${t.itens.length}`
@@ -21,14 +23,23 @@ function rotulo(t: Tentativa): string {
   }
 }
 
+type Atividade =
+  | { tipo: 'simulado'; t: Tentativa; em: number }
+  | { tipo: 'partida'; p: Partida; em: number }
+
 export default function TelaHistorico() {
   const repo = useRepositorio()
   const navegar = useNavigate()
   const [lista, setLista] = useState<Tentativa[] | null>(null)
+  const [partidas, setPartidas] = useState<Partida[]>([])
 
   useEffect(() => {
     let vivo = true
-    void repo.listarTentativas().then((l) => vivo && setLista(l))
+    void Promise.all([repo.listarTentativas(), repo.listarPartidas()]).then(([l, ps]) => {
+      if (!vivo) return
+      setPartidas(ps)
+      setLista(l)
+    })
     return () => {
       vivo = false
     }
@@ -39,6 +50,10 @@ export default function TelaHistorico() {
   const provas = lista.filter((t) => t.modo === 'prova')
   const aprovados = provas.filter((t) => t.passou === true).length
   const agora = Date.now()
+  const atividades: Atividade[] = [
+    ...lista.map((t): Atividade => ({ tipo: 'simulado', t, em: t.entregueEm ?? t.iniciadaEm })),
+    ...partidas.flatMap((p): Atividade[] => (p.terminadaEm === null ? [] : [{ tipo: 'partida', p, em: p.terminadaEm }])),
+  ].sort((a, b) => b.em - a.em)
 
   return (
     <>
@@ -53,9 +68,9 @@ export default function TelaHistorico() {
           <span>aprovados</span>
         </div>
       </div>
-      {lista.length === 0 ? (
+      {atividades.length === 0 ? (
         <div className="historico-vazio">
-          <p>Nenhum simulado ainda.</p>
+          <p>Nenhuma atividade ainda.</p>
           <button type="button" className="botao botao-principal" onClick={() => navegar('/simulado')}>
             Fazer a primeira prova
           </button>
@@ -64,9 +79,21 @@ export default function TelaHistorico() {
         <section>
           <h2 className="secao-titulo">Atividades recentes</h2>
           <ul className="atividades">
-            {lista.map((t) => {
+            {atividades.map((a) => {
+              const quando = formatarQuando(a.em, agora)
+              if (a.tipo === 'partida') {
+                const { p } = a
+                return (
+                  <li key={p.id} data-testid="atividade">
+                    <Link to={`/caca-palavras/${p.id}/fim`} className="atividade">
+                      <span>{`🔤 Caça-palavras · ${nomeTema(p.tema)} · ${NIVEIS[p.nivel].nome}`}</span>
+                      <span className="atividade-quando">{`${quando}, ${formatarMinSeg(p.tempoMs)}`}</span>
+                    </Link>
+                  </li>
+                )
+              }
+              const { t } = a
               const ms = duracaoGastaMs(t)
-              const quando = formatarQuando(t.entregueEm ?? t.iniciadaEm, agora)
               return (
                 <li key={t.id} data-testid="atividade">
                   <Link to={`/simulado/${t.id}/resultado`} className="atividade">

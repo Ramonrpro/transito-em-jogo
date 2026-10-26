@@ -1005,3 +1005,83 @@ button.questao-numero {
 .cartao-achou .botao {
   margin-top: 4px;
 }
+
+.temas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.niveis {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.opcao {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 48px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 2px solid var(--cor-borda);
+  background: #fff;
+  color: var(--cor-texto);
+  text-align: left;
+  font: 600 14px system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.opcao-nivel {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.opcao[aria-pressed='true'] {
+  background: var(--cor-amarelo);
+  border-color: var(--cor-texto);
+}
+
+.fim-titulo {
+  margin: 8px 0 4px;
+  font-size: 24px;
+}
+
+.fim-linha {
+  margin: 0;
+  font-weight: 700;
+}
+
+.fim-recorde {
+  margin: 4px 0 16px;
+  color: var(--cor-suave);
+  font-size: 14px;
+}
+
+.aprendeu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.aprendeu-linha {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.aprendeu-linha .placa {
+  flex-shrink: 0;
+  width: 56px;
+}
+
+.aprendeu-linha .placa img {
+  width: 100%;
+  height: auto;
+}

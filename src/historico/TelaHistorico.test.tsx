@@ -6,7 +6,9 @@ import { abrirBanco } from '../dados/db.ts'
 import { criarRepositorio } from '../dados/repositorio.ts'
 import { renderizarRota } from '../testes/renderizar.tsx'
 import { criarRng } from '../util/aleatorio.ts'
+import { criarPartida } from '../caca-palavras/partida.ts'
 import { criarTentativa } from '../simulado/tentativa.ts'
+import type { Partida } from '../caca-palavras/tipos.ts'
 import type { Modo, Tentativa } from '../simulado/tipos.ts'
 
 type Quando = 'hoje' | 'ontem'
@@ -33,10 +35,11 @@ const prova = (acertos: number, quando: Quando) => entregue('prova', acertos, 30
 const treino = (acertos: number, quando: Quando) => entregue('treino', acertos, 10, quando, null)
 const assunto = (acertos: number) => entregue('assunto', acertos, 10, 'hoje', null)
 
-async function renderizarHistorico(tentativas: Tentativa[]) {
+async function renderizarHistorico(tentativas: Tentativa[], partidas: Partida[] = []) {
   const fabrica = new IDBFactory()
   const repo = criarRepositorio(await abrirBanco(fabrica))
   for (const t of tentativas) await repo.salvarTentativa(t)
+  for (const p of partidas) await repo.salvarPartida(p)
   renderizarRota('/historico', { fabrica })
 }
 
@@ -69,7 +72,25 @@ test('tocar na atividade abre o resultado', async () => {
 
 test('histórico vazio convida a começar', async () => {
   await renderizarHistorico([])
-  expect(await screen.findByText('Nenhum simulado ainda.')).toBeInTheDocument()
+  expect(await screen.findByText('Nenhuma atividade ainda.')).toBeInTheDocument()
   await userEvent.click(screen.getByRole('button', { name: 'Fazer a primeira prova' }))
   expect(await screen.findByText(/simulado/i, { selector: 'h1' })).toBeInTheDocument()
+})
+
+test('partidas entram nas atividades por data e abrem o fim', async () => {
+  const base = criarPartida({ tema: 'vias', nivel: 'facil', jaAchadas: new Set(), agora: 0, rng: criarRng(3), id: 'p1' })
+  const partida: Partida = {
+    ...base,
+    achadas: base.colocacoes.map((c) => c.palavra),
+    tempoMs: 185_000,
+    terminadaEm: Date.now() - 1000,
+  }
+  await renderizarHistorico([prova(25, 'ontem')], [partida])
+  const linhas = await screen.findAllByTestId('atividade')
+  expect(linhas).toHaveLength(2)
+  expect(linhas[0]).toHaveTextContent('🔤 Caça-palavras · Vias · Fácil')
+  expect(linhas[0]).toHaveTextContent('hoje, 03:05')
+  expect(linhas[1]).toHaveTextContent('Prova · 25/30')
+  await userEvent.click(linhas[0].querySelector('a') as HTMLElement)
+  expect(await screen.findByRole('heading', { name: '🏁 Achou todas!' })).toBeInTheDocument()
 })
