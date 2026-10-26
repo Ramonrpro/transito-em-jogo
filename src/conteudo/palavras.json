@@ -1,0 +1,1181 @@
+[
+  {
+    "palavra": "PARE",
+    "tema": "placas",
+    "dica": "Legenda da placa R-1",
+    "significado": "O condutor deve parar o veículo antes de entrar na via ou cruzá-la. É a palavra escrita em branco na placa em forma de octógono, de fundo vermelho.",
+    "placa": "R-1",
+    "base": "MBST Vol. I (R-1)",
+    "grade": "PARE"
+  },
+  {
+    "palavra": "OCTÓGONO",
+    "tema": "placas",
+    "dica": "Forma da placa R-1",
+    "significado": "Indica parada obrigatória: pare antes de entrar ou cruzar a via. Foge da forma circular das placas de regulamentação, como o triângulo do \"Dê a preferência\".",
+    "placa": "R-1",
+    "base": "MBST Vol. I (R-1)",
+    "grade": "OCTOGONO"
+  },
+  {
+    "palavra": "PREFERÊNCIA",
+    "tema": "placas",
+    "dica": "Placa R-2: \"Dê a ___\"",
+    "significado": "Obriga a dar preferência a quem circula na via em que você vai entrar ou cruzar, reduzindo ou parando se preciso. É um triângulo com o vértice para baixo.",
+    "placa": "R-2",
+    "base": "MBST Vol. I (R-2)",
+    "grade": "PREFERENCIA"
+  },
+  {
+    "palavra": "ADVERTÊNCIA",
+    "tema": "placas",
+    "dica": "Tipo de placa amarela que avisa perigo",
+    "significado": "Placas amarelas que alertam para perigo adiante, em geral em forma de losango (laranja em obras). Não confunda com a advertência por escrito, que é uma penalidade.",
+    "placa": null,
+    "base": "MBST Vol. II; CTB, art. 256",
+    "grade": "ADVERTENCIA"
+  },
+  {
+    "palavra": "INDICAÇÃO",
+    "tema": "placas",
+    "dica": "Tipo de placa que mostra destinos",
+    "significado": "Placas que informam ou educam, como as de destino, serviços e turismo; por si sós não geram infração. Destino de localidade é verde com letras brancas.",
+    "placa": null,
+    "base": "MBST Vol. III",
+    "grade": "INDICACAO"
+  },
+  {
+    "palavra": "LOSANGO",
+    "tema": "placas",
+    "dica": "Forma das placas de advertência",
+    "significado": "É como se chama a forma das placas de advertência: um quadrado com uma das diagonais na vertical. Fogem dela as de sentido único e duplo e a Cruz de Santo André.",
+    "placa": null,
+    "base": "MBST Vol. II",
+    "grade": "LOSANGO"
+  },
+  {
+    "palavra": "TARJA",
+    "tema": "placas",
+    "dica": "Faixa vermelha que indica proibição",
+    "significado": "Nas placas de regulamentação, a tarja vermelha na diagonal indica proibição. Sem ela, a placa indica obrigação ou restrição.",
+    "placa": null,
+    "base": "MBST Vol. I",
+    "grade": "TARJA"
+  },
+  {
+    "palavra": "ALFÂNDEGA",
+    "tema": "placas",
+    "dica": "Placa R-21: parada obrigatória",
+    "significado": "Indica a presença de repartição alfandegária, onde a parada é obrigatória. É placa de regulamentação: desobedecer é infração.",
+    "placa": "R-21",
+    "base": "MBST Vol. I (R-21)",
+    "grade": "ALFANDEGA"
+  },
+  {
+    "palavra": "CORRENTE",
+    "tema": "placas",
+    "dica": "Placa R-22: vai nas rodas",
+    "significado": "Torna obrigatório, a partir do ponto sinalizado, o uso de correntes nas rodas motrizes. Na Resolução 160/2004, o nome vinha no plural: \"Uso obrigatório de correntes\".",
+    "placa": "R-22",
+    "base": "MBST Vol. I (R-22)",
+    "grade": "CORRENTE"
+  },
+  {
+    "palavra": "ROTATÓRIA",
+    "tema": "placas",
+    "dica": "Placa R-33: sentido anti-horário",
+    "significado": "Obriga a circular na rotatória no sentido anti-horário. Sem sinalização, a preferência é de quem já circula nela.",
+    "placa": "R-33",
+    "base": "MBST Vol. I (R-33); CTB, art. 29",
+    "grade": "ROTATORIA"
+  },
+  {
+    "palavra": "BUZINA",
+    "tema": "placas",
+    "dica": "O que a placa R-20 proíbe acionar",
+    "significado": "Proíbe acionar buzina ou qualquer sinal sonoro no local. Mesmo sem a placa, a buzina só pode ser usada em toque breve e é proibida das 22h às 6h.",
+    "placa": "R-20",
+    "base": "MBST Vol. I (R-20); CTB, arts. 41 e 227",
+    "grade": "BUZINA"
+  },
+  {
+    "palavra": "SEMÁFORO",
+    "tema": "placas",
+    "dica": "A placa A-14 avisa que há um adiante",
+    "significado": "Avisa que há semáforo adiante; é placa de advertência, com símbolo em preto, vermelho, amarelo e verde. O semáforo vale mais que os outros sinais, mas não que o agente.",
+    "placa": "A-14",
+    "base": "MBST Vol. II (A-14); CTB, art. 89",
+    "grade": "SEMAFORO"
+  },
+  {
+    "palavra": "OBRAS",
+    "tema": "placas",
+    "dica": "Placa A-24, de fundo laranja",
+    "significado": "Avisa que há obras adiante. Tem fundo laranja, como toda placa de advertência usada em obras.",
+    "placa": "A-24",
+    "base": "MBST Vol. II (A-24)",
+    "grade": "OBRAS"
+  },
+  {
+    "palavra": "ESCORREGADIA",
+    "tema": "placas",
+    "dica": "Placa A-28: \"Pista ___\"",
+    "significado": "Avisa trecho que, em certas condições, pode ficar escorregadio. Não reduzir a velocidade em pista escorregadia é infração grave.",
+    "placa": "A-28",
+    "base": "MBST Vol. II (A-28); CTB, art. 220",
+    "grade": "ESCORREGADIA"
+  },
+  {
+    "palavra": "CONFLUÊNCIA",
+    "tema": "placas",
+    "dica": "Placa A-13: via que se junta",
+    "significado": "Avisa que uma via se junta à sua pela esquerda, adiante. A variante com a letra \"b\" avisa a confluência pela direita.",
+    "placa": "A-13a",
+    "base": "MBST Vol. II (A-13a)",
+    "grade": "CONFLUENCIA"
+  },
+  {
+    "palavra": "BIFURCAÇÃO",
+    "tema": "placas",
+    "dica": "Placa A-9: em forma de \"Y\"",
+    "significado": "Avisa uma bifurcação em forma de \"Y\" adiante. Pelo CTB, a bifurcação é um tipo de interseção, como o cruzamento e o entroncamento.",
+    "placa": "A-9",
+    "base": "MBST Vol. II (A-9); CTB, Anexo I",
+    "grade": "BIFURCACAO"
+  },
+  {
+    "palavra": "CURVA",
+    "tema": "curvas",
+    "dica": "Na placa A-2, ela é suave",
+    "significado": "Avisa uma curva suave à esquerda adiante: a seta do desenho é arqueada. Reduza antes da curva, ainda na reta, e retome a velocidade na saída.",
+    "placa": "A-2a",
+    "base": "MBST Vol. II (A-2a)",
+    "grade": "CURVA"
+  },
+  {
+    "palavra": "ACENTUADA",
+    "tema": "curvas",
+    "dica": "Placa A-1: a curva fechada",
+    "significado": "Avisa uma curva acentuada (fechada) à esquerda adiante: a seta faz quase um ângulo reto. A escolha entre ela e a curva comum segue raio, ângulo e velocidade.",
+    "placa": "A-1a",
+    "base": "MBST Vol. II (A-1a)",
+    "grade": "ACENTUADA"
+  },
+  {
+    "palavra": "SINUOSA",
+    "tema": "curvas",
+    "dica": "Placa A-3: três ou mais curvas",
+    "significado": "Avisa três ou mais curvas seguidas adiante, a primeira à esquerda. Não confunda com a curva em \"S\", que tem só duas.",
+    "placa": "A-3a",
+    "base": "MBST Vol. II (A-3a)",
+    "grade": "SINUOSA"
+  },
+  {
+    "palavra": "TANGENTE",
+    "tema": "curvas",
+    "dica": "Reta de menos de 120 m entre as curvas do \"S\"",
+    "significado": "A placa avisa duas curvas seguidas formando \"S\", a primeira à esquerda. O manual pede que as curvas do \"S\" fiquem separadas por uma tangente (reta) menor que 120 m.",
+    "placa": "A-5a",
+    "base": "MBST Vol. II (A-5a)",
+    "grade": "TANGENTE"
+  },
+  {
+    "palavra": "CENTRÍFUGA",
+    "tema": "curvas",
+    "dica": "Força que empurra o veículo para fora da curva",
+    "significado": "Na curva, a força centrífuga empurra o veículo para fora. Por isso, reduza a velocidade antes de entrar e só retome na saída.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "CENTRIFUGA"
+  },
+  {
+    "palavra": "INÉRCIA",
+    "tema": "curvas",
+    "dica": "Por ela, quem entra rápido demais segue reto",
+    "significado": "Por inércia, o veículo que entra rápido demais na curva tende a seguir reto. Reduza antes, ainda na reta.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "INERCIA"
+  },
+  {
+    "palavra": "ESQUERDA",
+    "tema": "curvas",
+    "dica": "Lado da variante \"a\" nas placas de curva",
+    "significado": "Nas placas de curva, a letra \"a\" indica a variante à esquerda e a \"b\", à direita. A regra vale também para A-7, A-10, A-11 e A-13.",
+    "placa": null,
+    "base": "MBST Vol. II",
+    "grade": "ESQUERDA"
+  },
+  {
+    "palavra": "DIREITA",
+    "tema": "curvas",
+    "dica": "Lado da variante \"b\" nas placas de curva",
+    "significado": "Nas placas de curva, a letra \"b\" indica a variante à direita (na A-20, o \"b\" é o aclive). E o CTB manda circular pelo lado direito da via.",
+    "placa": null,
+    "base": "MBST Vol. II; CTB, art. 29",
+    "grade": "DIREITA"
+  },
+  {
+    "palavra": "TRAÇADO",
+    "tema": "curvas",
+    "dica": "Complete: \"___ da pista\"",
+    "significado": "\"Traçado da pista\" é um dos 12 grupos de placas de advertência do manual, ao lado de curvas, perfil longitudinal, obras e outros.",
+    "placa": null,
+    "base": "MBST Vol. II",
+    "grade": "TRACADO"
+  },
+  {
+    "palavra": "LOMBADA",
+    "tema": "curvas",
+    "dica": "Placa A-18: \"Saliência ou ___\"",
+    "significado": "Avisa saliência ou lombada (ondulação transversal) na pista adiante. Na pintura do chão, a lombada é marcada em amarelo.",
+    "placa": "A-18",
+    "base": "MBST Vol. II (A-18) e Vol. IV",
+    "grade": "LOMBADA"
+  },
+  {
+    "palavra": "DEPRESSÃO",
+    "tema": "curvas",
+    "dica": "Nome da placa A-19",
+    "significado": "Avisa que há uma depressão na pista adiante. Não confunda com a placa de saliência ou lombada.",
+    "placa": "A-19",
+    "base": "MBST Vol. II (A-19)",
+    "grade": "DEPRESSAO"
+  },
+  {
+    "palavra": "DECLIVE",
+    "tema": "curvas",
+    "dica": "Placa A-20a: descida",
+    "significado": "Avisa declive acentuado (descida) adiante. Engate marcha reduzida antes e use o freio-motor; descer desengrenado é infração média.",
+    "placa": "A-20a",
+    "base": "MBST Vol. II (A-20a); CTB, art. 231",
+    "grade": "DECLIVE"
+  },
+  {
+    "palavra": "ACLIVE",
+    "tema": "curvas",
+    "dica": "Placa A-20b: subida",
+    "significado": "Avisa aclive acentuado (subida) adiante. Ultrapassar pela contramão em aclive sem visibilidade é gravíssima, com multa ×5.",
+    "placa": "A-20b",
+    "base": "MBST Vol. II (A-20b); CTB, art. 203",
+    "grade": "ACLIVE"
+  },
+  {
+    "palavra": "ACOSTAMENTO",
+    "tema": "vias",
+    "dica": "Parte da via para parada de emergência",
+    "significado": "Parte da via, fora da pista de rolamento, para parar ou estacionar em emergência. Também serve a pedestres e bicicletas quando não há local próprio.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "ACOSTAMENTO"
+  },
+  {
+    "palavra": "CALÇADA",
+    "tema": "vias",
+    "dica": "Espaço do pedestre",
+    "significado": "Parte da via, em geral separada e em outro nível, que não é para veículos: é dos pedestres e, quando possível, de mobiliário urbano, sinalização e vegetação.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CALCADA"
+  },
+  {
+    "palavra": "PASSEIO",
+    "tema": "vias",
+    "dica": "Parte só para pedestres",
+    "significado": "Parte da calçada (ou da pista, separada por pintura ou elemento físico) só para pedestres e, excepcionalmente, ciclistas.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "PASSEIO"
+  },
+  {
+    "palavra": "PISTA",
+    "tema": "vias",
+    "dica": "Onde passam os veículos",
+    "significado": "Parte da via usada normalmente pelos veículos, separada das calçadas, ilhas e canteiros por elementos separadores ou diferença de nível.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "PISTA"
+  },
+  {
+    "palavra": "CICLOVIA",
+    "tema": "vias",
+    "dica": "Para ciclos, separada fisicamente",
+    "significado": "Pista própria para ciclos, separada fisicamente do tráfego comum. Na ciclofaixa, a separação é feita só com sinalização.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CICLOVIA"
+  },
+  {
+    "palavra": "CICLOFAIXA",
+    "tema": "vias",
+    "dica": "Para ciclos, pintada na pista",
+    "significado": "Parte da pista de rolamento só para ciclos, delimitada por sinalização específica. Na ciclovia, a separação é física.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CICLOFAIXA"
+  },
+  {
+    "palavra": "CANTEIRO",
+    "tema": "vias",
+    "dica": "Complete: \"___ central\"",
+    "significado": "Canteiro central: obstáculo físico que separa duas pistas. Quando é substituído por marcas pintadas no chão, chama-se canteiro fictício.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CANTEIRO"
+  },
+  {
+    "palavra": "ILHA",
+    "tema": "vias",
+    "dica": "Ordena os fluxos na interseção",
+    "significado": "Obstáculo físico na pista que ordena os fluxos de trânsito numa interseção. Não confunda com o refúgio, que protege o pedestre na travessia.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "ILHA"
+  },
+  {
+    "palavra": "REFÚGIO",
+    "tema": "vias",
+    "dica": "Abrigo do pedestre na travessia",
+    "significado": "Parte da via, sinalizada e protegida, para o pedestre usar durante a travessia. Estacionar nele é infração grave.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 181",
+    "grade": "REFUGIO"
+  },
+  {
+    "palavra": "PASSARELA",
+    "tema": "vias",
+    "dica": "Travessia aérea",
+    "significado": "Obra para o pedestre atravessar a via por cima, em desnível aéreo.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "PASSARELA"
+  },
+  {
+    "palavra": "VIADUTO",
+    "tema": "vias",
+    "dica": "Passagem superior",
+    "significado": "Obra que transpõe uma depressão do terreno ou serve de passagem superior. Estacionar em viaduto é infração grave.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 181",
+    "grade": "VIADUTO"
+  },
+  {
+    "palavra": "TÚNEL",
+    "tema": "vias",
+    "dica": "Pede farol baixo também de dia",
+    "significado": "No túnel, a luz baixa é obrigatória também de dia. Na saída, a claridade pode ofuscar: reduza a velocidade e aumente a atenção.",
+    "placa": null,
+    "base": "CTB, art. 40; Banco Nacional de Questões",
+    "grade": "TUNEL"
+  },
+  {
+    "palavra": "RODOVIA",
+    "tema": "vias",
+    "dica": "Via rural pavimentada",
+    "significado": "Via rural pavimentada. Sem placa, o limite é 110 km/h em pista dupla e 100 km/h em pista simples para automóveis, camionetas, caminhonetes e motos; 90 para os demais.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 61",
+    "grade": "RODOVIA"
+  },
+  {
+    "palavra": "ESTRADA",
+    "tema": "vias",
+    "dica": "Via rural: 60 km/h sem placa",
+    "significado": "Via rural não pavimentada. Onde não há placa, a velocidade máxima é 60 km/h.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 61",
+    "grade": "ESTRADA"
+  },
+  {
+    "palavra": "ARTERIAL",
+    "tema": "vias",
+    "dica": "Via urbana: 60 km/h sem placa",
+    "significado": "Via urbana com interseções em nível, em geral com semáforo, e acesso aos lotes; liga as regiões da cidade. Sem placa, o limite é 60 km/h.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 61",
+    "grade": "ARTERIAL"
+  },
+  {
+    "palavra": "COLETORA",
+    "tema": "vias",
+    "dica": "Via urbana: 40 km/h sem placa",
+    "significado": "Via urbana que coleta e distribui o trânsito que entra ou sai das vias de trânsito rápido ou arteriais. Sem placa, o limite é 40 km/h.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 61",
+    "grade": "COLETORA"
+  },
+  {
+    "palavra": "LOCAL",
+    "tema": "vias",
+    "dica": "Via urbana: 30 km/h sem placa",
+    "significado": "Via urbana com interseções em nível sem semáforo, só para acesso local ou a áreas restritas. Sem placa, o limite é 30 km/h.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 61",
+    "grade": "LOCAL"
+  },
+  {
+    "palavra": "CRUZAMENTO",
+    "tema": "vias",
+    "dica": "Duas vias que se cruzam em nível",
+    "significado": "Avisa um cruzamento em nível de duas vias adiante. Sem sinalização, e fora de rodovia e rotatória, a preferência é de quem vem pela direita.",
+    "placa": "A-6",
+    "base": "MBST Vol. II (A-6); CTB, art. 29",
+    "grade": "CRUZAMENTO"
+  },
+  {
+    "palavra": "INTERSEÇÃO",
+    "tema": "vias",
+    "dica": "Pode ser cruzamento ou bifurcação",
+    "significado": "Todo cruzamento em nível, entroncamento ou bifurcação, com as áreas formadas por eles. É proibido ultrapassar nas interseções.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 33",
+    "grade": "INTERSECAO"
+  },
+  {
+    "palavra": "BICICLETÁRIO",
+    "tema": "vias",
+    "dica": "Onde se estacionam bicicletas",
+    "significado": "Local, na via ou fora dela, destinado ao estacionamento de bicicletas.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "BICICLETARIO"
+  },
+  {
+    "palavra": "SINISTRO",
+    "tema": "regras",
+    "dica": "Termo que substituiu \"acidente\"",
+    "significado": "Evento com dano a veículo ou carga, ou lesão a pessoas ou animais, com ao menos uma parte em movimento na via. A Lei 14.599/2023 trocou \"acidente\" por \"sinistro\" no CTB.",
+    "placa": null,
+    "base": "Lei 14.599/2023; CTB, Anexo I",
+    "grade": "SINISTRO"
+  },
+  {
+    "palavra": "INFRAÇÃO",
+    "tema": "regras",
+    "dica": "Desrespeito à norma de trânsito",
+    "significado": "Desrespeito a qualquer regra da legislação de trânsito: do CTB, do Contran ou do órgão de trânsito. Pode ser leve, média, grave ou gravíssima.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 258",
+    "grade": "INFRACAO"
+  },
+  {
+    "palavra": "MULTA",
+    "tema": "regras",
+    "dica": "Na gravíssima, é de R$ 293,47",
+    "significado": "Penalidade em dinheiro: leve R$ 88,38, média R$ 130,16, grave R$ 195,23 e gravíssima R$ 293,47. Algumas infrações têm o valor multiplicado, como o racha (×10).",
+    "placa": null,
+    "base": "CTB, art. 258",
+    "grade": "MULTA"
+  },
+  {
+    "palavra": "SUSPENSÃO",
+    "tema": "regras",
+    "dica": "Vem com 20, 30 ou 40 pontos",
+    "significado": "Suspensão do direito de dirigir. Por pontos em 12 meses: 20 se houver 2 ou mais gravíssimas, 30 se houver 1 e 40 se não houver nenhuma. Dura de 6 meses a 1 ano.",
+    "placa": null,
+    "base": "CTB, art. 261",
+    "grade": "SUSPENSAO"
+  },
+  {
+    "palavra": "CASSAÇÃO",
+    "tema": "regras",
+    "dica": "Para quem dirige com o direito suspenso",
+    "significado": "Cassação da CNH. Acontece, por exemplo, com quem dirige estando suspenso. A pessoa só pode se habilitar de novo após 2 anos, refazendo os exames.",
+    "placa": null,
+    "base": "CTB, art. 263",
+    "grade": "CASSACAO"
+  },
+  {
+    "palavra": "RECICLAGEM",
+    "tema": "regras",
+    "dica": "Curso feito depois da suspensão",
+    "significado": "Curso obrigatório para quem foi suspenso e em outros casos, como condenação por delito de trânsito. Cumprida a suspensão e feito o curso, a CNH é devolvida.",
+    "placa": null,
+    "base": "CTB, arts. 261 e 268",
+    "grade": "RECICLAGEM"
+  },
+  {
+    "palavra": "RETENÇÃO",
+    "tema": "regras",
+    "dica": "O veículo fica até sanar a irregularidade",
+    "significado": "Medida administrativa: o veículo fica retido até a irregularidade ser sanada. Se não der para sanar no local, pode ser liberado a condutor habilitado, com prazo de até 30 dias.",
+    "placa": null,
+    "base": "CTB, art. 270",
+    "grade": "RETENCAO"
+  },
+  {
+    "palavra": "REMOÇÃO",
+    "tema": "regras",
+    "dica": "O veículo vai para o depósito",
+    "significado": "Medida administrativa: o veículo vai para o depósito e só sai após o pagamento de multas, taxas, remoção e estada. A multa é penalidade; a remoção, não.",
+    "placa": null,
+    "base": "CTB, arts. 269 e 271",
+    "grade": "REMOCAO"
+  },
+  {
+    "palavra": "GRAVÍSSIMA",
+    "tema": "regras",
+    "dica": "Infração que vale 7 pontos",
+    "significado": "A natureza mais pesada de infração: 7 pontos e multa de R$ 293,47, multiplicada em alguns casos. Exemplo: avançar o sinal vermelho.",
+    "placa": null,
+    "base": "CTB, arts. 258 e 259",
+    "grade": "GRAVISSIMA"
+  },
+  {
+    "palavra": "ETILÔMETRO",
+    "tema": "regras",
+    "dica": "Aparelho que mede o álcool no ar",
+    "significado": "Aparelho que mede o teor de álcool no ar alveolar, o ar expirado que vem dos pulmões. Recusar o teste tem as mesmas penalidades de dirigir sob efeito de álcool.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 165-A",
+    "grade": "ETILOMETRO"
+  },
+  {
+    "palavra": "BAFÔMETRO",
+    "tema": "regras",
+    "dica": "Apelido do etilômetro",
+    "significado": "Nome popular do etilômetro. Dirigir sob efeito de álcool é gravíssima ×10 (R$ 2.934,70), com suspensão do direito de dirigir por 12 meses.",
+    "placa": null,
+    "base": "CTB, art. 165",
+    "grade": "BAFOMETRO"
+  },
+  {
+    "palavra": "RACHA",
+    "tema": "regras",
+    "dica": "Infração com multa multiplicada por 10",
+    "significado": "Disputar corrida na via: gravíssima ×10 (R$ 2.934,70), com suspensão do direito de dirigir e remoção do veículo. Também é crime.",
+    "placa": null,
+    "base": "CTB, arts. 173 e 308",
+    "grade": "RACHA"
+  },
+  {
+    "palavra": "ULTRAPASSAR",
+    "tema": "regras",
+    "dica": "O que a placa R-7 proíbe",
+    "significado": "Proíbe ultrapassar pela faixa do sentido oposto no trecho sinalizado. Onde pode, ultrapasse pela esquerda, salvo se o da frente sinalizou que vai virar à esquerda.",
+    "placa": "R-7",
+    "base": "MBST Vol. I (R-7); CTB, art. 29",
+    "grade": "ULTRAPASSAR"
+  },
+  {
+    "palavra": "CONVERSÃO",
+    "tema": "regras",
+    "dica": "O movimento de virar",
+    "significado": "Movimento em ângulo, à esquerda ou à direita, que muda a direção original do veículo. Sinalize antes; converter em local proibido é infração grave.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 207",
+    "grade": "CONVERSAO"
+  },
+  {
+    "palavra": "PARADA",
+    "tema": "regras",
+    "dica": "Só para embarque e desembarque",
+    "significado": "Imobilização do veículo só pelo tempo de embarque ou desembarque de passageiros. Passou disso, é estacionamento.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "PARADA"
+  },
+  {
+    "palavra": "ESTACIONAR",
+    "tema": "regras",
+    "dica": "O que a placa R-6a proíbe",
+    "significado": "Proíbe estacionar, mas permite a parada só para embarque e desembarque de passageiros. Estacionar é ficar parado além desse tempo.",
+    "placa": "R-6a",
+    "base": "MBST Vol. I (R-6a); CTB, art. 47",
+    "grade": "ESTACIONAR"
+  },
+  {
+    "palavra": "PRIORIDADE",
+    "tema": "regras",
+    "dica": "Tem o veículo de emergência com sirene",
+    "significado": "Veículo de emergência em serviço de urgência, com sirene e luz intermitente ligadas, tem prioridade. Deixe livre a faixa da esquerda, vá para a direita e pare se preciso.",
+    "placa": null,
+    "base": "CTB, art. 29",
+    "grade": "PRIORIDADE"
+  },
+  {
+    "palavra": "PERMISSÃO",
+    "tema": "regras",
+    "dica": "A PPD, que vale 1 ano",
+    "significado": "Permissão para Dirigir: vale 1 ano. Nesse período, não pode haver infração grave ou gravíssima nem reincidência em média; se houver, o processo recomeça.",
+    "placa": null,
+    "base": "CTB, art. 148",
+    "grade": "PERMISSAO"
+  },
+  {
+    "palavra": "RENACH",
+    "tema": "regras",
+    "dica": "Registro das habilitações",
+    "significado": "Sigla de Registro Nacional de Carteiras de Habilitação. O registro dos veículos é o Renavam.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "RENACH"
+  },
+  {
+    "palavra": "TOXICOLÓGICO",
+    "tema": "regras",
+    "dica": "Exame exigido nas categorias C, D e E",
+    "significado": "Exame exigido para obter e renovar a CNH nas categorias C, D e E, com janela de detecção de pelo menos 90 dias. Hoje vale também para a 1ª habilitação A e B.",
+    "placa": null,
+    "base": "CTB, art. 148-A",
+    "grade": "TOXICOLOGICO"
+  },
+  {
+    "palavra": "AGENTE",
+    "tema": "regras",
+    "dica": "Sua ordem vale mais que o semáforo",
+    "significado": "As ordens do agente de trânsito valem mais que o semáforo, os outros sinais e as normas de circulação. Desobedecer a elas é infração grave.",
+    "placa": null,
+    "base": "CTB, arts. 89 e 195",
+    "grade": "AGENTE"
+  },
+  {
+    "palavra": "APITO",
+    "tema": "regras",
+    "dica": "Dois silvos breves: pare",
+    "significado": "Sinal sonoro do agente, usado só junto com os gestos: um silvo breve, siga; dois breves, pare; um longo, diminua a marcha.",
+    "placa": null,
+    "base": "CTB, Anexo I; Res. Contran 160/2004",
+    "grade": "APITO"
+  },
+  {
+    "palavra": "JARI",
+    "tema": "regras",
+    "dica": "Julga o recurso em 1ª instância",
+    "significado": "Julga em 1ª instância o recurso contra a penalidade, com efeito suspensivo, em até 24 meses. Para órgãos estaduais e municipais, a 2ª instância é o Cetran.",
+    "placa": null,
+    "base": "CTB, arts. 285 e 288",
+    "grade": "JARI"
+  },
+  {
+    "palavra": "PREVALÊNCIA",
+    "tema": "regras",
+    "dica": "Ordem em que o agente vem antes do semáforo",
+    "significado": "Ordem de prevalência da sinalização: primeiro as ordens do agente, depois o semáforo, depois os demais sinais e, por último, as normas de circulação.",
+    "placa": null,
+    "base": "CTB, art. 89",
+    "grade": "PREVALENCIA"
+  },
+  {
+    "palavra": "CONHECIMENTO",
+    "tema": "defensiva",
+    "dica": "1º elemento da direção defensiva",
+    "significado": "1º dos 5 elementos da direção defensiva: conhecimento, atenção, previsão, decisão e habilidade. É conhecer as leis, os riscos e as condições do caminho.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; Detran-RJ",
+    "grade": "CONHECIMENTO"
+  },
+  {
+    "palavra": "ATENÇÃO",
+    "tema": "defensiva",
+    "dica": "Deve ser constante",
+    "significado": "Elemento da direção defensiva: manter a atenção constante. Em condições adversas, a conduta é reduzir a velocidade e aumentar a atenção.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; Detran-RJ",
+    "grade": "ATENCAO"
+  },
+  {
+    "palavra": "PREVISÃO",
+    "tema": "defensiva",
+    "dica": "Antever o risco",
+    "significado": "Elemento da direção defensiva: imaginar o que pode acontecer e agir antes do risco. Uma bola rolando na rua, por exemplo, avisa que pode haver criança atrás.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "PREVISAO"
+  },
+  {
+    "palavra": "DECISÃO",
+    "tema": "defensiva",
+    "dica": "Escolher a tempo",
+    "significado": "Elemento da direção defensiva: reconhecer as alternativas e escolher a tempo a melhor delas.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; Detran-RJ",
+    "grade": "DECISAO"
+  },
+  {
+    "palavra": "HABILIDADE",
+    "tema": "defensiva",
+    "dica": "Manobrar bem",
+    "significado": "Elemento da direção defensiva: saber manejar os controles e executar as manobras. A falta de habilidade é a imperícia.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; Detran-RJ",
+    "grade": "HABILIDADE"
+  },
+  {
+    "palavra": "AUTOCONTROLE",
+    "tema": "defensiva",
+    "dica": "6º pilar da direção defensiva",
+    "significado": "A Portaria 923/2025 soma o autocontrole aos 5 elementos clássicos e forma 6 pilares. Ser bom condutor é dominar as emoções antes de dominar a máquina.",
+    "placa": null,
+    "base": "Port. Senatran 923/2025; Banco Nacional de Questões",
+    "grade": "AUTOCONTROLE"
+  },
+  {
+    "palavra": "AQUAPLANAGEM",
+    "tema": "defensiva",
+    "dica": "O pneu perde a aderência na água",
+    "significado": "Uma lâmina de água entre o pneu e o asfalto anula a aderência. Se acontecer, tire o pé do acelerador, segure firme o volante e não freie bruscamente.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "AQUAPLANAGEM"
+  },
+  {
+    "palavra": "DERRAPAGEM",
+    "tema": "defensiva",
+    "dica": "Vire o volante para o lado da traseira",
+    "significado": "Se a traseira deslizar, tire o pé do acelerador e vire o volante para o lado para onde ela vai, sem frear bruscamente nem girar o volante de uma vez.",
+    "placa": null,
+    "base": "Detran-RJ; Banco Nacional de Questões",
+    "grade": "DERRAPAGEM"
+  },
+  {
+    "palavra": "OFUSCAMENTO",
+    "tema": "defensiva",
+    "dica": "Farol nos olhos",
+    "significado": "Quando o farol de quem vem em sentido contrário ofusca, não olhe para ele: olhe para a borda direita da pista e reduza a velocidade.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; Detran-RJ",
+    "grade": "OFUSCAMENTO"
+  },
+  {
+    "palavra": "MICROSSONO",
+    "tema": "defensiva",
+    "dica": "3 a 4 segundos a 80 km/h: cerca de 89 m",
+    "significado": "Em 3 a 4 segundos de microssono a 80 km/h, o carro anda cerca de 89 m sem controle. Com sono, pare em local seguro e descanse: café e som alto não resolvem.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "MICROSSONO"
+  },
+  {
+    "palavra": "FADIGA",
+    "tema": "defensiva",
+    "dica": "Pare e descanse",
+    "significado": "Cansaço que reduz os reflexos. Pare em local seguro e descanse pelo menos 20 minutos: dirigir com sono é comparável a dirigir alcoolizado.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "FADIGA"
+  },
+  {
+    "palavra": "NEBLINA",
+    "tema": "defensiva",
+    "dica": "Nela, nunca use farol alto",
+    "significado": "Use farol baixo e, se tiver, o de neblina; nunca o alto, que reflete nas gotículas e forma uma \"parede de luz\". Reduza e aumente a distância.",
+    "placa": null,
+    "base": "CTB, art. 40; Banco Nacional de Questões",
+    "grade": "NEBLINA"
+  },
+  {
+    "palavra": "IMPRUDÊNCIA",
+    "tema": "defensiva",
+    "dica": "Desrespeitar a norma",
+    "significado": "Falha humana de quem desrespeita a norma ou a técnica. As outras falhas clássicas são a negligência (descuido) e a imperícia (falta de habilidade).",
+    "placa": null,
+    "base": "Detran-RJ",
+    "grade": "IMPRUDENCIA"
+  },
+  {
+    "palavra": "NEGLIGÊNCIA",
+    "tema": "defensiva",
+    "dica": "Descuido",
+    "significado": "Falha humana por descuido ou desleixo com o veículo ou consigo mesmo. Com a imprudência e a imperícia, forma as 3 falhas clássicas.",
+    "placa": null,
+    "base": "Detran-RJ",
+    "grade": "NEGLIGENCIA"
+  },
+  {
+    "palavra": "IMPERÍCIA",
+    "tema": "defensiva",
+    "dica": "Falta de habilidade",
+    "significado": "Falha humana por falta de habilidade. Habilidade, saber manejar os controles e fazer as manobras, é um dos 5 elementos da direção defensiva.",
+    "placa": null,
+    "base": "Detran-RJ; Banco Nacional de Questões",
+    "grade": "IMPERICIA"
+  },
+  {
+    "palavra": "COLISÃO",
+    "tema": "defensiva",
+    "dica": "Entre dois veículos em movimento",
+    "significado": "Sinistro em que um veículo em movimento é atingido por outro também em movimento: frontal, traseira, lateral ou transversal. Contra objeto fixo, é choque.",
+    "placa": null,
+    "base": "NBR 10697:2020",
+    "grade": "COLISAO"
+  },
+  {
+    "palavra": "CAPOTAMENTO",
+    "tema": "defensiva",
+    "dica": "O veículo fica de rodas para cima",
+    "significado": "Sinistro em que o veículo gira sobre si e fica, em algum momento, com as rodas para cima. Se ele tomba de lado, é tombamento.",
+    "placa": null,
+    "base": "NBR 10697:2020",
+    "grade": "CAPOTAMENTO"
+  },
+  {
+    "palavra": "CINTO",
+    "tema": "defensiva",
+    "dica": "Para todos, sempre",
+    "significado": "Obrigatório para condutor e passageiros, em todas as vias e também no banco de trás; não usar é infração grave. O de 3 pontos distribui a força por ombros, tórax e pelve.",
+    "placa": null,
+    "base": "CTB, arts. 65 e 167; Banco Nacional de Questões",
+    "grade": "CINTO"
+  },
+  {
+    "palavra": "CADEIRINHA",
+    "tema": "defensiva",
+    "dica": "Para crianças de mais de 1 até 4 anos",
+    "significado": "Dispositivo para crianças de mais de 1 até 4 anos, ou de 9 a 18 kg, no banco de trás. Levar criança sem o dispositivo certo é gravíssima.",
+    "placa": null,
+    "base": "Res. Contran 819/2021; CTB, art. 168",
+    "grade": "CADEIRINHA"
+  },
+  {
+    "palavra": "CAPACETE",
+    "tema": "defensiva",
+    "dica": "Precisa do selo do Inmetro",
+    "significado": "Obrigatório para condutor e passageiro de moto, com selo do Inmetro e viseira abaixada ou óculos. Após um impacto, não use mais. Sem capacete é gravíssima.",
+    "placa": null,
+    "base": "CTB, art. 244; Banco Nacional de Questões",
+    "grade": "CAPACETE"
+  },
+  {
+    "palavra": "FREIO-MOTOR",
+    "tema": "defensiva",
+    "dica": "Use na descida de serra",
+    "significado": "Na descida de serra, engate uma marcha reduzida antes e use o freio-motor. Frear o tempo todo esquenta o freio, que perde eficiência. Nunca desça em ponto morto.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "FREIOMOTOR"
+  },
+  {
+    "palavra": "EMPATIA",
+    "tema": "defensiva",
+    "dica": "Colocar-se no lugar do outro",
+    "significado": "Colocar-se no lugar do outro. A Portaria 923 a inclui na convivência com pedestres, ciclistas, motociclistas, ônibus e caminhões.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; Port. Senatran 923/2025",
+    "grade": "EMPATIA"
+  },
+  {
+    "palavra": "TRIÂNGULO",
+    "tema": "socorros",
+    "dica": "A pelo menos 30 m do veículo",
+    "significado": "Sinalize o local com o triângulo a no mínimo 30 m da traseira do veículo, junto com o pisca-alerta. Em via rápida ou com neblina, coloque mais longe.",
+    "placa": null,
+    "base": "Banco Nacional de Questões; CTB, art. 46",
+    "grade": "TRIANGULO"
+  },
+  {
+    "palavra": "PISCA-ALERTA",
+    "tema": "socorros",
+    "dica": "Ligue ao parar para socorrer",
+    "significado": "Luz intermitente que indica veículo imobilizado ou em emergência. Ligá-la andando na chuva, por exemplo, é uso indevido: infração média.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 251",
+    "grade": "PISCAALERTA"
+  },
+  {
+    "palavra": "SAMU",
+    "tema": "socorros",
+    "dica": "Número 192",
+    "significado": "Ligue 192 em sinistro com vítima ou mal súbito. Informe o local, o tipo, o número e o estado das vítimas; se alguém não respira, siga o atendente.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "SAMU"
+  },
+  {
+    "palavra": "BOMBEIROS",
+    "tema": "socorros",
+    "dica": "Número 193",
+    "significado": "Ligue 193 se houver vítima presa nas ferragens, fogo, fumaça, vazamento ou cabos elétricos caídos. Cabo sobre o seu carro: fique dentro, sem tocar nas partes de metal.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "BOMBEIROS"
+  },
+  {
+    "palavra": "SOCORRO",
+    "tema": "socorros",
+    "dica": "Prestá-lo evita a prisão em flagrante",
+    "significado": "Quem presta pronto e integral socorro à vítima não é preso em flagrante nem paga fiança. Se não puder agir, chamar o socorro já é socorrer.",
+    "placa": null,
+    "base": "CTB, art. 301",
+    "grade": "SOCORRO"
+  },
+  {
+    "palavra": "VÍTIMA",
+    "tema": "socorros",
+    "dica": "Não a remova",
+    "significado": "Não remova, não movimente, não transporte. Só mova a vítima com risco iminente: fogo, explosão, atropelamento ou veículo prestes a cair.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "VITIMA"
+  },
+  {
+    "palavra": "FERRAGENS",
+    "tema": "socorros",
+    "dica": "Vítima presa nelas: chame o 193",
+    "significado": "Não tente tirar a vítima presa nas ferragens: isso exige equipamento especializado. Ligue 193, dos Bombeiros.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "FERRAGENS"
+  },
+  {
+    "palavra": "HEMORRAGIA",
+    "tema": "socorros",
+    "dica": "Comprima o local",
+    "significado": "Comprima o ferimento com gaze ou pano limpo, usando luvas ou outra proteção. Se o sangue sai do nariz, incline a cabeça levemente para a frente.",
+    "placa": null,
+    "base": "Denatran/ABRAMET 2005; Banco Nacional de Questões",
+    "grade": "HEMORRAGIA"
+  },
+  {
+    "palavra": "COMPRESSÃO",
+    "tema": "socorros",
+    "dica": "De 100 a 120 por minuto",
+    "significado": "Na parada cardíaca, ligue 192 e comprima o peito: 100 a 120 por minuto, 5 a 6 cm de profundidade no adulto. Leigo sem treino faz só as compressões.",
+    "placa": null,
+    "base": "AHA 2025",
+    "grade": "COMPRESSAO"
+  },
+  {
+    "palavra": "TORNIQUETE",
+    "tema": "socorros",
+    "dica": "Na prova, a resposta é \"não\"",
+    "significado": "Na prova, marque \"não fazer torniquete\", como diz o material oficial. AHA e Cruz Vermelha (2024) o admitem em hemorragia grave de braço ou perna, feito por quem tem treino.",
+    "placa": null,
+    "base": "Denatran/ABRAMET 2005; AHA/Cruz Vermelha 2024",
+    "grade": "TORNIQUETE"
+  },
+  {
+    "palavra": "FRATURA",
+    "tema": "socorros",
+    "dica": "Não alinhe o osso",
+    "significado": "Não tente alinhar nem pôr no lugar o osso fraturado: isso agrava lesões e hemorragias. Se houver suspeita de lesão na coluna, mantenha a vítima imóvel.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "FRATURA"
+  },
+  {
+    "palavra": "QUEIMADURA",
+    "tema": "socorros",
+    "dica": "Água corrente",
+    "significado": "Resfrie com água corrente em temperatura ambiente, por cerca de 10 minutos e sem gelo. Não passe pasta de dente nem manteiga e não estoure as bolhas.",
+    "placa": null,
+    "base": "Ministério da Saúde; Banco Nacional de Questões",
+    "grade": "QUEIMADURA"
+  },
+  {
+    "palavra": "CONVULSÃO",
+    "tema": "socorros",
+    "dica": "Nada na boca",
+    "significado": "Não ponha nada na boca nem segure a pessoa; proteja a cabeça e afaste objetos. Ligue 192 se a crise passar de 5 minutos.",
+    "placa": null,
+    "base": "Ministério da Saúde",
+    "grade": "CONVULSAO"
+  },
+  {
+    "palavra": "ENGASGO",
+    "tema": "socorros",
+    "dica": "5 golpes nas costas + 5 compressões no abdome",
+    "significado": "No adulto engasgado, alterne 5 golpes nas costas e 5 compressões abdominais até desobstruir. Se ele ficar inconsciente, ligue 192 e comece a reanimação.",
+    "placa": null,
+    "base": "AHA 2025",
+    "grade": "ENGASGO"
+  },
+  {
+    "palavra": "OMISSÃO",
+    "tema": "socorros",
+    "dica": "\"___ de socorro\" é crime",
+    "significado": "Deixar de socorrer a vítima, ou de pedir ajuda à autoridade, é crime, mesmo que outros socorram. Para o envolvido, é ainda gravíssima. Um comentário do banco oficial erra ao dizer \"grave\".",
+    "placa": null,
+    "base": "CTB, arts. 176 e 304",
+    "grade": "OMISSAO"
+  },
+  {
+    "palavra": "CALMA",
+    "tema": "socorros",
+    "dica": "Mantê-la é o 1º passo",
+    "significado": "Na cartilha Denatran/ABRAMET (2005), o 1º passo é manter a calma; depois vêm segurança, pedir socorro, controlar a situação, verificar as vítimas e agir.",
+    "placa": null,
+    "base": "Denatran/ABRAMET 2005",
+    "grade": "CALMA"
+  },
+  {
+    "palavra": "AUTOMÓVEL",
+    "tema": "veiculo",
+    "dica": "Até 8 passageiros, fora o condutor",
+    "significado": "Veículo automotor de passageiros com capacidade para até 8 pessoas, sem contar o condutor.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "AUTOMOVEL"
+  },
+  {
+    "palavra": "MOTOCICLETA",
+    "tema": "veiculo",
+    "dica": "Condutor em posição montada",
+    "significado": "Veículo automotor de duas rodas, com ou sem side-car, dirigido por condutor em posição montada. Na motoneta, ele vai sentado.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "MOTOCICLETA"
+  },
+  {
+    "palavra": "MOTONETA",
+    "tema": "veiculo",
+    "dica": "Condutor em posição sentada",
+    "significado": "Veículo automotor de duas rodas dirigido por condutor em posição sentada. Na motocicleta, ele vai montado.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "MOTONETA"
+  },
+  {
+    "palavra": "CICLOMOTOR",
+    "tema": "veiculo",
+    "dica": "Motor de até 50 cm³",
+    "significado": "Veículo de 2 ou 3 rodas, com motor a combustão de até 50 cm³ ou elétrico de até 4 kW, que não passa de 50 km/h de fábrica. Pede ACC ou categoria A.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 143",
+    "grade": "CICLOMOTOR"
+  },
+  {
+    "palavra": "CAMINHÃO",
+    "tema": "veiculo",
+    "dica": "De carga, peso bruto total acima de 3.500 kg",
+    "significado": "Veículo automotor de carga com peso bruto total acima de 3.500 kg; pode tracionar outro veículo. Para dirigi-lo, é preciso ter pelo menos a categoria C.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 143",
+    "grade": "CAMINHAO"
+  },
+  {
+    "palavra": "CAMINHONETE",
+    "tema": "veiculo",
+    "dica": "De carga, peso bruto total até 3.500 kg",
+    "significado": "Veículo de carga com peso bruto total de até 3.500 kg. Não confunda com a camioneta, que é veículo misto.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CAMINHONETE"
+  },
+  {
+    "palavra": "CAMIONETA",
+    "tema": "veiculo",
+    "dica": "Veículo misto",
+    "significado": "Veículo misto: leva passageiros e carga no mesmo compartimento. Não confunda com a caminhonete, que é de carga.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CAMIONETA"
+  },
+  {
+    "palavra": "MICROÔNIBUS",
+    "tema": "veiculo",
+    "dica": "Até 20 passageiros",
+    "significado": "Veículo automotor de transporte coletivo para até 20 passageiros; acima disso, é ônibus. É a grafia do Anexo I; trechos novos do CTB escrevem \"micro-ônibus\".",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 96",
+    "grade": "MICROONIBUS"
+  },
+  {
+    "palavra": "SEMI-REBOQUE",
+    "tema": "veiculo",
+    "dica": "Apoia-se na unidade tratora",
+    "significado": "Veículo de um ou mais eixos que se apoia na unidade tratora ou se liga a ela por articulação. É a grafia do Anexo I; o art. 96 escreve \"semirreboque\".",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 96",
+    "grade": "SEMIREBOQUE"
+  },
+  {
+    "palavra": "TRAILER",
+    "tema": "veiculo",
+    "dica": "Reboque tipo casa",
+    "significado": "Reboque ou semi-reboque tipo casa, de 2, 4 ou 6 rodas, preso à traseira de automóvel ou camionete. Em geral é usado no turismo, como alojamento, ou no comércio.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "TRAILER"
+  },
+  {
+    "palavra": "QUADRICICLO",
+    "tema": "veiculo",
+    "dica": "Veículo de 4 rodas",
+    "significado": "Veículo automotor de 4 rodas, com ou sem cabine, de até 450 kg para passageiros ou até 600 kg para carga.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "QUADRICICLO"
+  },
+  {
+    "palavra": "CARROÇA",
+    "tema": "veiculo",
+    "dica": "Veículo de tração animal",
+    "significado": "Veículo de tração animal para transporte de carga. O de tração animal para pessoas é a charrete.",
+    "placa": null,
+    "base": "CTB, Anexo I",
+    "grade": "CARROCA"
+  },
+  {
+    "palavra": "MOTOR-CASA",
+    "tema": "veiculo",
+    "dica": "Uma casa sobre rodas",
+    "significado": "Veículo automotor (motor-home) com carroçaria fechada para alojamento, escritório, comércio ou fins parecidos. A categoria B dirige o de até 6.000 kg ou até 8 lugares.",
+    "placa": null,
+    "base": "CTB, Anexo I e art. 143",
+    "grade": "MOTORCASA"
+  },
+  {
+    "palavra": "ESTEPE",
+    "tema": "veiculo",
+    "dica": "A roda reserva",
+    "significado": "Roda sobressalente, equipamento obrigatório do automóvel junto com macaco e chave de roda. Calibre-o também, com os pneus, pelo menos 1 vez por semana.",
+    "placa": null,
+    "base": "Res. Contran 912/2022; Banco Nacional de Questões",
+    "grade": "ESTEPE"
+  },
+  {
+    "palavra": "EXTINTOR",
+    "tema": "veiculo",
+    "dica": "No carro, é facultativo",
+    "significado": "Facultativo no automóvel e obrigatório em caminhão, ônibus, micro-ônibus e veículo de transporte coletivo. Se instalado, deve ser de pó ABC.",
+    "placa": null,
+    "base": "Res. Contran 919/2022",
+    "grade": "EXTINTOR"
+  },
+  {
+    "palavra": "CALIBRAGEM",
+    "tema": "veiculo",
+    "dica": "Dos pneus: pelo menos 1 vez por semana",
+    "significado": "Calibre os pneus pelo menos 1 vez por semana, frios e incluindo o estepe. Pneus calibrados são a prática de maior impacto na economia de combustível.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "CALIBRAGEM"
+  },
+  {
+    "palavra": "PALHETA",
+    "tema": "veiculo",
+    "dica": "Troque pelo menos 1 vez por ano",
+    "significado": "Peça do limpador de para-brisa. Troque pelo menos 1 vez por ano, ou antes se ressecar ou deixar marcas. No reservatório, use água e detergente neutro.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "PALHETA"
+  },
+  {
+    "palavra": "ZINABRE",
+    "tema": "veiculo",
+    "dica": "Crosta que aparece na bateria",
+    "significado": "Crosta verde ou branca nos terminais da bateria; sai com escova. A bateria dura de 2 a 4 anos.",
+    "placa": null,
+    "base": "Banco Nacional de Questões",
+    "grade": "ZINABRE"
+  },
+  {
+    "palavra": "CATALISADOR",
+    "tema": "veiculo",
+    "dica": "Reduz os poluentes",
+    "significado": "Fica no escapamento e transforma monóxido de carbono, hidrocarbonetos e óxidos de nitrogênio em gases menos nocivos: dióxido de carbono, água e nitrogênio.",
+    "placa": null,
+    "base": "Detran-RJ",
+    "grade": "CATALISADOR"
+  },
+  {
+    "palavra": "RECALL",
+    "tema": "veiculo",
+    "dica": "Chamado gratuito",
+    "significado": "Chamado gratuito da montadora para corrigir defeito de segurança ou ambiental. Não atendido em 1 ano, vai para o CRLV, e o veículo só é licenciado após o reparo.",
+    "placa": null,
+    "base": "CTB, art. 131; Banco Nacional de Questões",
+    "grade": "RECALL"
+  }
+]

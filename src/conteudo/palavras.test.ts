@@ -1,9 +1,10 @@
 import { readFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
+import { PALAVRAS, PALAVRAS_POR_GRADE, PLACAS } from './index.ts';
 import {
-  lerPalavrasReferencia, normalizarPalavra, transformarPalavras, validarPalavras,
+  lerPalavrasReferencia, normalizarPalavra, TEMAS_PALAVRA, transformarPalavras, validarPalavras,
 } from './palavras.ts';
-import type { Palavra } from './tipos.ts';
+import type { Palavra, TemaPalavra } from './tipos.ts';
 
 const ok = (p: Partial<Palavra> = {}): Palavra => ({
   palavra: 'CURVA', grade: 'CURVA', tema: 'curvas', dica: 'Placa A-2: curva suave',
@@ -49,4 +50,31 @@ test('compara com o §14 nos dois sentidos', () => {
     .toContain('SINUOSA: está no §14 da referência e falta em pesquisa/07');
   expect(validarPalavras([ok(), ok({ palavra: 'RETA', grade: 'RETA' })], PL, ['CURVA']).join('\n'))
     .toContain('RETA: não está no §14 da referência');
+});
+
+test('conteúdo: 131 palavras válidas e iguais ao §14', () => {
+  const ref = lerPalavrasReferencia(readFileSync('pesquisa/00-REFERENCIA-COMPACTA.md', 'utf8'));
+  expect(validarPalavras(PALAVRAS, new Set(PLACAS.map(p => p.codigo)), ref.map(r => r.palavra))).toEqual([]);
+  expect(PALAVRAS).toHaveLength(131);
+});
+test('conteúdo: contagem por tema', () => {
+  const n = (t: TemaPalavra) => PALAVRAS.filter(p => p.tema === t).length;
+  expect(TEMAS_PALAVRA.map(n)).toEqual([16, 13, 20, 24, 22, 16, 20]);
+});
+test('conteúdo: vínculos de placa da tabela', () => {
+  const placa = (w: string) => PALAVRAS_POR_GRADE.get(w)!.placa;
+  expect(placa('DEPRESSAO')).toBe('A-19');
+  expect(placa('CONFLUENCIA')).toBe('A-13a');
+  expect(placa('ESTACIONAR')).toBe('R-6a');
+  expect(placa('LOSANGO')).toBeNull();
+  expect(PALAVRAS.filter(p => p.placa !== null)).toHaveLength(23);
+});
+test('conteúdo: nunca fala em "acidente" fora de SINISTRO', () => {
+  for (const p of PALAVRAS) if (p.grade !== 'SINISTRO')
+    expect(`${p.dica} ${p.significado}`.toLowerCase()).not.toContain('acidente');
+});
+test('conteúdo: torniquete traz a prova e a diretriz atual', () => {
+  const s = PALAVRAS_POR_GRADE.get('TORNIQUETE')!.significado;
+  expect(s).toMatch(/prova/i);
+  expect(s).toMatch(/hemorragia grave/i);
 });
