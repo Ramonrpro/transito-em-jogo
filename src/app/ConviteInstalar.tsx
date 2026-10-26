@@ -17,7 +17,7 @@ interface EventoInstalacao extends Event {
 const ATRASO_MS = 1500
 
 export default function ConviteInstalar() {
-  const emProva = useMatch('/simulado/:id') !== null
+  const emProva = useMatch('/simulado/:id') !== null || useMatch('/caca-palavras/:id') !== null
   const [prompt, setPrompt] = useState<EventoInstalacao | null>(null)
   const [plataforma] = useState<Plataforma>(() => detectarPlataforma(navigator.userAgent, navigator.maxTouchPoints))
   const [passouAtraso, setPassouAtraso] = useState(false)

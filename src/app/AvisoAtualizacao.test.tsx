@@ -21,6 +21,16 @@ test('não aparece durante a prova', () => {
   expect(screen.queryByText('Nova versão disponível')).toBeNull()
 })
 
+test('não aparece durante a partida do caça-palavras', () => {
+  montar('/caca-palavras/abc')
+  expect(screen.queryByText('Nova versão disponível')).toBeNull()
+})
+
+test('aparece no início do caça-palavras', () => {
+  montar('/caca-palavras')
+  expect(screen.getByText('Nova versão disponível')).toBeInTheDocument()
+})
+
 test('fora da prova mostra o aviso e Atualizar chama o service worker uma vez', async () => {
   montar('/simulado')
   expect(screen.getByText('Nova versão disponível')).toBeInTheDocument()

@@ -38,3 +38,15 @@ test('nunca aparece com a prova em andamento', () => {
   act(() => void vi.advanceTimersByTime(5000))
   expect(screen.queryByText('Instale o app')).toBeNull()
 })
+
+test('nunca aparece na tela de jogo do caça-palavras, mas aparece no início e no fim', () => {
+  montar('/caca-palavras/abc')
+  act(() => void vi.advanceTimersByTime(5000))
+  expect(screen.queryByText('Instale o app')).toBeNull()
+})
+
+test.each(['/caca-palavras', '/caca-palavras/abc/fim'])('aparece em %s', (rota) => {
+  montar(rota)
+  act(() => void vi.advanceTimersByTime(5000))
+  expect(screen.getByText('Instale o app')).toBeInTheDocument()
+})
