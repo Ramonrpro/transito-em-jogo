@@ -46,7 +46,14 @@ export function iniciar(
         qids = sortearErradas(p.qids ?? (await repo.listarErradas()).map((e) => e.qid), p.rng)
         break
     }
-    const t = criarTentativa({ modo: p.modo, area: p.area ?? null, qids, agora: p.agora, rng: p.rng })
+    const t = criarTentativa({
+      modo: p.modo,
+      area: p.area ?? null,
+      qids,
+      agora: p.agora,
+      rng: p.rng,
+      versaoDe: (qid) => QUESTOES_POR_ID.get(qid)?.versao,
+    })
     await repo.salvarTentativa(t)
     return t
   })
@@ -63,9 +70,10 @@ function mutar<T>(fn: () => Promise<T>): Promise<T> {
   return execucao
 }
 
-/** Guardada, se ainda aceita mudanças; senão `undefined` (entregue ou prova expirada). */
+/** Guardada, se ainda aceita mudanças; senão `undefined` (apagada, entregue ou prova expirada). */
 async function editavel(repo: Repositorio, t: Tentativa, agora: number): Promise<Tentativa | undefined> {
-  const guardada = (await repo.obterTentativa(t.id)) ?? t
+  const guardada = await repo.obterTentativa(t.id)
+  if (!guardada) return undefined // apagada nesse meio tempo (ex.: outra aba): não ressuscitar
   if (guardada.entregueEm !== null) return undefined
   if (guardada.modo === 'prova' && expirou(guardada, agora)) return undefined
   return guardada
@@ -135,7 +143,8 @@ export function entregarEPersistir(
   const emCurso = entregando.get(t.id)
   if (emCurso) return emCurso
   const execucao = mutar(async () => {
-    const guardada = (await repo.obterTentativa(t.id)) ?? t
+    const guardada = await repo.obterTentativa(t.id)
+    if (!guardada) return t // apagada nesse meio tempo: não salva nem registra nada
     if (guardada.entregueEm !== null) return guardada
     const e = entregar(guardada, QUESTOES_POR_ID, agora, auto)
     await repo.salvarTentativa(e)

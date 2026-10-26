@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import { useRepositorio } from '../../app/contexto.tsx'
 import Topo from '../../app/Topo.tsx'
 import { QUESTOES_POR_ID } from '../../conteudo/index.ts'
@@ -8,6 +8,11 @@ import PorQue from '../componentes/PorQue.tsx'
 import type { Tentativa } from '../tipos.ts'
 
 const LETRAS = ['A', 'B', 'C', 'D']
+
+function rotuloMarca(correta: boolean, marcada: boolean): string | null {
+  if (correta) return marcada ? 'Sua resposta · Correta' : 'Correta'
+  return marcada ? 'Sua resposta' : null
+}
 
 export default function Revisao() {
   const { id } = useParams()
@@ -32,6 +37,8 @@ export default function Revisao() {
     )
   }
 
+  if (t.entregueEm === null) return <Navigate to={`/simulado/${t.id}`} replace />
+
   return (
     <div className="revisao">
       <Topo titulo="Revisão" />
@@ -45,6 +52,9 @@ export default function Revisao() {
               <div className="cartao">Esta questão foi removida do banco depois da sua prova.</div>
             ) : (
               <>
+                {item.versao !== undefined && item.versao !== q.versao && (
+                  <p className="aviso-versao" role="note">Esta questão foi atualizada depois da sua prova.</p>
+                )}
                 {q.placa && <ImagemPlaca codigo={q.placa} />}
                 <p className="enunciado">{q.enunciado}</p>
                 {item.resposta === null && <div className="sem-resposta">Sem resposta</div>}
@@ -57,15 +67,13 @@ export default function Revisao() {
                         key={original}
                         className="alternativa"
                         data-testid="alternativa"
-                        data-estado={correta ? 'correta' : marcada ? 'errada' : undefined}
+                        data-estado={
+                          correta ? (marcada ? 'correta-marcada' : 'correta') : marcada ? 'errada' : undefined
+                        }
                       >
                         <b>{LETRAS[i]}</b>
                         <span>{q.alternativas[original]}</span>
-                        {correta ? (
-                          <em className="marca">Correta</em>
-                        ) : (
-                          marcada && <em className="marca">Sua resposta</em>
-                        )}
+                        {rotuloMarca(correta, marcada) && <em className="marca">{rotuloMarca(correta, marcada)}</em>}
                       </div>
                     )
                   })}

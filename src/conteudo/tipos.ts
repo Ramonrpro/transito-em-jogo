@@ -14,6 +14,8 @@ export interface Questao {
   fonte: string;
   /** Preenchido só quando o banco oficial marca outra resposta. */
   respostaBancoOficial: string | null;
+  /** Impressão digital (8 hex) de enunciado, alternativas, correta e placa. */
+  versao: string;
 }
 
 /** Formato das questões em pesquisa/04 e pesquisa/05. */

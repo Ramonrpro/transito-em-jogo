@@ -1,6 +1,6 @@
 # Trânsito em Jogo
 
-PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (simulado, histórico, ajustes). Stack: Vite + React + TypeScript, HashRouter, IndexedDB (idb), Vitest e Playwright.
+PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (simulado, histórico, ajustes). Stack: Vite + React + TypeScript, HashRouter, IndexedDB (API nativa), Vitest e Playwright.
 
 ## Regras
 
@@ -8,7 +8,7 @@ PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (simulado, h
 - **Antes de criar ou conferir qualquer conteúdo, consultar `pesquisa/00-REFERENCIA-COMPACTA.md`.** Os arquivos `pesquisa/01` a `06` têm os detalhes.
 - Mobile-first: funciona a partir de 360 px, alvos de toque de pelo menos 44 px, ações na parte de baixo, respeitar `env(safe-area-inset-bottom)`.
 - Sem requisições de rede em tempo de execução, sem anúncios ou analytics, sem pedidos de permissão ao abrir.
-- Os JSON de `src/conteudo/` são gerados; não editar à mão (alterar a fonte e regenerar).
+- Os JSON de `src/conteudo/` são gerados; não editar à mão (alterar a fonte e regenerar). Mudar enunciado, alternativas, correta ou placa de uma questão publicada muda a sua `versao`; revisões de provas antigas passam a mostrá-la como "atualizada".
 
 ## Documentos
 
@@ -22,7 +22,7 @@ PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (simulado, h
 ## Comandos
 
 - `npm run dev`: servidor de desenvolvimento
-- `npm run build`: checagem de tipos e build de produção
+- `npm run build`: checagem de tipos e build de produção (o `prebuild` roda `conteudo:check`)
 - `npm run preview`: serve o build
 - `npm test`: testes unitários (Vitest)
 - `npm run e2e`: testes de ponta a ponta (Playwright, celular Pixel 7)

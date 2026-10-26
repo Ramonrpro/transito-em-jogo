@@ -11,6 +11,8 @@ export interface ItemTentativa {
   ordem: number[];
   resposta: number | null;
   revisar: boolean;
+  /** `Questao.versao` na hora da prova; ausente em tentativas antigas. */
+  versao?: string;
 }
 
 export interface ResultadoArea {

@@ -105,3 +105,15 @@ test('restanteMs nunca é negativo', () => {
   expect(expirou(t, 1000)).toBe(false);
   expect(formatarMinSeg(3_600_000)).toBe('60:00');
 });
+
+test('entrega manual depois do prazo registra no máximo 60:00', () => {
+  const t = entregar(provaComAcertos(10), QUESTOES_POR_ID, 9_999_999, false);
+  expect(t.autoEntregue).toBe(false);
+  expect(duracaoGastaMs(t)).toBe(3_600_000);
+});
+
+test('criarTentativa guarda a versão de cada questão quando recebe versaoDe', () => {
+  const t = criarTentativa({ modo: 'treino', qids: ['a', 'b'], agora: 0, rng: criarRng(1), versaoDe: (q) => (q === 'a' ? 'v1' : undefined) });
+  expect(t.itens[0].versao).toBe('v1');
+  expect('versao' in t.itens[1]).toBe(false);
+});

@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest';
 import legislacao from '../../pesquisa/04-questoes-legislacao-sinalizacao.json';
 import demais from '../../pesquisa/05-questoes-demais-modulos.json';
-import { transformarQuestoes } from './transformar.ts';
+import { transformarQuestoes, versaoDaQuestao } from './transformar.ts';
 import type { QuestaoBruta } from './tipos.ts';
 
 test('transformarQuestoes nas fontes reais', () => {
@@ -21,4 +21,22 @@ test('transformarQuestoes nas fontes reais', () => {
       .map((q) => q.id)
       .sort(),
   ).toEqual(['leg-074', 'leg-113', 'leg-118', 'ps-009', 'sin-026']);
+});
+
+test('versao é estável e muda com o conteúdo que a pessoa vê', () => {
+  const base = { enunciado: 'P?', alternativas: ['a', 'b', 'c', 'd'] as [string, string, string, string], correta: 1 as const, placa: null }
+  const v = versaoDaQuestao(base);
+  expect(v).toMatch(/^[0-9a-f]{8}$/);
+  expect(versaoDaQuestao({ ...base })).toBe(v);
+  expect(versaoDaQuestao({ ...base, correta: 2 })).not.toBe(v);
+  expect(versaoDaQuestao({ ...base, placa: 'R-1' })).not.toBe(v);
+  expect(versaoDaQuestao({ ...base, enunciado: 'P??' })).not.toBe(v);
+  expect(versaoDaQuestao({ ...base, alternativas: ['a', 'b', 'c', 'x'] })).not.toBe(v);
+  const bruta = (correta: number) => ({
+    id: 'f-1', tema: 'sinalizacao', subtema: 'placas-regulamentacao', enunciado: 'P?',
+    alternativas: ['a', 'b', 'c', 'd'], correta, explicacao: 'x', base_legal: 'y', placa: null, fonte: 'z', observacao: null,
+  });
+  expect(transformarQuestoes([bruta(1)])[0].versao).toBe(v);
+  expect(transformarQuestoes([bruta(1)])[0].versao).toBe(transformarQuestoes([bruta(1)])[0].versao);
+  expect(transformarQuestoes([bruta(2)])[0].versao).not.toBe(v);
 });

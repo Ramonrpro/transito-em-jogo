@@ -126,3 +126,18 @@ test('treino: duas respostas com a mesma cópia velha registram uma vez só', as
   ])
   expect((await repo.listarErradas()).find((e) => e.qid === qid)!.acertosSeguidos).toBe(1)
 })
+
+test('tentativa apagada nesse meio tempo não é ressuscitada nem registra respostas', async () => {
+  const repo = await novoRepo()
+  const t = await iniciar(repo, { modo: 'prova', agora: 0, rng: criarRng(1) })
+  expect(t.itens[0].versao).toBe(QUESTOES_POR_ID.get(t.itens[0].qid)!.versao)
+  await repo.apagarTudo()
+  const r = await responderEPersistir(repo, t, 0, 1)
+  expect(r.id).toBe(t.id)
+  const e = await entregarEPersistir(repo, t, 2, false)
+  expect(e.entregueEm).toBeNull()
+  expect(await repo.obterTentativa(t.id)).toBeUndefined()
+  expect(await repo.listarTentativas()).toEqual([])
+  expect((await repo.listarErradas()).length).toBe(0)
+  expect((await repo.vistas()).size).toBe(0)
+})

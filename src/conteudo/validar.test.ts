@@ -26,6 +26,7 @@ test('validarQuestoes acusa cada problema', () => {
     { ...base, id: 'q-b', correta: 4 },
     { ...base, id: 'q-c', placa: 'R-999' },
     { ...base, id: 'q-d', explicacao: '' },
+    { ...base, id: 'q-v', versao: '' },
     { ...base, id: 'q-e', alternativas: ['x', 'x', 'y', 'z'] },
     { ...base, id: 'q-e' }, // id repetido
   ] as Questao[];
@@ -36,6 +37,7 @@ test('validarQuestoes acusa cada problema', () => {
   expect(regra('q-b', /correta/)).toBe(true);
   expect(regra('q-c', /placa/)).toBe(true);
   expect(regra('q-d', /explica/)).toBe(true);
+  expect(regra('q-v', /versão/)).toBe(true);
   expect(regra('q-e', /alternativas repetidas/)).toBe(true);
   expect(regra('q-e', /id repetido/)).toBe(true);
 });

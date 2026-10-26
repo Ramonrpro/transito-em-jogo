@@ -20,6 +20,7 @@ export function validarQuestoes(
       erros.push(`${q.id}: alternativas repetidas`);
     }
     if (![0, 1, 2, 3].includes(q.correta)) erros.push(`${q.id}: correta fora de 0..3`);
+    if (vazio(q.versao)) erros.push(`${q.id}: versão vazia`);
     if (vazio(q.enunciado)) erros.push(`${q.id}: enunciado vazio`);
     if (vazio(q.explicacao)) erros.push(`${q.id}: explicação vazia`);
     if (vazio(q.baseLegal)) erros.push(`${q.id}: base legal vazia`);

@@ -10,6 +10,7 @@ export function criarTentativa(p: {
   agora: number;
   rng: () => number;
   id?: string;
+  versaoDe?: (qid: string) => string | undefined;
 }): Tentativa {
   return {
     id: p.id ?? crypto.randomUUID(),
@@ -19,12 +20,16 @@ export function criarTentativa(p: {
     terminaEm: p.modo === 'prova' ? p.agora + PROVA.duracaoMs : null,
     entregueEm: null,
     autoEntregue: false,
-    itens: p.qids.map((qid) => ({
-      qid,
-      ordem: embaralhar([0, 1, 2, 3], p.rng),
-      resposta: null,
-      revisar: false,
-    })),
+    itens: p.qids.map((qid) => {
+      const versao = p.versaoDe?.(qid);
+      return {
+        qid,
+        ordem: embaralhar([0, 1, 2, 3], p.rng),
+        resposta: null,
+        revisar: false,
+        ...(versao !== undefined && { versao }),
+      };
+    }),
     atual: 0,
     acertos: null,
     porArea: null,
@@ -82,7 +87,7 @@ export function entregar(
   }
   return {
     ...t,
-    entregueEm: auto && t.terminaEm !== null ? t.terminaEm : agora,
+    entregueEm: t.terminaEm !== null && (auto || agora > t.terminaEm) ? t.terminaEm : agora,
     autoEntregue: auto,
     acertos,
     porArea,
