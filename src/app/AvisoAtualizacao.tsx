@@ -2,7 +2,10 @@ import { useMatch } from 'react-router-dom'
 import { useRegisterSW } from 'virtual:pwa-register/react'
 
 export default function AvisoAtualizacao() {
-  const emProva = useMatch('/simulado/:id') !== null || useMatch('/caca-palavras/:id') !== null
+  // Os dois useMatch sempre rodam (regra dos hooks), sem curto-circuito.
+  const naProva = useMatch('/simulado/:id') !== null
+  const naPartida = useMatch('/caca-palavras/:id') !== null
+  const emProva = naProva || naPartida
   const {
     needRefresh: [precisaAtualizar],
     updateServiceWorker,
