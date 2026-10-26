@@ -228,7 +228,7 @@
     "palavra": "LOMBADA",
     "tema": "curvas",
     "dica": "Placa A-18: \"Saliência ou ___\"",
-    "significado": "Avisa saliência ou lombada (ondulação transversal) na pista adiante. Na pintura do chão, a lombada é marcada em amarelo.",
+    "significado": "Avisa saliência ou lombada na pista adiante. Na pintura do chão, a lombada é marcada em amarelo.",
     "placa": "A-18",
     "base": "MBST Vol. II (A-18) e Vol. IV",
     "grade": "LOMBADA"
@@ -509,7 +509,7 @@
     "dica": "O veículo vai para o depósito",
     "significado": "Medida administrativa: o veículo vai para o depósito e só sai após o pagamento de multas, taxas, remoção e estada. A multa é penalidade; a remoção, não.",
     "placa": null,
-    "base": "CTB, arts. 269 e 271",
+    "base": "CTB, arts. 256, 269 e 271",
     "grade": "REMOCAO"
   },
   {
@@ -518,7 +518,7 @@
     "dica": "Infração que vale 7 pontos",
     "significado": "A natureza mais pesada de infração: 7 pontos e multa de R$ 293,47, multiplicada em alguns casos. Exemplo: avançar o sinal vermelho.",
     "placa": null,
-    "base": "CTB, arts. 258 e 259",
+    "base": "CTB, arts. 208, 258 e 259",
     "grade": "GRAVISSIMA"
   },
   {
@@ -644,7 +644,7 @@
     "dica": "Julga o recurso em 1ª instância",
     "significado": "Julga em 1ª instância o recurso contra a penalidade, com efeito suspensivo, em até 24 meses. Para órgãos estaduais e municipais, a 2ª instância é o Cetran.",
     "placa": null,
-    "base": "CTB, arts. 285 e 288",
+    "base": "CTB, arts. 285, 288 e 289",
     "grade": "JARI"
   },
   {
@@ -984,7 +984,7 @@
     "palavra": "OMISSÃO",
     "tema": "socorros",
     "dica": "\"___ de socorro\" é crime",
-    "significado": "Deixar de socorrer a vítima, ou de pedir ajuda à autoridade, é crime, mesmo que outros socorram. Para o envolvido, é ainda gravíssima. Um comentário do banco oficial erra ao dizer \"grave\".",
+    "significado": "Deixar de socorrer a vítima (ou, sem poder, de chamar a autoridade) é crime, mesmo que outros socorram. Para o envolvido, é também gravíssima. Um comentário do banco oficial erra ao dizer \"grave\".",
     "placa": null,
     "base": "CTB, arts. 176 e 304",
     "grade": "OMISSAO"
