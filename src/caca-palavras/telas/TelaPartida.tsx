@@ -48,7 +48,8 @@ function Jogo({ id }: { id: string }) {
   const tempoAtivo = useCallback((agora: number) => {
     const base = atual.current
     if (!base) return 0
-    return base.tempoMs + (retomadaEm.current === null ? 0 : agora - retomadaEm.current)
+    // Relógio de parede pode andar para trás: nunca soma tempo negativo.
+    return base.tempoMs + (retomadaEm.current === null ? 0 : Math.max(0, agora - retomadaEm.current))
   }, [])
   const obterMs = useCallback(() => tempoAtivo(Date.now()), [tempoAtivo])
 
@@ -76,7 +77,9 @@ function Jogo({ id }: { id: string }) {
       const nova = { ...base, tempoMs: tempoAtivo(Date.now()) }
       retomadaEm.current = null
       atual.current = nova
-      void repo.salvarPartida(nova)
+      // Sem aviso de erro: ao pausar ou sair, o banco pode já estar fechado (versionchange) e o
+      // aviso global esconderia o "Atualize o app".
+      repo.salvarPartida(nova).catch(() => {})
     }
     const retomar = () => {
       const base = atual.current

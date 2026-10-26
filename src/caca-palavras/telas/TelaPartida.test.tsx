@@ -101,6 +101,21 @@ test('o tempo só conta com a tela visível', async () => {
   Reflect.deleteProperty(document, 'visibilityState')
 })
 
+test('relógio de parede que volta no tempo não gera tempo negativo', async () => {
+  const agora = vi.spyOn(Date, 'now').mockReturnValue(10_000)
+  try {
+    const { repo } = await abrirPartida()
+    await waitFor(() => casa(0))
+    agora.mockReturnValue(4_000)
+    Object.defineProperty(document, 'visibilityState', { value: 'hidden', configurable: true })
+    document.dispatchEvent(new Event('visibilitychange'))
+    await waitFor(async () => expect((await repo.obterPartida('x'))!.tempoMs).toBe(0))
+  } finally {
+    agora.mockRestore()
+    Reflect.deleteProperty(document, 'visibilityState')
+  }
+})
+
 test('partida inexistente', async () => {
   renderizarRota('/caca-palavras/nada', { fabrica: new IDBFactory() })
   expect(await screen.findByText('Partida não encontrada.')).toBeInTheDocument()
