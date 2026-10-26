@@ -1,5 +1,6 @@
 import { IDBFactory } from 'fake-indexeddb';
 import { expect, test } from 'vitest';
+import type { Partida } from '../caca-palavras/tipos.ts';
 import type { Tentativa } from '../simulado/tipos.ts';
 import { abrirBanco } from './db.ts';
 import { criarRepositorio } from './repositorio.ts';
@@ -38,4 +39,35 @@ test('importar logo após registrarResposta: a restauração, chamada depois, ve
   const b = importarCopia(banco, copiaSemQ9);
   await Promise.all([a, b]);
   expect((await repo.listarErradas()).map(e => e.qid)).not.toContain('q9');
+});
+
+function partida(p: Partial<Partida> = {}): Partida {
+  return {
+    id: 'p', tema: 'placas', nivel: 'facil', tamanho: 8, letras: 'A'.repeat(64), colocacoes: [],
+    achadas: [], iniciadaEm: 0, terminadaEm: null, tempoMs: 0, ...p,
+  };
+}
+
+test('cópia formato 2 leva as partidas e volta igual', async () => {
+  const banco = await abrirBanco(new IDBFactory()); const repo = criarRepositorio(banco);
+  await repo.salvarPartida(partida({ id: 'p1', terminadaEm: 9 }));
+  const copia = await exportarCopia(banco, 1);
+  expect(copia.formato).toBe(2);
+  await repo.apagarTudo(); await importarCopia(banco, JSON.parse(JSON.stringify(copia)));
+  expect((await repo.listarPartidas()).map(p => p.id)).toEqual(['p1']);
+});
+test('cópia formato 1 (etapa 1) ainda restaura e zera as partidas', async () => {
+  const banco = await abrirBanco(new IDBFactory()); const repo = criarRepositorio(banco);
+  await repo.salvarPartida(partida({ id: 'p1', terminadaEm: 9 }));
+  await importarCopia(banco, { app: 'transito-em-jogo', formato: 1, exportadaEm: 1,
+    tentativas: [tent({ id: 'a', entregueEm: 2 })], erradas: [], vistas: ['q1'] });
+  expect((await repo.listarTentativas()).map(t => t.id)).toEqual(['a']);
+  expect(await repo.listarPartidas()).toEqual([]);
+});
+test('formato 2 com partida inválida não toca nos dados', async () => {
+  const banco = await abrirBanco(new IDBFactory()); const repo = criarRepositorio(banco);
+  await repo.salvarPartida(partida({ id: 'p1', terminadaEm: 9 }));
+  await expect(importarCopia(banco, { app: 'transito-em-jogo', formato: 2, exportadaEm: 1,
+    tentativas: [], erradas: [], vistas: [], partidas: [{ id: 3 }] })).rejects.toMatchObject({ motivo: 'formato' });
+  expect((await repo.listarPartidas()).map(p => p.id)).toEqual(['p1']);
 });

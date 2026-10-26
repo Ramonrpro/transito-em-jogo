@@ -1,15 +1,17 @@
+import type { Partida } from '../caca-palavras/tipos.ts';
 import type { Tentativa } from '../simulado/tipos.ts';
 import type { Banco, EntradaErrada } from './db.ts';
 
-export const FORMATO_ATUAL = 1;
+export const FORMATO_ATUAL = 2;
 
 export interface CopiaDeSeguranca {
   app: 'transito-em-jogo';
-  formato: 1;
+  formato: 2;
   exportadaEm: number;
   tentativas: Tentativa[];
   erradas: EntradaErrada[];
   vistas: string[];
+  partidas: Partida[];
 }
 
 export class CopiaInvalidaError extends Error {
@@ -26,8 +28,8 @@ export class CopiaInvalidaError extends Error {
 }
 
 export async function exportarCopia(banco: Banco, agora: number): Promise<CopiaDeSeguranca> {
-  const [tentativas, erradas, vistas] = await banco.serializar(() =>
-    Promise.all([banco.getAll('tentativas'), banco.getAll('erradas'), banco.getAll('vistas')]),
+  const [tentativas, erradas, vistas, partidas] = await banco.serializar(() =>
+    Promise.all([banco.getAll('tentativas'), banco.getAll('erradas'), banco.getAll('vistas'), banco.getAll('partidas')]),
   );
   return {
     app: 'transito-em-jogo',
@@ -36,6 +38,7 @@ export async function exportarCopia(banco: Banco, agora: number): Promise<CopiaD
     tentativas,
     erradas,
     vistas: vistas.map((v) => v.qid),
+    partidas,
   };
 }
 
@@ -63,6 +66,19 @@ const ehErrada = (v: unknown) =>
   typeof v.acertosSeguidos === 'number' &&
   typeof v.erradaEm === 'number';
 
+const ehPartida = (v: unknown) =>
+  ehObjeto(v) &&
+  typeof v.id === 'string' &&
+  typeof v.tema === 'string' &&
+  typeof v.nivel === 'string' &&
+  typeof v.letras === 'string' &&
+  typeof v.tamanho === 'number' &&
+  typeof v.iniciadaEm === 'number' &&
+  typeof v.tempoMs === 'number' &&
+  (v.terminadaEm === null || typeof v.terminadaEm === 'number') &&
+  Array.isArray(v.colocacoes) &&
+  Array.isArray(v.achadas);
+
 function validar(bruto: unknown): CopiaDeSeguranca {
   if (!ehObjeto(bruto) || bruto.app !== 'transito-em-jogo' || typeof bruto.formato !== 'number') {
     throw new CopiaInvalidaError('formato');
@@ -70,15 +86,16 @@ function validar(bruto: unknown): CopiaDeSeguranca {
   if (bruto.formato > FORMATO_ATUAL) throw new CopiaInvalidaError('versao-nova');
   const { tentativas, erradas, vistas } = bruto;
   if (
-    bruto.formato !== FORMATO_ATUAL ||
+    (bruto.formato !== 1 && bruto.formato !== 2) ||
     typeof bruto.exportadaEm !== 'number' ||
     !Array.isArray(tentativas) || !tentativas.every(ehTentativa) ||
     !Array.isArray(erradas) || !erradas.every(ehErrada) ||
-    !Array.isArray(vistas) || !vistas.every((q) => typeof q === 'string')
+    !Array.isArray(vistas) || !vistas.every((q) => typeof q === 'string') ||
+    (bruto.formato === 2 && (!Array.isArray(bruto.partidas) || !bruto.partidas.every(ehPartida)))
   ) {
     throw new CopiaInvalidaError('formato');
   }
-  return bruto as unknown as CopiaDeSeguranca;
+  return { ...bruto, partidas: bruto.formato === 2 ? bruto.partidas : [] } as unknown as CopiaDeSeguranca;
 }
 
 /** Valida tudo antes de tocar nos dados; depois SUBSTITUI o histórico numa única transação. */
@@ -89,6 +106,7 @@ export async function importarCopia(banco: Banco, bruto: unknown): Promise<void>
       tentativas: copia.tentativas,
       erradas: copia.erradas,
       vistas: copia.vistas.map((qid) => ({ qid })),
+      partidas: copia.partidas,
     }),
   );
 }

@@ -1,5 +1,6 @@
 import { IDBFactory } from 'fake-indexeddb';
 import { expect, test } from 'vitest';
+import type { Partida } from '../caca-palavras/tipos.ts';
 import type { Tentativa } from '../simulado/tipos.ts';
 import { abrirBanco } from './db.ts';
 import { criarRepositorio } from './repositorio.ts';
@@ -65,4 +66,27 @@ test('sem fábrica de IndexedDB: cai para memória', async () => {
   } finally {
     globalThis.indexedDB = original;
   }
+});
+
+function partida(p: Partial<Partida> = {}): Partida {
+  return {
+    id: 'p', tema: 'placas', nivel: 'facil', tamanho: 8, letras: 'A'.repeat(64), colocacoes: [],
+    achadas: [], iniciadaEm: 0, terminadaEm: null, tempoMs: 0, ...p,
+  };
+}
+
+test('partidas: lista só concluídas, mais recentes primeiro; em andamento é a mais recente', async () => {
+  const repo = criarRepositorio(await abrirBanco(new IDBFactory()));
+  await repo.salvarPartida(partida({ id: 'a', iniciadaEm: 1, terminadaEm: 10 }));
+  await repo.salvarPartida(partida({ id: 'b', iniciadaEm: 2, terminadaEm: 20 }));
+  await repo.salvarPartida(partida({ id: 'c', iniciadaEm: 3, terminadaEm: null }));
+  await repo.salvarPartida(partida({ id: 'd', iniciadaEm: 4, terminadaEm: null }));
+  expect((await repo.listarPartidas()).map(p => p.id)).toEqual(['b', 'a']);
+  expect((await repo.partidaEmAndamento())?.id).toBe('d');
+  expect((await repo.obterPartida('a'))?.id).toBe('a');
+  await repo.descartarPartida('d');
+  expect((await repo.partidaEmAndamento())?.id).toBe('c');
+  await repo.apagarTudo();
+  expect(await repo.listarPartidas()).toEqual([]);
+  expect(await repo.partidaEmAndamento()).toBeUndefined();
 });

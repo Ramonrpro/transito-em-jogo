@@ -785,3 +785,14 @@ button.questao-numero {
 .aviso-rejeicao span {
   flex: 1 1 100%;
 }
+
+.tela-atualize {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 24px 16px calc(24px + env(safe-area-inset-bottom));
+  max-width: 480px;
+  margin: 0 auto;
+}

@@ -1,4 +1,5 @@
 import { ACERTOS_PARA_SAIR } from '../simulado/regras.ts';
+import type { Partida } from '../caca-palavras/tipos.ts';
 import type { Tentativa } from '../simulado/tipos.ts';
 import type { Banco, EntradaErrada } from './db.ts';
 
@@ -15,6 +16,13 @@ export interface Repositorio {
   registrarResposta(qid: string, acertou: boolean, agora: number): Promise<void>;
   listarErradas(): Promise<EntradaErrada[]>;
   vistas(): Promise<Set<string>>;
+  salvarPartida(p: Partida): Promise<void>;
+  obterPartida(id: string): Promise<Partida | undefined>;
+  /** Só concluídas, mais recentes primeiro (por terminadaEm). */
+  listarPartidas(): Promise<Partida[]>;
+  /** A não concluída mais recente (por iniciadaEm), se houver. */
+  partidaEmAndamento(): Promise<Partida | undefined>;
+  descartarPartida(id: string): Promise<void>;
   apagarTudo(): Promise<void>;
 }
 
@@ -51,7 +59,24 @@ export function criarRepositorio(banco: Banco): Repositorio {
       }),
     listarErradas: () => enfileirar(() => banco.getAll('erradas')),
     vistas: () => enfileirar(async () => new Set((await banco.getAll('vistas')).map((v) => v.qid))),
+    salvarPartida: (p) => enfileirar(() => banco.put('partidas', p)),
+    obterPartida: (id) => enfileirar(() => banco.get('partidas', id)),
+    listarPartidas: () =>
+      enfileirar(async () =>
+        (await banco.getAll('partidas'))
+          .filter((p) => p.terminadaEm !== null)
+          .sort((a, b) => (b.terminadaEm ?? 0) - (a.terminadaEm ?? 0)),
+      ),
+    partidaEmAndamento: () =>
+      enfileirar(async () =>
+        (await banco.getAll('partidas'))
+          .filter((p) => p.terminadaEm === null)
+          .sort((a, b) => b.iniciadaEm - a.iniciadaEm)[0],
+      ),
+    descartarPartida: (id) => enfileirar(() => banco.delete('partidas', id)),
     apagarTudo: () =>
-      enfileirar(() => banco.substituirTudo({ tentativas: [], erradas: [], vistas: [] })),
+      enfileirar(() =>
+        banco.substituirTudo({ tentativas: [], erradas: [], vistas: [], partidas: [] }),
+      ),
   };
 }

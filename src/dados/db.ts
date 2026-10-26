@@ -1,3 +1,4 @@
+import type { Partida } from '../caca-palavras/tipos.ts';
 import type { Tentativa } from '../simulado/tipos.ts';
 
 export interface EntradaErrada {
@@ -14,13 +15,22 @@ export interface Registros {
   tentativas: Tentativa;
   erradas: EntradaErrada;
   vistas: EntradaVista;
+  partidas: Partida;
 }
 export type NomeStore = keyof Registros;
 export type Tudo = { [S in NomeStore]: Registros[S][] };
 
 export const NOME_BANCO = 'transito-em-jogo';
-export const VERSAO_BANCO = 1;
-const CHAVES: Record<NomeStore, 'id' | 'qid'> = { tentativas: 'id', erradas: 'qid', vistas: 'qid' };
+export const VERSAO_BANCO = 2;
+
+/** O banco no aparelho é de uma versão mais nova que este código. */
+export class BancoDesatualizadoError extends Error {
+  constructor() {
+    super('O banco de dados é de uma versão mais nova do app.');
+    this.name = 'BancoDesatualizadoError';
+  }
+}
+const CHAVES: Record<NomeStore, 'id' | 'qid'> = { tentativas: 'id', erradas: 'qid', vistas: 'qid', partidas: 'id' };
 const STORES = Object.keys(CHAVES) as NomeStore[];
 
 export interface Banco {
@@ -108,7 +118,7 @@ function bancoIndexedDB(db: IDBDatabase): Banco {
 
 export function bancoEmMemoria(): Banco {
   const dados: { [S in NomeStore]: Map<string, Registros[S]> } = {
-    tentativas: new Map(), erradas: new Map(), vistas: new Map(),
+    tentativas: new Map(), erradas: new Map(), vistas: new Map(), partidas: new Map(),
   };
   const mapa = (s: NomeStore) => dados[s] as Map<string, unknown>;
   const copia = <T>(v: T): T => structuredClone(v);
@@ -141,7 +151,7 @@ export function bancoEmMemoria(): Banco {
   };
 }
 
-function abrirIndexedDB(fabrica: IDBFactory): Promise<IDBDatabase> {
+function abrirIndexedDB(fabrica: IDBFactory, aoDesatualizar?: () => void): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
     const req = fabrica.open(NOME_BANCO, VERSAO_BANCO);
     req.onupgradeneeded = () => {
@@ -154,21 +164,29 @@ function abrirIndexedDB(fabrica: IDBFactory): Promise<IDBDatabase> {
     req.onsuccess = () => {
       const db = req.result;
       // Uma aba antiga nunca deve travar a atualização do banco numa aba nova.
-      db.onversionchange = () => db.close();
+      db.onversionchange = () => {
+        db.close();
+        aoDesatualizar?.();
+      };
       resolve(db);
     };
-    req.onerror = () => reject(req.error);
+    req.onerror = () =>
+      reject(req.error?.name === 'VersionError' ? new BancoDesatualizadoError() : req.error);
     // `blocked` não é falha: segue esperando onsuccess/onerror (sem conexão sobrando).
   });
 }
 
 /** Abre o IndexedDB; se não der (indisponível, modo privado, erro ao abrir), usa memória com `persistente: false`. */
-export async function abrirBanco(fabrica?: IDBFactory): Promise<Banco> {
+export async function abrirBanco(
+  fabrica?: IDBFactory,
+  opcoes?: { aoDesatualizar?: () => void },
+): Promise<Banco> {
   try {
     const f = fabrica ?? globalThis.indexedDB;
     if (!f) throw new Error('IndexedDB indisponível');
-    return bancoIndexedDB(await abrirIndexedDB(f));
-  } catch {
+    return bancoIndexedDB(await abrirIndexedDB(f, opcoes?.aoDesatualizar));
+  } catch (e) {
+    if (e instanceof BancoDesatualizadoError) throw e;
     return bancoEmMemoria();
   }
 }
