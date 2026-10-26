@@ -30,3 +30,12 @@ test.each([[{}, 'formato'], [{ app:'outro', formato:1 }, 'formato'],
 });
 test('nome do arquivo da cópia', () =>
   expect(nomeArquivoCopia(new Date(2026, 9, 26, 15).getTime())).toBe('transito-em-jogo-copia-2026-10-26.json'));
+
+test('importar logo após registrarResposta: a restauração, chamada depois, vence', async () => {
+  const banco = await abrirBanco(new IDBFactory()); const repo = criarRepositorio(banco);
+  const copiaSemQ9 = JSON.parse(JSON.stringify(await exportarCopia(banco, 1)));
+  const a = repo.registrarResposta('q9', false, 1);
+  const b = importarCopia(banco, copiaSemQ9);
+  await Promise.all([a, b]);
+  expect((await repo.listarErradas()).map(e => e.qid)).not.toContain('q9');
+});

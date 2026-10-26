@@ -43,3 +43,26 @@ test('sem IndexedDB: cai para memória e avisa', async () => {
   await repo.salvarTentativa(tent({ id:'a', entregueEm: 2 }));
   expect(await repo.obterTentativa('a')).toBeDefined();
 });
+
+test('conexão fecha em versionchange: um upgrade futuro não fica bloqueado', async () => {
+  const fabrica = new IDBFactory();
+  await abrirBanco(fabrica);
+  await new Promise<void>((resolve, reject) => {
+    const req = fabrica.open('transito-em-jogo', 2);
+    req.onupgradeneeded = () => undefined;
+    req.onsuccess = () => { req.result.close(); resolve(); };
+    req.onerror = () => reject(req.error);
+    req.onblocked = () => reject(new Error('bloqueado'));
+  });
+});
+
+test('sem fábrica de IndexedDB: cai para memória', async () => {
+  const original = globalThis.indexedDB;
+  // @ts-expect-error simulando ambiente sem IndexedDB
+  globalThis.indexedDB = undefined;
+  try {
+    expect((await abrirBanco()).persistente).toBe(false);
+  } finally {
+    globalThis.indexedDB = original;
+  }
+});

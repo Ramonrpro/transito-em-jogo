@@ -26,11 +26,9 @@ export class CopiaInvalidaError extends Error {
 }
 
 export async function exportarCopia(banco: Banco, agora: number): Promise<CopiaDeSeguranca> {
-  const [tentativas, erradas, vistas] = await Promise.all([
-    banco.getAll('tentativas'),
-    banco.getAll('erradas'),
-    banco.getAll('vistas'),
-  ]);
+  const [tentativas, erradas, vistas] = await banco.serializar(() =>
+    Promise.all([banco.getAll('tentativas'), banco.getAll('erradas'), banco.getAll('vistas')]),
+  );
   return {
     app: 'transito-em-jogo',
     formato: FORMATO_ATUAL,
@@ -86,9 +84,11 @@ function validar(bruto: unknown): CopiaDeSeguranca {
 /** Valida tudo antes de tocar nos dados; depois SUBSTITUI o histórico numa única transação. */
 export async function importarCopia(banco: Banco, bruto: unknown): Promise<void> {
   const copia = validar(bruto);
-  await banco.substituirTudo({
-    tentativas: copia.tentativas,
-    erradas: copia.erradas,
-    vistas: copia.vistas.map((qid) => ({ qid })),
-  });
+  await banco.serializar(() =>
+    banco.substituirTudo({
+      tentativas: copia.tentativas,
+      erradas: copia.erradas,
+      vistas: copia.vistas.map((qid) => ({ qid })),
+    }),
+  );
 }

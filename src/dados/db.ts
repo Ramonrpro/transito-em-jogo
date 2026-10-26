@@ -33,6 +33,20 @@ export interface Banco {
   clear(store: NomeStore): Promise<void>;
   /** Troca o conteúdo de todos os stores numa única transação (tudo ou nada). */
   substituirTudo(dados: Tudo): Promise<void>;
+  /**
+   * Fila única por banco: executa `fn` só depois das anteriores terminarem.
+   * Um erro numa tarefa não impede as seguintes.
+   */
+  serializar<T>(fn: () => Promise<T>): Promise<T>;
+}
+
+function criarFila(): Banco['serializar'] {
+  let fila: Promise<unknown> = Promise.resolve();
+  return <T>(fn: () => Promise<T>): Promise<T> => {
+    const resultado = fila.then(fn);
+    fila = resultado.catch(() => undefined);
+    return resultado;
+  };
 }
 
 function esperar<T>(req: IDBRequest<T>): Promise<T> {
@@ -57,6 +71,7 @@ function bancoIndexedDB(db: IDBDatabase): Banco {
   };
   return {
     persistente: true,
+    serializar: criarFila(),
     async get(store, chave) {
       const { de } = stores([store], 'readonly');
       return (await esperar(de(store).get(chave))) ?? undefined;
@@ -99,6 +114,7 @@ export function bancoEmMemoria(): Banco {
   const copia = <T>(v: T): T => structuredClone(v);
   return {
     persistente: false,
+    serializar: criarFila(),
     async get(store, chave) {
       const v = mapa(store).get(chave);
       return v === undefined ? undefined : copia(v as never);
@@ -135,13 +151,18 @@ function abrirIndexedDB(fabrica: IDBFactory): Promise<IDBDatabase> {
         if (!db.objectStoreNames.contains(s)) db.createObjectStore(s, { keyPath: CHAVES[s] });
       }
     };
-    req.onsuccess = () => resolve(req.result);
+    req.onsuccess = () => {
+      const db = req.result;
+      // Uma aba antiga nunca deve travar a atualização do banco numa aba nova.
+      db.onversionchange = () => db.close();
+      resolve(db);
+    };
     req.onerror = () => reject(req.error);
-    req.onblocked = () => reject(new Error('abertura do banco bloqueada'));
+    // `blocked` não é falha: segue esperando onsuccess/onerror (sem conexão sobrando).
   });
 }
 
-/** Abre o IndexedDB; se não der (modo privado, bloqueio), usa memória com `persistente: false`. */
+/** Abre o IndexedDB; se não der (indisponível, modo privado, erro ao abrir), usa memória com `persistente: false`. */
 export async function abrirBanco(fabrica?: IDBFactory): Promise<Banco> {
   try {
     const f = fabrica ?? globalThis.indexedDB;

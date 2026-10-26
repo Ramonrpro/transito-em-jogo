@@ -19,14 +19,9 @@ export interface Repositorio {
 }
 
 export function criarRepositorio(banco: Banco): Repositorio {
-  // Todas as operações passam por uma fila: toques rápidos não se atropelam
-  // (registrarResposta lê e depois grava) e leituras veem as escritas anteriores.
-  let fila: Promise<unknown> = Promise.resolve();
-  const enfileirar = <T>(op: () => Promise<T>): Promise<T> => {
-    const resultado = fila.then(op);
-    fila = resultado.catch(() => undefined);
-    return resultado;
-  };
+  // Todas as operações passam pela fila do banco (a mesma usada por exportar/importar):
+  // registrarResposta lê e depois grava, e não pode se misturar com outras escritas.
+  const enfileirar = <T>(op: () => Promise<T>): Promise<T> => banco.serializar(op);
 
   return {
     persistente: banco.persistente,
