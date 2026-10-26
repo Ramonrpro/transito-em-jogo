@@ -5,7 +5,7 @@ test('depois da primeira visita funciona sem internet, com as placas', async ({ 
   await page.evaluate(() => navigator.serviceWorker.ready)
   await context.setOffline(true)
   await page.reload()
-  await expect(page.getByRole('heading', { name: 'Simulado' })).toBeVisible()
+  await expect(page.getByRole('heading', { name: 'Caça-palavras' })).toBeVisible()
   const ok = await page.evaluate(async () => !!(await caches.match(new URL('placas/R-10.svg', location.href).href, { ignoreSearch: true })))
   expect(ok).toBe(true)
 })

@@ -1,6 +1,6 @@
 # App de estudo para a prova teórica do Detran: documento de design
 
-**Data:** 26/10/2026 · **Status:** aguardando aprovação do usuário
+**Data:** 26/10/2026 · **Status:** aprovado
 **Nome provisório do app:** "Trânsito em Jogo" *(minha escolha; trocar à vontade)*
 
 ---

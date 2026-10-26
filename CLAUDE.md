@@ -1,6 +1,6 @@
 # Trânsito em Jogo
 
-PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (simulado, histórico, ajustes). Stack: Vite + React + TypeScript, HashRouter, IndexedDB (API nativa), Vitest e Playwright.
+PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (caça-palavras, simulado, histórico, ajustes). Stack: Vite + React + TypeScript, HashRouter, IndexedDB (API nativa), Vitest e Playwright.
 
 ## Regras
 
@@ -13,7 +13,7 @@ PWA mobile-first, em pt-BR, para estudar a prova teórica do Detran (simulado, h
 ## Documentos
 
 - Spec: `docs/superpowers/specs/2026-10-26-app-transito-design.md`
-- Planos: `docs/superpowers/plans/` (etapa atual: `2026-10-26-etapa-1-simulado.md`)
+- Planos: `docs/superpowers/plans/` (etapa atual: `2026-10-26-etapa-2-caca-palavras.md`)
 
 ## Endereço definitivo
 

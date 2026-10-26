@@ -1,6 +1,6 @@
 # Trânsito em Jogo
 
-PWA para estudar a prova teórica do Detran, em português do Brasil. Tem simulado, histórico de provas e ajustes, e funciona offline depois de instalado.
+PWA para estudar a prova teórica do Detran, em português do Brasil. Tem caça-palavras, simulado, histórico e ajustes, e funciona offline depois de instalado.
 
 ## Endereço definitivo
 
@@ -16,6 +16,7 @@ Este endereço **não pode mudar**: o histórico de cada pessoa fica guardado no
 - `npm run build`: checagem de tipos, verificação do conteúdo e build de produção
 - `npm run conteudo:questoes`: gera as questões em `src/conteudo/`
 - `npm run conteudo:placas`: gera as placas em `src/conteudo/`
+- `npm run conteudo:palavras`: gera as palavras do caça-palavras em `src/conteudo/`
 - `npm run conteudo:check`: confere o conteúdo gerado
 
 Os JSON de `src/conteudo/` são gerados; não edite à mão, altere a fonte e gere de novo.

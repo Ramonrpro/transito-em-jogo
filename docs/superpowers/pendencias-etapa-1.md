@@ -3,7 +3,7 @@
 Publicada em 26/10/2026 em `https://ramonrpro.github.io/transito-em-jogo/`. A revisão final classificou estes pontos como "pode esperar". Os planos das etapas 2–4 devem considerar estes itens.
 
 ## Robustez e dados
-- `src/dados/db.ts`: qualquer erro ao abrir o banco cai para memória, inclusive `VersionError`. Se um deploy com versão nova do banco for revertido, o histórico parece vazio. Tratar `VersionError` à parte, com a mensagem "Atualize o app".
+- ~~`src/dados/db.ts`: qualquer erro ao abrir o banco cai para memória, inclusive `VersionError`. Se um deploy com versão nova do banco for revertido, o histórico parece vazio. Tratar `VersionError` à parte, com a mensagem "Atualize o app".~~ (resolvido na etapa 2)
 - `src/simulado/fluxo.ts`: a entrega grava a tentativa e depois ~30 atualizações do caderno de erros em transações separadas, então não é atômica.
 - `fluxo.ts`, `TelaQuestao.tsx` e `InicioSimulado.tsx` ainda não tratam ids que saíram do banco:
   - "Refazer erradas" pode incluir esses ids;
