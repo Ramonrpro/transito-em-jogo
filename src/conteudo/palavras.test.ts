@@ -1,0 +1,52 @@
+import { readFileSync } from 'node:fs';
+import { expect, test } from 'vitest';
+import {
+  lerPalavrasReferencia, normalizarPalavra, transformarPalavras, validarPalavras,
+} from './palavras.ts';
+import type { Palavra } from './tipos.ts';
+
+const ok = (p: Partial<Palavra> = {}): Palavra => ({
+  palavra: 'CURVA', grade: 'CURVA', tema: 'curvas', dica: 'Placa A-2: curva suave',
+  significado: 'Avisa uma curva suave adiante.', placa: 'A-2a', base: 'MBST Vol. II', ...p,
+});
+const PL = new Set(['A-2a']);
+
+test('normalizarPalavra tira acento, cedilha e hífen', () => {
+  expect(normalizarPalavra('DEPRESSÃO')).toBe('DEPRESSAO');
+  expect(normalizarPalavra('PISCA-ALERTA')).toBe('PISCAALERTA');
+  expect(normalizarPalavra('CARROÇA')).toBe('CARROCA');
+  expect(normalizarPalavra('MICROÔNIBUS')).toBe('MICROONIBUS');
+  expect(normalizarPalavra('freio-motor')).toBe('FREIOMOTOR');
+});
+test('lerPalavrasReferencia lê as 131 palavras do §14 da referência', () => {
+  const ref = lerPalavrasReferencia(readFileSync('pesquisa/00-REFERENCIA-COMPACTA.md', 'utf8'));
+  expect(ref).toHaveLength(131);
+  expect([...new Set(ref.map(r => r.grupo))]).toEqual(
+    ['Placas', 'Curvas', 'Vias', 'Regras', 'Direção defensiva', 'Primeiros socorros', 'Veículo']);
+  expect(ref.find(r => r.palavra === 'DEPRESSÃO')).toEqual({ palavra: 'DEPRESSÃO', grupo: 'Placas', dica: 'A-19' });
+  expect(ref.find(r => r.palavra === 'TORNIQUETE')!.dica).toBe('prova: "não"');
+  expect(ref.at(-1)).toEqual({ palavra: 'RECALL', grupo: 'Veículo', dica: 'chamado gratuito' });
+});
+test('transformarPalavras acrescenta a grade', () =>
+  expect(transformarPalavras([{ ...ok(), palavra: 'TÚNEL' }])[0].grade).toBe('TUNEL'));
+test('aceita palavra válida', () => expect(validarPalavras([ok()], PL, ['CURVA'])).toEqual([]));
+test.each([
+  [{ grade: 'CURVA1' }, 'CURVA: grade "CURVA1" precisa ter de 3 a 12 letras A–Z'],
+  [{ palavra: 'ABCDEFGHIJKLM', grade: 'ABCDEFGHIJKLM' }, 'de 3 a 12 letras'],
+  [{ grade: 'CURVO' }, 'grade diferente da palavra normalizada'],
+  [{ tema: 'outro' as never }, 'tema desconhecido'],
+  [{ dica: ' ' }, 'dica vazia'],
+  [{ dica: 'x'.repeat(81) }, 'dica com mais de 80 caracteres'],
+  [{ significado: 'x'.repeat(201) }, 'significado com mais de 200 caracteres'],
+  [{ base: '' }, 'base vazia'],
+  [{ placa: 'A-99' }, 'placa A-99 inexistente'],
+])('rejeita %o', (p, trecho) =>
+  expect(validarPalavras([ok(p)], PL, null).join('\n')).toContain(trecho));
+test('grade repetida', () =>
+  expect(validarPalavras([ok(), ok()], PL, null).join('\n')).toContain('CURVA: grade repetida'));
+test('compara com o §14 nos dois sentidos', () => {
+  expect(validarPalavras([ok()], PL, ['CURVA', 'SINUOSA']).join('\n'))
+    .toContain('SINUOSA: está no §14 da referência e falta em pesquisa/07');
+  expect(validarPalavras([ok(), ok({ palavra: 'RETA', grade: 'RETA' })], PL, ['CURVA']).join('\n'))
+    .toContain('RETA: não está no §14 da referência');
+});

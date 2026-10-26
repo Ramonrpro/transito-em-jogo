@@ -50,3 +50,19 @@ export interface Credito {
   urlLicenca: string | null;
   urlPagina: string;
 }
+
+export type TemaPalavra = 'placas' | 'curvas' | 'vias' | 'regras' | 'defensiva' | 'socorros' | 'veiculo';
+
+/** Formato de pesquisa/07-palavras.json. */
+export interface PalavraBruta {
+  palavra: string;
+  tema: TemaPalavra;
+  dica: string;
+  significado: string;
+  placa: string | null;
+  base: string;
+}
+
+export interface Palavra extends PalavraBruta {
+  grade: string;
+}

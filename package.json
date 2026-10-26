@@ -11,6 +11,7 @@
     "e2e": "playwright test",
     "conteudo:questoes": "tsx scripts/build-questoes.ts",
     "conteudo:placas": "tsx scripts/build-placas.ts",
+    "conteudo:palavras": "tsx scripts/build-palavras.ts",
     "conteudo:check": "tsx scripts/check-conteudo.ts",
     "prebuild": "npm run conteudo:check"
   },
