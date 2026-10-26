@@ -80,8 +80,10 @@ export default function TelaAjustes() {
       confirmar: 'Apagar',
     })
     if (!ok) return
+    setAviso(null)
     try {
       await repo.apagarTudo()
+      setAviso({ texto: 'Histórico apagado.', erro: false })
     } catch {
       setAviso({ texto: MSG_GENERICA, erro: true })
     }

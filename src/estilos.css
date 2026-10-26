@@ -6,6 +6,7 @@
   --cor-vermelho: #dc2626;
   --cor-borda: #e5e7eb;
   --cor-suave: #6b7280;
+  --cor-superficie: #fff;
   --altura-barra: 60px;
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   color: var(--cor-texto);
@@ -58,7 +59,7 @@ body {
   bottom: 0;
   display: flex;
   justify-content: space-around;
-  background: #fff;
+  background: var(--cor-superficie);
   border-top: 1px solid var(--cor-borda);
   padding-bottom: env(safe-area-inset-bottom);
 }
@@ -73,7 +74,7 @@ body {
   min-width: 44px;
   font-size: 11px;
   font-weight: 600;
-  color: #9ca3af;
+  color: var(--cor-suave);
   text-decoration: none;
 }
 
@@ -266,6 +267,7 @@ button.questao-numero {
   font: 15px/1.35 system-ui, sans-serif;
   text-align: left;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .alternativa[aria-pressed='true'] {
@@ -273,7 +275,8 @@ button.questao-numero {
   border: 2px solid var(--cor-texto);
 }
 
-.alternativa[data-estado='correta'] {
+.alternativa[data-estado='correta'],
+.alternativa[data-estado='correta-marcada'] {
   background: #dcfce7;
   border: 2px solid var(--cor-verde);
   opacity: 1;
@@ -732,4 +735,29 @@ button.questao-numero {
   background: var(--cor-amarelo);
   border-color: var(--cor-amarelo);
   color: var(--cor-texto);
+}
+
+.aviso-versao {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 13px;
+}
+
+.limite-erro {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.aviso-erro {
+  color: #b91c1c;
+  font-weight: 600;
 }

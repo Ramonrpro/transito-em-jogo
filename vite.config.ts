@@ -15,7 +15,8 @@ export default defineConfig({
       manifest: {
         name: 'Trânsito em Jogo',
         short_name: 'Trânsito',
-        description: 'Estude para a prova teórica do Detran: simulado, caça-palavras e flashcards.',
+        description: 'Estude para a prova teórica do Detran com simulados do banco oficial de questões.',
+        id: '/transito-em-jogo/',
         lang: 'pt-BR',
         start_url: '/transito-em-jogo/',
         scope: '/transito-em-jogo/',

@@ -12,5 +12,5 @@ test('depois da primeira visita funciona sem internet, com as placas', async ({ 
 
 test('manifest com escopo definitivo', async ({ request }) => {
   const m = await (await request.get('./manifest.webmanifest')).json()
-  expect(m).toMatchObject({ scope: '/transito-em-jogo/', start_url: '/transito-em-jogo/', display: 'standalone', lang: 'pt-BR' })
+  expect(m).toMatchObject({ id: '/transito-em-jogo/', scope: '/transito-em-jogo/', start_url: '/transito-em-jogo/', display: 'standalone', lang: 'pt-BR' })
 })

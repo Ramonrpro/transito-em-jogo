@@ -148,6 +148,20 @@ test('apagar pede confirmação e limpa', async () => {
   expect(screen.getByText('Isso não pode ser desfeito.')).toBeInTheDocument()
   await userEvent.click(screen.getByRole('button', { name: 'Apagar' }))
   await vi.waitFor(async () => expect(await ids()).toEqual([]))
+  expect(await screen.findByRole('status')).toHaveTextContent('Histórico apagado.')
+})
+
+test('apagar limpa o aviso de erro anterior', async () => {
+  await renderizarComTentativa('/ajustes', tent({ id: 'a', entregueEm: 2 }))
+  falhas.apagar = true
+  await userEvent.click(screen.getByText('🗑 Apagar meu histórico'))
+  await userEvent.click(await screen.findByRole('button', { name: 'Apagar' }))
+  expect(await screen.findByRole('alert')).toBeInTheDocument()
+  falhas.apagar = false
+  await userEvent.click(screen.getByText('🗑 Apagar meu histórico'))
+  await userEvent.click(await screen.findByRole('button', { name: 'Apagar' }))
+  expect(await screen.findByRole('status')).toHaveTextContent('Histórico apagado.')
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument()
 })
 
 test('salvar cópia baixa um JSON com o nome do arquivo', async () => {
