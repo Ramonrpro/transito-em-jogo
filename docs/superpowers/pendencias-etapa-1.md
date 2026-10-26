@@ -43,3 +43,29 @@ Publicada em 26/10/2026 em `https://ramonrpro.github.io/transito-em-jogo/`. A re
 
 ## Publicação
 - O GitHub avisou que as actions de artefato rodam em Node 20, que está obsoleto, e que `ubuntu-latest` muda para Ubuntu 26. Atualizar as versões das actions quando houver novas.
+
+## Deixado pela etapa 2
+
+### Robustez e dados
+- `TelaPartida`: erro ao ler a partida deixa a tela em branco (só o aviso global), como no simulado.
+- `useNovaPartida`: se `iniciarPartida` falhar, a partida antiga já foi descartada e o cartão "Continuar" fica velho.
+- `ehPartida` não confere o formato dos itens de `colocacoes` e `achadas`.
+- Partidas não concluídas mais antigas (de cópia ou de outra aba) nunca aparecem nem são apagadas.
+- O relógio usa `Date.now()`: mudança de horário para frente no meio da partida soma tempo.
+- Validação de palavras: sem teste de limite (12 letras passa, 2 falha); palavra repetida dentro do §14 não é detectada; campo ausente lança `TypeError` em vez de mensagem.
+
+### Interface e acessibilidade
+- Cartão "Achou!": a região `aria-live` monta já preenchida (leitores de tela podem não anunciar); o foco cai no `body` quando a grade desabilita na última palavra.
+- Cores soltas no CSS novo (`.etiqueta` #d1d5db, `.partida-dica` #374151, sombra rgba, `.opcao` #fff): trocar por tokens junto com o tema escuro (etapa 4).
+- `botao-secundario` não tem regra de CSS (já vinha da etapa 1).
+
+### Conteúdo
+- A-18 em `placas.json` ainda diz "(ondulação transversal)".
+- IMPRUDÊNCIA, NEGLIGÊNCIA e IMPERÍCIA citam "Detran-RJ" por eliminação.
+- Os nomes de fonte das questões da etapa 1 diferem dos usados nas palavras.
+
+### Testes
+- Teste de `aoDesatualizar` depois de carregado (`ProvedorDados` troca para "Atualize o app"): fazer antes da etapa 3, que sobe o banco para a versão 3.
+- Arrasto, clique ignorado depois do arrasto e limiar de 8 px sem teste de unidade (cobertos só pelo e2e).
+- Faltam testes dos caminhos de erro de `criarPartida`, de `resumoRecorde` com partida não concluída e de sementes diferentes gerando grades diferentes.
+- O teste do tempo não usa try/finally, e `Relogio` roda fora de `act`.
