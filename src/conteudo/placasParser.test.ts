@@ -21,6 +21,12 @@ describe('lerTabelaPlacas', () => {
     expect(p[2].arquivoCommons).toBe('File:Brasil R-19 (60).svg');
     expect(p[0]).toMatchObject({ nome: 'Parada obrigatória', tipo: 'regulamentacao', dominioPublico: false });
   });
+  test('remove anotação entre parênteses do nome', () => {
+    const p = lerTabelaPlacas(
+      '| A-16 | Bonde / VLT (Res. 160/2004 e MBST 2007: "Bonde") | Adverte... | `File:Brasil A-16.svg` | Domínio público |',
+    );
+    expect(p[0].nome).toBe('Bonde / VLT');
+  });
   test('arquivo real: 120 placas, 51 R e 69 A, sem códigos repetidos', () => {
     const p = lerTabelaPlacas(fs.readFileSync('pesquisa/02-sinalizacao.md', 'utf8'));
     expect(p).toHaveLength(120);
@@ -39,6 +45,7 @@ describe('validarPlacas', () => {
     expect(validarPlacas([placa], [cred], new Set())).toEqual(['R-1: sem SVG em public/placas']);
     expect(validarPlacas([placa], [], new Set(['R-1']))).toEqual(['R-1: sem crédito']);
     expect(validarPlacas([{ ...placa, dominioPublico: true }], [], new Set(['R-1']))).toEqual([]);
+    expect(validarPlacas([{ ...placa, nome: 'Bonde (x)' }], [cred], new Set(['R-1']))).toEqual(['R-1: nome com anotação']);
     const erros = validarPlacas([placa], [{ ...cred, autor: ' ', licenca: '' }], new Set(['R-1']));
     expect(erros).toEqual(['R-1: crédito sem autor', 'R-1: crédito sem licença']);
   });

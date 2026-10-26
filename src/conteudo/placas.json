@@ -321,7 +321,7 @@
   },
   {
     "codigo": "R-32",
-    "nome": "Circulação exclusiva de veículos de transporte público coletivo (até 01/01/2023: \"Circulação exclusiva de ônibus\")",
+    "nome": "Circulação exclusiva de veículos de transporte público coletivo",
     "significado": "Área, via/pista ou faixa de circulação exclusiva de veículos de transporte público coletivo.",
     "tipo": "regulamentacao",
     "arquivoCommons": "File:Brasil R-32.svg",
@@ -601,7 +601,7 @@
   },
   {
     "codigo": "A-16",
-    "nome": "Bonde / VLT (Res. 160/2004 e MBST 2007: \"Bonde\")",
+    "nome": "Bonde / VLT",
     "significado": "Cruzamento ou circulação de bondes/VLT adiante.",
     "tipo": "advertencia",
     "arquivoCommons": "File:Brasil A-16.svg",

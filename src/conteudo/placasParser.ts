@@ -28,7 +28,7 @@ export function lerTabelaPlacas(markdown: string): Placa[] {
     }
     placas.push({
       codigo: c[0],
-      nome: c[1],
+      nome: c[1].replace(/\s+\([^()]*\)$/, ''),
       significado: c[2],
       tipo: c[0].startsWith('R') ? 'regulamentacao' : 'advertencia',
       arquivoCommons: arquivos[i],
@@ -47,6 +47,7 @@ export function validarPlacas(
   const porCodigo = new Map(creditos.map((c) => [c.codigo, c]));
   for (const p of placas) {
     if (!arquivosSvg.has(p.codigo)) erros.push(`${p.codigo}: sem SVG em public/placas`);
+    if (/[()]/.test(p.nome)) erros.push(`${p.codigo}: nome com anotação`);
     if (!p.dominioPublico && !porCodigo.has(p.codigo)) erros.push(`${p.codigo}: sem crédito`);
   }
   for (const c of creditos) {
