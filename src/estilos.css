@@ -85,3 +85,313 @@ body {
   font-size: 20px;
   line-height: 1.2;
 }
+
+.subtitulo {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--cor-suave);
+}
+
+.aviso-memoria {
+  padding: 10px 16px;
+  background: #fef3c7;
+  color: #92400e;
+  font-size: 13px;
+  text-align: center;
+}
+
+.botao {
+  min-height: 48px;
+  padding: 0 14px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: var(--cor-texto);
+  font: 700 15px system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.botao:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.botao-principal {
+  background: var(--cor-texto);
+  border-color: var(--cor-texto);
+  color: var(--cor-amarelo);
+}
+
+.botao-largo {
+  flex: 1.6;
+}
+
+.modos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--cor-borda);
+  background: #fff;
+  color: var(--cor-texto);
+  text-align: left;
+  font-family: inherit;
+}
+
+.cartao-botao {
+  min-height: 56px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cartao-botao:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.cartao-destaque {
+  background: var(--cor-amarelo);
+  border: 2px solid var(--cor-texto);
+}
+
+.cartao-andamento {
+  margin-bottom: 10px;
+  background: #fef9c3;
+  border: 2px solid var(--cor-texto);
+}
+
+.cartao-titulo {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cartao-texto {
+  font-size: 13px;
+  color: #374151;
+}
+
+.cartao-acoes {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.cartao-acoes .botao {
+  flex: 1;
+}
+
+.rodape-banco {
+  margin-top: 14px;
+  font-size: 12px;
+  color: var(--cor-suave);
+}
+
+.questao-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+button.questao-numero {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cronometro-alerta {
+  color: #b45309;
+}
+
+.progresso {
+  height: 6px;
+  margin: 2px 0 12px;
+  background: var(--cor-borda);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.progresso > div {
+  height: 100%;
+  background: var(--cor-texto);
+}
+
+.placa {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.placa img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+
+.enunciado {
+  margin: 8px 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.alternativa {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  min-height: 48px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--cor-borda);
+  background: #fff;
+  color: var(--cor-texto);
+  font: 15px/1.35 system-ui, sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+
+.alternativa[aria-pressed='true'] {
+  background: #fef9c3;
+  border: 2px solid var(--cor-texto);
+}
+
+.alternativa[data-estado='correta'] {
+  background: #dcfce7;
+  border: 2px solid var(--cor-verde);
+  opacity: 1;
+}
+
+.alternativa[data-estado='errada'] {
+  background: #fee2e2;
+  border: 2px solid var(--cor-vermelho);
+  opacity: 1;
+}
+
+.alternativa:disabled:not([data-estado]) {
+  opacity: 0.6;
+}
+
+.alternativa:disabled {
+  color: var(--cor-texto);
+}
+
+.porque {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #eff6ff;
+  color: #1e3a8a;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.porque-lei {
+  margin-top: 4px;
+  color: #475569;
+}
+
+.porque-aviso {
+  margin-top: 8px;
+  color: #92400e;
+}
+
+.rodape-acoes {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.rodape-acoes .botao {
+  flex: 1;
+}
+
+.rodape-acoes .botao-largo {
+  flex: 1.6;
+}
+
+.mapa h2 {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.mapa-grade {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+}
+
+.mapa-numero {
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  font: 700 14px system-ui, sans-serif;
+  cursor: pointer;
+}
+
+.mapa-numero[data-estado='respondida'] {
+  background: var(--cor-texto);
+  color: #fff;
+}
+
+.mapa-numero[data-estado='marcada'] {
+  background: var(--cor-amarelo);
+  border-color: var(--cor-texto);
+}
+
+.mapa-numero[data-estado='atual'] {
+  border: 3px solid var(--cor-texto);
+}
+
+.mapa-legenda {
+  font-size: 12px;
+  color: var(--cor-suave);
+}
+
+.dialogo {
+  width: min(90vw, 360px);
+  padding: 18px;
+  border: 0;
+  border-radius: 14px;
+}
+
+.dialogo::backdrop {
+  background: rgb(0 0 0 / 0.45);
+}
+
+.dialogo h2 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.dialogo p {
+  margin: 0 0 12px;
+  color: #374151;
+}
+
+.dialogo-acoes {
+  display: flex;
+  gap: 8px;
+}
+
+.dialogo-acoes .botao {
+  flex: 1;
+}

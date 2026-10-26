@@ -14,6 +14,6 @@ test('abre no simulado e mostra a barra inferior com Simulado e Histórico', asy
 
 test('engrenagem leva a Ajustes', async () => {
   render(<App />)
-  await userEvent.click(screen.getByLabelText('Ajustes'))
+  await userEvent.click(await screen.findByLabelText('Ajustes'))
   expect(await screen.findByRole('heading', { name: 'Ajustes' })).toBeInTheDocument()
 })
