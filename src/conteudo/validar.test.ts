@@ -22,18 +22,32 @@ const fixtureValida: QuestaoBruta[] = [
 test('validarQuestoes acusa cada problema', () => {
   const base = transformarQuestoes(fixtureValida)[0];
   const ruins = [
-    { ...base, id: 'a', alternativas: ['x', 'y', 'z'] },
-    { ...base, id: 'b', correta: 4 },
-    { ...base, id: 'c', placa: 'R-999' },
-    { ...base, id: 'd', explicacao: '' },
-    { ...base, id: 'e', alternativas: ['x', 'x', 'y', 'z'] },
-    { ...base, id: 'e' }, // id repetido
+    { ...base, id: 'q-a', alternativas: ['x', 'y', 'z'] },
+    { ...base, id: 'q-b', correta: 4 },
+    { ...base, id: 'q-c', placa: 'R-999' },
+    { ...base, id: 'q-d', explicacao: '' },
+    { ...base, id: 'q-e', alternativas: ['x', 'x', 'y', 'z'] },
+    { ...base, id: 'q-e' }, // id repetido
   ] as Questao[];
   const erros = validarQuestoes(ruins, new Set(['R-1']));
-  for (const id of ['a', 'b', 'c', 'd', 'e']) {
-    expect(erros.some((e) => e.includes(id))).toBe(true);
-  }
-  expect(erros.some((e) => e.includes('repetido'))).toBe(true);
+  const regra = (id: string, re: RegExp) =>
+    erros.some((e) => e.startsWith(`${id}:`) && re.test(e));
+  expect(regra('q-a', /4 alternativas/)).toBe(true);
+  expect(regra('q-b', /correta/)).toBe(true);
+  expect(regra('q-c', /placa/)).toBe(true);
+  expect(regra('q-d', /explica/)).toBe(true);
+  expect(regra('q-e', /alternativas repetidas/)).toBe(true);
+  expect(regra('q-e', /id repetido/)).toBe(true);
+});
+
+test('validarQuestoes acusa área abaixo da cota da prova', () => {
+  const base = transformarQuestoes(fixtureValida)[0]; // área 1
+  const erros = validarQuestoes(
+    Array.from({ length: 8 }, (_, i) => ({ ...base, id: `s-${i}` })),
+    null,
+  );
+  expect(erros.some((e) => /área 2.*mínimo 4/.test(e))).toBe(true);
+  expect(erros.some((e) => /área 1/.test(e))).toBe(false);
 });
 
 test('validarQuestoes com placas nulo pula a regra da placa', () => {
