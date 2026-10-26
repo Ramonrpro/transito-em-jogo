@@ -43,7 +43,7 @@
     "palavra": "LOSANGO",
     "tema": "placas",
     "dica": "Forma das placas de advertência",
-    "significado": "É como se chama a forma das placas de advertência: um quadrado com uma das diagonais na vertical. Fogem dela as de sentido único e duplo e a Cruz de Santo André.",
+    "significado": "É como se chama a forma das placas de advertência: um quadrado com uma das diagonais na vertical. Entre as padronizadas, fogem dela as de sentido único e duplo e a Cruz de Santo André.",
     "placa": null,
     "base": "MBST Vol. II"
   },
@@ -133,7 +133,7 @@
     "dica": "Na placa A-2, ela é suave",
     "significado": "Avisa uma curva suave à esquerda adiante: a seta do desenho é arqueada. Reduza antes da curva, ainda na reta, e retome a velocidade na saída.",
     "placa": "A-2a",
-    "base": "MBST Vol. II (A-2a)"
+    "base": "MBST Vol. II (A-2a); Banco Nacional de Questões"
   },
   {
     "palavra": "ACENTUADA",
@@ -221,13 +221,13 @@
     "dica": "Placa A-20a: descida",
     "significado": "Avisa declive acentuado (descida) adiante. Engate marcha reduzida antes e use o freio-motor; descer desengrenado é infração média.",
     "placa": "A-20a",
-    "base": "MBST Vol. II (A-20a); CTB, art. 231"
+    "base": "MBST Vol. II (A-20a); CTB, art. 231; Banco Nacional de Questões"
   },
   {
     "palavra": "ACLIVE",
     "tema": "curvas",
     "dica": "Placa A-20b: subida",
-    "significado": "Avisa aclive acentuado (subida) adiante. Ultrapassar pela contramão em aclive sem visibilidade é gravíssima, com multa ×5.",
+    "significado": "Avisa aclive acentuado (subida) adiante. Ultrapassar pela contramão em aclive sem visibilidade é gravíssima, com multa multiplicada por 5.",
     "placa": "A-20b",
     "base": "MBST Vol. II (A-20b); CTB, art. 203"
   },
@@ -395,7 +395,7 @@
     "palavra": "SINISTRO",
     "tema": "regras",
     "dica": "Termo que substituiu \"acidente\"",
-    "significado": "Evento com dano a veículo ou carga, ou lesão a pessoas ou animais, com ao menos uma parte em movimento na via. A Lei 14.599/2023 trocou \"acidente\" por \"sinistro\" no CTB.",
+    "significado": "Evento com dano a veículo ou carga, ou lesão a pessoas ou animais, com ao menos uma parte em movimento na via ou em área aberta ao público. A Lei 14.599/2023 trocou \"acidente\" por \"sinistro\" no CTB.",
     "placa": null,
     "base": "Lei 14.599/2023; CTB, Anexo I"
   },
@@ -411,15 +411,15 @@
     "palavra": "MULTA",
     "tema": "regras",
     "dica": "Na gravíssima, é de R$ 293,47",
-    "significado": "Penalidade em dinheiro: leve R$ 88,38, média R$ 130,16, grave R$ 195,23 e gravíssima R$ 293,47. Algumas infrações têm o valor multiplicado, como o racha (×10).",
+    "significado": "Penalidade em dinheiro: leve R$ 88,38, média R$ 130,16, grave R$ 195,23 e gravíssima R$ 293,47. Algumas infrações têm o valor multiplicado, como o racha (por 10).",
     "placa": null,
-    "base": "CTB, art. 258"
+    "base": "CTB, arts. 173 e 258"
   },
   {
     "palavra": "SUSPENSÃO",
     "tema": "regras",
     "dica": "Vem com 20, 30 ou 40 pontos",
-    "significado": "Suspensão do direito de dirigir. Por pontos em 12 meses: 20 se houver 2 ou mais gravíssimas, 30 se houver 1 e 40 se não houver nenhuma. Dura de 6 meses a 1 ano.",
+    "significado": "Suspensão do direito de dirigir. Por pontos em 12 meses, vem com 20 (2 ou mais gravíssimas), 30 (1 gravíssima) ou 40 (nenhuma) e, sem reincidência, dura de 6 meses a 1 ano.",
     "placa": null,
     "base": "CTB, art. 261"
   },
@@ -427,7 +427,7 @@
     "palavra": "CASSAÇÃO",
     "tema": "regras",
     "dica": "Para quem dirige com o direito suspenso",
-    "significado": "Cassação da CNH. Acontece, por exemplo, com quem dirige estando suspenso. A pessoa só pode se habilitar de novo após 2 anos, refazendo os exames.",
+    "significado": "Cassação da CNH: acontece, por exemplo, com quem dirige estando suspenso. A pessoa só pode se habilitar de novo após 2 anos, refazendo os exames.",
     "placa": null,
     "base": "CTB, art. 263"
   },
@@ -475,7 +475,7 @@
     "palavra": "BAFÔMETRO",
     "tema": "regras",
     "dica": "Apelido do etilômetro",
-    "significado": "Nome popular do etilômetro. Dirigir sob efeito de álcool é gravíssima ×10 (R$ 2.934,70), com suspensão do direito de dirigir por 12 meses.",
+    "significado": "Nome popular do etilômetro. Dirigir sob efeito de álcool é gravíssima, com multa multiplicada por 10 (R$ 2.934,70) e suspensão do direito de dirigir por 12 meses.",
     "placa": null,
     "base": "CTB, art. 165"
   },
@@ -483,7 +483,7 @@
     "palavra": "RACHA",
     "tema": "regras",
     "dica": "Infração com multa multiplicada por 10",
-    "significado": "Disputar corrida na via: gravíssima ×10 (R$ 2.934,70), com suspensão do direito de dirigir e remoção do veículo. Também é crime.",
+    "significado": "Disputar corrida na via: gravíssima, com multa multiplicada por 10 (R$ 2.934,70), suspensão do direito de dirigir e remoção do veículo. Também é crime.",
     "placa": null,
     "base": "CTB, arts. 173 e 308"
   },
@@ -501,7 +501,7 @@
     "dica": "O movimento de virar",
     "significado": "Movimento em ângulo, à esquerda ou à direita, que muda a direção original do veículo. Sinalize antes; converter em local proibido é infração grave.",
     "placa": null,
-    "base": "CTB, Anexo I e art. 207"
+    "base": "CTB, Anexo I e arts. 35 e 207"
   },
   {
     "palavra": "PARADA",
@@ -565,7 +565,7 @@
     "dica": "Dois silvos breves: pare",
     "significado": "Sinal sonoro do agente, usado só junto com os gestos: um silvo breve, siga; dois breves, pare; um longo, diminua a marcha.",
     "placa": null,
-    "base": "CTB, Anexo I; Res. Contran 160/2004"
+    "base": "CTB, Anexo I; Res. Contran 160/2004 (revogada; o conteúdo segue cobrado)"
   },
   {
     "palavra": "JARI",
@@ -659,7 +659,7 @@
     "palavra": "MICROSSONO",
     "tema": "defensiva",
     "dica": "3 a 4 segundos a 80 km/h: cerca de 89 m",
-    "significado": "Em 3 a 4 segundos de microssono a 80 km/h, o carro anda cerca de 89 m sem controle. Com sono, pare em local seguro e descanse: café e som alto não resolvem.",
+    "significado": "Num microssono de 3 a 4 segundos a 80 km/h, o carro anda até cerca de 89 m sem controle. Com sono, pare em local seguro e descanse: café e som alto não resolvem.",
     "placa": null,
     "base": "Banco Nacional de Questões"
   },
@@ -739,7 +739,7 @@
     "palavra": "CAPACETE",
     "tema": "defensiva",
     "dica": "Precisa do selo do Inmetro",
-    "significado": "Obrigatório para condutor e passageiro de moto, com selo do Inmetro e viseira abaixada ou óculos. Após um impacto, não use mais. Sem capacete é gravíssima.",
+    "significado": "Obrigatório para condutor e passageiro de moto, com selo do Inmetro e viseira abaixada ou óculos; andar sem ele é gravíssima. Após um impacto, não use mais.",
     "placa": null,
     "base": "CTB, art. 244; Banco Nacional de Questões"
   },
@@ -747,7 +747,7 @@
     "palavra": "FREIO-MOTOR",
     "tema": "defensiva",
     "dica": "Use na descida de serra",
-    "significado": "Na descida de serra, engate uma marcha reduzida antes e use o freio-motor. Frear o tempo todo esquenta o freio, que perde eficiência. Nunca desça em ponto morto.",
+    "significado": "Na descida de serra, engate uma marcha reduzida antes e use o freio-motor; nunca desça em ponto morto. Frear o tempo todo esquenta o freio, que perde eficiência.",
     "placa": null,
     "base": "Banco Nacional de Questões"
   },
@@ -797,7 +797,7 @@
     "dica": "Prestá-lo evita a prisão em flagrante",
     "significado": "Quem presta pronto e integral socorro à vítima não é preso em flagrante nem paga fiança. Se não puder agir, chamar o socorro já é socorrer.",
     "placa": null,
-    "base": "CTB, art. 301"
+    "base": "CTB, arts. 301 e 304"
   },
   {
     "palavra": "VÍTIMA",
@@ -834,7 +834,7 @@
   {
     "palavra": "TORNIQUETE",
     "tema": "socorros",
-    "dica": "Na prova, a resposta é \"não\"",
+    "dica": "No material oficial da prova, a resposta é \"não\"",
     "significado": "Na prova, marque \"não fazer torniquete\", como diz o material oficial. AHA e Cruz Vermelha (2024) o admitem em hemorragia grave de braço ou perna, feito por quem tem treino.",
     "placa": null,
     "base": "Denatran/ABRAMET 2005; AHA/Cruz Vermelha 2024"
@@ -851,7 +851,7 @@
     "palavra": "QUEIMADURA",
     "tema": "socorros",
     "dica": "Água corrente",
-    "significado": "Resfrie com água corrente em temperatura ambiente, por cerca de 10 minutos e sem gelo. Não passe pasta de dente nem manteiga e não estoure as bolhas.",
+    "significado": "Resfrie com água corrente em temperatura ambiente, sem gelo; o Ministério da Saúde recomenda cerca de 10 minutos. Não passe pasta de dente nem manteiga e não estoure as bolhas.",
     "placa": null,
     "base": "Ministério da Saúde; Banco Nacional de Questões"
   },
@@ -866,7 +866,7 @@
   {
     "palavra": "ENGASGO",
     "tema": "socorros",
-    "dica": "5 golpes nas costas + 5 compressões no abdome",
+    "dica": "5 golpes nas costas e 5 compressões no abdome",
     "significado": "No adulto engasgado, alterne 5 golpes nas costas e 5 compressões abdominais até desobstruir. Se ele ficar inconsciente, ligue 192 e comece a reanimação.",
     "placa": null,
     "base": "AHA 2025"
@@ -875,7 +875,7 @@
     "palavra": "OMISSÃO",
     "tema": "socorros",
     "dica": "\"___ de socorro\" é crime",
-    "significado": "Deixar de socorrer a vítima (ou, sem poder, de chamar a autoridade) é crime, mesmo que outros socorram. Para o envolvido, é também gravíssima. Um comentário do banco oficial erra ao dizer \"grave\".",
+    "significado": "Deixar de socorrer a vítima (ou, sem poder, de chamar a autoridade) é crime, mesmo que outros socorram; para o envolvido, é também gravíssima. Um comentário do banco oficial erra ao dizer \"grave\".",
     "placa": null,
     "base": "CTB, arts. 176 e 304"
   },
@@ -947,7 +947,7 @@
     "palavra": "MICROÔNIBUS",
     "tema": "veiculo",
     "dica": "Até 20 passageiros",
-    "significado": "Veículo automotor de transporte coletivo para até 20 passageiros; acima disso, é ônibus. É a grafia do Anexo I; trechos novos do CTB escrevem \"micro-ônibus\".",
+    "significado": "Veículo automotor de transporte coletivo para até 20 passageiros; acima disso, é ônibus. É a grafia do Anexo I; o art. 96 escreve \"micro-ônibus\".",
     "placa": null,
     "base": "CTB, Anexo I e art. 96"
   },
@@ -1019,7 +1019,7 @@
     "palavra": "PALHETA",
     "tema": "veiculo",
     "dica": "Troque pelo menos 1 vez por ano",
-    "significado": "Peça do limpador de para-brisa. Troque pelo menos 1 vez por ano, ou antes se ressecar ou deixar marcas. No reservatório, use água e detergente neutro.",
+    "significado": "Peça do limpador de para-brisa: troque pelo menos 1 vez por ano, ou antes se ressecar ou deixar marcas. No reservatório, use água e detergente neutro.",
     "placa": null,
     "base": "Banco Nacional de Questões"
   },
