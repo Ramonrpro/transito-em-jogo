@@ -1,5 +1,7 @@
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
+import AvisoAtualizacao from './app/AvisoAtualizacao'
 import BarraNavegacao from './app/BarraNavegacao'
+import ConviteInstalar from './app/ConviteInstalar'
 import { ProvedorConfirmar } from './app/Confirmar'
 import { ProvedorDados } from './app/contexto'
 import TelaAjustes from './ajustes/TelaAjustes'
@@ -27,6 +29,7 @@ export function Rotas() {
         </Routes>
       </main>
       <BarraNavegacao />
+      <ConviteInstalar />
     </>
   )
 }
@@ -38,6 +41,7 @@ export default function App() {
         <HashRouter>
           <Rotas />
         </HashRouter>
+        <AvisoAtualizacao />
       </ProvedorConfirmar>
     </ProvedorDados>
   )
