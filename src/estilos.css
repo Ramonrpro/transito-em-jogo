@@ -568,3 +568,87 @@ button.questao-numero {
   padding: 24px 0;
   color: var(--cor-suave);
 }
+
+.ajustes-secao {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.ajustes-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.ajustes-arquivo {
+  position: relative;
+}
+
+.ajustes-arquivo input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.ajustes-arquivo:focus-within {
+  outline: 3px solid var(--cor-texto);
+  outline-offset: 2px;
+}
+
+.ajustes-perigo {
+  color: #b91c1c;
+}
+
+.ajustes-ok,
+.ajustes-erro {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ajustes-ok {
+  color: #166534;
+}
+
+.ajustes-erro {
+  color: #b91c1c;
+}
+
+.ajustes-linha {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  margin: 0;
+  border-bottom: 1px solid var(--cor-borda);
+  color: var(--cor-texto);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.creditos {
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+}
+
+.creditos li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.creditos span {
+  color: var(--cor-suave);
+}
+
+.creditos a {
+  color: var(--cor-texto);
+}

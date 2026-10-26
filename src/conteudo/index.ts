@@ -12,3 +12,6 @@ export const PLACAS_POR_CODIGO: ReadonlyMap<string, Placa> = new Map(
   PLACAS.map((p) => [p.codigo, p]),
 );
 export const CREDITOS = creditosDados as Credito[];
+
+/** Data da última revisão do conteúdo (exibida em Ajustes). */
+export const CONTEUDO_REVISADO_EM = '25/10/2026';
