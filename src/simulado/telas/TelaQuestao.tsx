@@ -17,6 +17,14 @@ import type { Tentativa } from '../tipos.ts'
 
 const LETRAS = ['A', 'B', 'C', 'D']
 
+// Texto além da cor: vale para daltônicos e leitores de tela.
+function rotuloDe(estado: 'correta' | 'errada' | 'correta-marcada' | undefined): string | null {
+  if (estado === 'correta-marcada') return 'Sua resposta · Correta'
+  if (estado === 'correta') return 'Correta'
+  if (estado === 'errada') return 'Sua resposta'
+  return null
+}
+
 export default function TelaQuestao() {
   const { id = '' } = useParams()
   const repo = useRepositorio()
@@ -24,6 +32,7 @@ export default function TelaQuestao() {
   const navegar = useNavigate()
   const [t, setT] = useState<Tentativa | null>(null)
   const [mapaAberto, setMapaAberto] = useState(false)
+  const [falhaEntrega, setFalhaEntrega] = useState<{ auto: boolean } | null>(null)
   const ocupado = useRef(false)
   const atual = useRef<Tentativa | null>(null)
   const encerrando = useRef(false)
@@ -57,7 +66,14 @@ export default function TelaQuestao() {
       const base = atual.current
       if (!base || encerrando.current) return
       encerrando.current = true
-      await entregarEPersistir(repo, base, Date.now(), auto)
+      try {
+        await entregarEPersistir(repo, base, Date.now(), auto)
+      } catch {
+        // Ex.: conexão com o IndexedDB perdida depois de o celular ficar bloqueado.
+        encerrando.current = false
+        setFalhaEntrega({ auto })
+        return
+      }
       navegar(`/simulado/${base.id}/resultado`, { replace: true })
     },
     [repo, navegar],
@@ -102,7 +118,7 @@ export default function TelaQuestao() {
   const estadoDe = (i: number) => {
     if (!revelar) return undefined
     const original = item.ordem[i]
-    if (original === questao.correta) return 'correta'
+    if (original === questao.correta) return original === item.resposta ? 'correta-marcada' : 'correta'
     if (original === item.resposta) return 'errada'
     return undefined
   }
@@ -131,6 +147,22 @@ export default function TelaQuestao() {
         <div style={{ width: `${((t.atual + 1) / total) * 100}%` }} />
       </div>
 
+      {falhaEntrega && (
+        <div className="cartao aviso-erro" role="alert">
+          <p>Não foi possível salvar a entrega. Tente de novo.</p>
+          <button
+            type="button"
+            className="botao botao-principal botao-largo"
+            onClick={() => {
+              setFalhaEntrega(null)
+              void entregarAgora(falhaEntrega.auto)
+            }}
+          >
+            Tentar de novo
+          </button>
+        </div>
+      )}
+
       {mapaAberto && prova ? (
         <MapaQuestoes
           tentativa={t}
@@ -158,6 +190,7 @@ export default function TelaQuestao() {
               >
                 <b>{LETRAS[i]}</b>
                 <span>{questao.alternativas[original]}</span>
+                {rotuloDe(estadoDe(i)) && <em className="marca">{rotuloDe(estadoDe(i))}</em>}
               </button>
             ))}
           </div>

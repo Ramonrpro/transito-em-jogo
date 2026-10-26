@@ -9,6 +9,21 @@ import { renderizarRota } from '../../testes/renderizar.tsx'
 import { criarRng } from '../../util/aleatorio.ts'
 import { iniciar } from '../fluxo.ts'
 
+const falhas = vi.hoisted(() => ({ entregas: 0 }))
+vi.mock('../fluxo.ts', async (original) => {
+  const real = await original<typeof import('../fluxo.ts')>()
+  return {
+    ...real,
+    entregarEPersistir: (...args: Parameters<typeof real.entregarEPersistir>) => {
+      if (falhas.entregas > 0) {
+        falhas.entregas--
+        return Promise.reject(new Error('conexão perdida'))
+      }
+      return real.entregarEPersistir(...args)
+    },
+  }
+})
+
 let fabrica: IDBFactory
 let repo: ReturnType<typeof criarRepositorio>
 
@@ -18,6 +33,7 @@ beforeEach(async () => {
   repo = criarRepositorio(await abrirBanco(fabrica))
 })
 afterEach(() => {
+  falhas.entregas = 0
   vi.useRealTimers()
 })
 
@@ -106,4 +122,39 @@ test('entregar com 1 questão em branco usa o singular', async () => {
   await userEvent.click(screen.getByRole('button', { name: 'Entregar' }))
   expect(await screen.findByText('Você deixou 1 questão sem resposta.')).toBeInTheDocument()
   expect(t.id).toBeTruthy()
+})
+
+test('treino: certo e errado também aparecem em texto, não só em cor', async () => {
+  const t = await prepararTreinoCom('leg-074')
+  await userEvent.click(alternativaErrada(t))
+  expect(screen.getByText('Correta')).toBeInTheDocument()
+  expect(screen.getByText('Sua resposta')).toBeInTheDocument()
+  expect(document.querySelector('[data-estado="correta"]')).toHaveTextContent('Correta')
+  expect(document.querySelector('[data-estado="errada"]')).toHaveTextContent('Sua resposta')
+})
+
+test('entrega que falha mostra o aviso e deixa tentar de novo', async () => {
+  const t = await prepararProva()
+  falhas.entregas = 1
+  await userEvent.click(screen.getByText('Questão 1 de 30'))
+  await userEvent.click(screen.getByRole('button', { name: 'Entregar prova' }))
+  await userEvent.click(await screen.findByRole('button', { name: 'Entregar' }))
+  const alerta = await screen.findByRole('alert')
+  expect(alerta).toHaveTextContent('Não foi possível salvar a entrega. Tente de novo.')
+  expect((await repo.obterTentativa(t.id))!.entregueEm).toBeNull()
+  await userEvent.click(screen.getByRole('button', { name: 'Tentar de novo' }))
+  expect(await screen.findByRole('heading', { name: 'Resultado' })).toBeInTheDocument()
+  expect((await repo.obterTentativa(t.id))!.entregueEm).not.toBeNull()
+})
+
+test('entrega automática que falha também pode ser repetida, mantendo o flag auto', async () => {
+  const t = await prepararProva()
+  falhas.entregas = 1
+  await act(() => vi.advanceTimersByTimeAsync(3_600_000 + 1000))
+  expect(await screen.findByRole('alert')).toHaveTextContent('Não foi possível salvar a entrega.')
+  await userEvent.click(screen.getByRole('button', { name: 'Tentar de novo' }))
+  expect(await screen.findByRole('heading', { name: 'Resultado' })).toBeInTheDocument()
+  const salva = await repo.obterTentativa(t.id)
+  expect(salva!.autoEntregue).toBe(true)
+  expect(salva!.entregueEm).toBe(t.terminaEm)
 })
