@@ -40,8 +40,8 @@ export default function App() {
       <ProvedorConfirmar>
         <HashRouter>
           <Rotas />
+          <AvisoAtualizacao />
         </HashRouter>
-        <AvisoAtualizacao />
       </ProvedorConfirmar>
     </ProvedorDados>
   )
