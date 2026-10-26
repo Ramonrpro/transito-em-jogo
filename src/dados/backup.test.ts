@@ -71,3 +71,10 @@ test('formato 2 com partida inválida não toca nos dados', async () => {
     tentativas: [], erradas: [], vistas: [], partidas: [{ id: 3 }] })).rejects.toMatchObject({ motivo: 'formato' });
   expect((await repo.listarPartidas()).map(p => p.id)).toEqual(['p1']);
 });
+test.each([{ nivel: 'impossivel' }, { tema: 'inexistente' }])('formato 2 com tema ou nível desconhecido (%o) é recusado', async (ruim) => {
+  const banco = await abrirBanco(new IDBFactory()); const repo = criarRepositorio(banco);
+  await repo.salvarPartida(partida({ id: 'p1', terminadaEm: 9 }));
+  await expect(importarCopia(banco, { app: 'transito-em-jogo', formato: 2, exportadaEm: 1,
+    tentativas: [], erradas: [], vistas: [], partidas: [{ ...partida({ id: 'p2' }), ...ruim }] })).rejects.toMatchObject({ motivo: 'formato' });
+  expect((await repo.listarPartidas()).map(p => p.id)).toEqual(['p1']);
+});

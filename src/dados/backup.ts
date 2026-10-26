@@ -1,4 +1,5 @@
 import type { Partida } from '../caca-palavras/tipos.ts';
+import { NIVEIS, TEMAS } from '../caca-palavras/regras.ts';
 import type { Tentativa } from '../simulado/tipos.ts';
 import type { Banco, EntradaErrada } from './db.ts';
 
@@ -69,8 +70,9 @@ const ehErrada = (v: unknown) =>
 const ehPartida = (v: unknown) =>
   ehObjeto(v) &&
   typeof v.id === 'string' &&
-  typeof v.tema === 'string' &&
+  TEMAS.some((t) => t.id === v.tema) &&
   typeof v.nivel === 'string' &&
+  Object.hasOwn(NIVEIS, v.nivel) &&
   typeof v.letras === 'string' &&
   typeof v.tamanho === 'number' &&
   typeof v.iniciadaEm === 'number' &&
