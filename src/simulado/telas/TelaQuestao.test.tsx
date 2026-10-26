@@ -83,3 +83,25 @@ test('imagem de placa não entrega a resposta', async () => {
   await prepararTreinoCom('sin-001')
   expect(screen.getByRole('img')).toHaveAttribute('alt', 'Imagem da placa')
 })
+
+test('ao zerar, um toque logo depois não reabre a prova entregue', async () => {
+  const t = await prepararProva()
+  await act(() => vi.advanceTimersByTimeAsync(3_600_000 + 1000))
+  await userEvent.click(screen.queryByRole('button', { name: /^B/ }) ?? document.body)
+  expect(await screen.findByRole('heading', { name: 'Resultado' })).toBeInTheDocument()
+  const salva = await repo.obterTentativa(t.id)
+  expect(salva!.entregueEm).not.toBeNull()
+  expect(salva!.autoEntregue).toBe(true)
+  expect(await repo.tentativaEmAndamento()).toBeUndefined()
+})
+
+test('entregar com 1 questão em branco usa o singular', async () => {
+  const t = await prepararProva()
+  for (let i = 0; i < 29; i++) {
+    await userEvent.click(screen.getByRole('button', { name: /^A/ }))
+    await userEvent.click(screen.getByRole('button', { name: 'Próxima questão' }))
+  }
+  await userEvent.click(screen.getByRole('button', { name: 'Entregar' }))
+  expect(await screen.findByText('Você deixou 1 questão sem resposta.')).toBeInTheDocument()
+  expect(t.id).toBeTruthy()
+})

@@ -54,37 +54,73 @@ export function iniciar(
   return execucao
 }
 
+// Toda mutação de tentativa passa por esta fila e age sobre a versão GUARDADA,
+// nunca sobre a cópia do chamador (que pode estar velha).
+let filaMutacao: Promise<unknown> = Promise.resolve()
+function mutar<T>(fn: () => Promise<T>): Promise<T> {
+  const execucao = filaMutacao.then(fn)
+  filaMutacao = execucao.catch(() => undefined)
+  return execucao
+}
+
+/** Guardada, se ainda aceita mudanças; senão `undefined` (entregue ou prova expirada). */
+async function editavel(repo: Repositorio, t: Tentativa, agora: number): Promise<Tentativa | undefined> {
+  const guardada = (await repo.obterTentativa(t.id)) ?? t
+  if (guardada.entregueEm !== null) return undefined
+  if (guardada.modo === 'prova' && expirou(guardada, agora)) return undefined
+  return guardada
+}
+
 /** Marca a alternativa exibida em `indiceExibido` na questão atual e grava. */
-export async function responderEPersistir(
+export function responderEPersistir(
   repo: Repositorio,
   t: Tentativa,
   indiceExibido: number,
   agora: number,
 ): Promise<Tentativa> {
-  if (t.entregueEm !== null) return t
-  const item = t.itens[t.atual]
-  const nova = responder(t, t.atual, alternativaOriginal(item, indiceExibido))
-  if (nova === t) return t // treino: resposta travada
-  await repo.salvarTentativa(nova)
-  if (t.modo !== 'prova') {
-    const q = QUESTOES_POR_ID.get(item.qid)
-    await repo.registrarResposta(item.qid, acertou(nova.itens[t.atual], q), agora)
-  }
-  return nova
+  return mutar(async () => {
+    const base = await editavel(repo, t, agora)
+    if (!base) return (await repo.obterTentativa(t.id)) ?? t
+    const item = base.itens[base.atual]
+    const nova = responder(base, base.atual, alternativaOriginal(item, indiceExibido))
+    if (nova === base) return base // treino: resposta travada
+    await repo.salvarTentativa(nova)
+    if (base.modo !== 'prova') {
+      const q = QUESTOES_POR_ID.get(item.qid)
+      await repo.registrarResposta(item.qid, acertou(nova.itens[base.atual], q), agora)
+    }
+    return nova
+  })
 }
 
-export async function irParaEPersistir(repo: Repositorio, t: Tentativa, indice: number): Promise<Tentativa> {
-  if (t.entregueEm !== null || indice < 0 || indice >= t.itens.length) return t
-  const nova = irPara(t, indice)
-  await repo.salvarTentativa(nova)
-  return nova
+export function irParaEPersistir(
+  repo: Repositorio,
+  t: Tentativa,
+  indice: number,
+  agora: number,
+): Promise<Tentativa> {
+  return mutar(async () => {
+    const base = await editavel(repo, t, agora)
+    if (!base) return (await repo.obterTentativa(t.id)) ?? t
+    if (indice < 0 || indice >= base.itens.length) return base
+    const nova = irPara(base, indice)
+    await repo.salvarTentativa(nova)
+    return nova
+  })
 }
 
-export async function alternarRevisarEPersistir(repo: Repositorio, t: Tentativa): Promise<Tentativa> {
-  if (t.entregueEm !== null) return t
-  const nova = alternarRevisar(t, t.atual)
-  await repo.salvarTentativa(nova)
-  return nova
+export function alternarRevisarEPersistir(
+  repo: Repositorio,
+  t: Tentativa,
+  agora: number,
+): Promise<Tentativa> {
+  return mutar(async () => {
+    const base = await editavel(repo, t, agora)
+    if (!base) return (await repo.obterTentativa(t.id)) ?? t
+    const nova = alternarRevisar(base, base.atual)
+    await repo.salvarTentativa(nova)
+    return nova
+  })
 }
 
 const entregando = new Map<string, Promise<Tentativa>>()
@@ -98,7 +134,7 @@ export function entregarEPersistir(
   if (t.entregueEm !== null) return Promise.resolve(t)
   const emCurso = entregando.get(t.id)
   if (emCurso) return emCurso
-  const execucao = (async () => {
+  const execucao = mutar(async () => {
     const guardada = (await repo.obterTentativa(t.id)) ?? t
     if (guardada.entregueEm !== null) return guardada
     const e = entregar(guardada, QUESTOES_POR_ID, agora, auto)
@@ -109,7 +145,7 @@ export function entregarEPersistir(
       }
     }
     return e
-  })()
+  })
   entregando.set(t.id, execucao)
   const limpar = () => entregando.delete(t.id)
   execucao.then(limpar, limpar)

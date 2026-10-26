@@ -26,6 +26,7 @@ export default function TelaQuestao() {
   const [mapaAberto, setMapaAberto] = useState(false)
   const ocupado = useRef(false)
   const atual = useRef<Tentativa | null>(null)
+  const encerrando = useRef(false)
   atual.current = t
 
   useEffect(() => {
@@ -42,7 +43,7 @@ export default function TelaQuestao() {
 
   // Executa uma ação por vez: toques repetidos não duplicam registros.
   const exclusivo = useCallback(async (acao: () => Promise<void>) => {
-    if (ocupado.current) return
+    if (ocupado.current || encerrando.current) return
     ocupado.current = true
     try {
       await acao()
@@ -54,7 +55,8 @@ export default function TelaQuestao() {
   const entregarAgora = useCallback(
     async (auto: boolean) => {
       const base = atual.current
-      if (!base) return
+      if (!base || encerrando.current) return
+      encerrando.current = true
       await entregarEPersistir(repo, base, Date.now(), auto)
       navegar(`/simulado/${base.id}/resultado`, { replace: true })
     },
@@ -77,17 +79,25 @@ export default function TelaQuestao() {
     const faltam = t.itens.filter((i) => i.resposta === null).length
     const ok = await confirmar({
       titulo: 'Entregar a prova?',
-      texto: faltam > 0 ? `Você deixou ${faltam} questões sem resposta.` : undefined,
+      texto:
+        faltam > 0
+          ? `Você deixou ${faltam} ${faltam === 1 ? 'questão' : 'questões'} sem resposta.`
+          : undefined,
       confirmar: 'Entregar',
     })
     if (ok) await exclusivo(() => entregarAgora(false))
   }
 
-  const ir = (indice: number) =>
-    exclusivo(async () => setT(await irParaEPersistir(repo, t, indice)))
+  const aplicar = (acao: (base: Tentativa) => Promise<Tentativa>) =>
+    exclusivo(async () => {
+      const nova = await acao(atual.current ?? t)
+      atual.current = nova
+      setT(nova)
+    })
 
-  const marcar = (i: number) =>
-    exclusivo(async () => setT(await responderEPersistir(repo, t, i, Date.now())))
+  const ir = (indice: number) => aplicar((b) => irParaEPersistir(repo, b, indice, Date.now()))
+
+  const marcar = (i: number) => aplicar((b) => responderEPersistir(repo, b, i, Date.now()))
 
   const estadoDe = (i: number) => {
     if (!revelar) return undefined
@@ -168,9 +178,7 @@ export default function TelaQuestao() {
                 <button
                   type="button"
                   className="botao botao-secundario botao-largo"
-                  onClick={() =>
-                    exclusivo(async () => setT(await alternarRevisarEPersistir(repo, t)))
-                  }
+                  onClick={() => aplicar((b) => alternarRevisarEPersistir(repo, b, Date.now()))}
                 >
                   {item.revisar ? '★ Marcada para revisar' : '☆ Revisar depois'}
                 </button>

@@ -88,3 +88,41 @@ test('erradas usa o caderno quando não vêm qids', async () => {
   const t = await iniciar(repo, { modo: 'erradas', agora: 0, rng: criarRng(1) })
   expect(t.itens.map((i) => i.qid)).toEqual(['leg-074'])
 })
+
+test('resposta tardia com cópia velha não reabre uma prova entregue nem conta em dobro', async () => {
+  const repo = await novoRepo()
+  const t = await iniciar(repo, { modo: 'prova', agora: 0, rng: criarRng(1) })
+  const qid = t.itens[0].qid
+  await repo.registrarResposta(qid, false, 0)
+  const [e, tardia] = await Promise.all([
+    entregarEPersistir(repo, t, 100, false),
+    responderEPersistir(repo, t, exibidaCorreta(t, 0), 101),
+  ])
+  const guardada = (await repo.obterTentativa(t.id))!
+  expect(guardada.entregueEm).toBe(100)
+  expect(tardia.entregueEm).toBe(100)
+  expect(guardada.itens).toEqual(e.itens)
+  expect(guardada.itens[0].resposta).toBeNull()
+  expect(await repo.tentativaEmAndamento()).toBeUndefined()
+  expect((await repo.listarErradas()).find((x) => x.qid === qid)!.acertosSeguidos).toBe(0)
+})
+
+test('prova expirada: responder com cópia velha não grava nada', async () => {
+  const repo = await novoRepo()
+  const t = await iniciar(repo, { modo: 'prova', agora: 0, rng: criarRng(1) })
+  const r = await responderEPersistir(repo, t, 0, 3_600_001)
+  expect(r.itens[0].resposta).toBeNull()
+  expect((await repo.obterTentativa(t.id))!.itens[0].resposta).toBeNull()
+})
+
+test('treino: duas respostas com a mesma cópia velha registram uma vez só', async () => {
+  const repo = await novoRepo()
+  const t = await iniciar(repo, { modo: 'treino', agora: 0, rng: criarRng(1) })
+  const qid = t.itens[0].qid
+  await repo.registrarResposta(qid, false, 0)
+  await Promise.all([
+    responderEPersistir(repo, t, exibidaCorreta(t, 0), 1),
+    responderEPersistir(repo, t, exibidaCorreta(t, 0), 2),
+  ])
+  expect((await repo.listarErradas()).find((e) => e.qid === qid)!.acertosSeguidos).toBe(1)
+})
