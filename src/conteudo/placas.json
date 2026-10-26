@@ -1,0 +1,962 @@
+[
+  {
+    "codigo": "R-1",
+    "nome": "Parada obrigatória",
+    "significado": "Assinala ao condutor que deve parar seu veículo antes de entrar ou cruzar a via/pista.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-1.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-2",
+    "nome": "Dê a preferência",
+    "significado": "Obriga o condutor a dar preferência ao veículo que circula na via em que vai entrar ou cruzar, reduzindo a velocidade ou parando, se necessário.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:BR road sign R-2.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-3",
+    "nome": "Sentido proibido",
+    "significado": "Proíbe seguir em frente ou entrar na pista ou área restringida pelo sinal.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-3.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-4a",
+    "nome": "Proibido virar à esquerda",
+    "significado": "Proíbe o movimento de conversão à esquerda.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-4a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-4b",
+    "nome": "Proibido virar à direita",
+    "significado": "Proíbe o movimento de conversão à direita.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-4b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-5a",
+    "nome": "Proibido retornar à esquerda",
+    "significado": "Proíbe retornar à esquerda.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-5a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-5b",
+    "nome": "Proibido retornar à direita",
+    "significado": "Proíbe retornar à direita.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-5b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-6a",
+    "nome": "Proibido estacionar",
+    "significado": "Assinala que é proibido o estacionamento de veículos (a parada é permitida).",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-6a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-6b",
+    "nome": "Estacionamento regulamentado",
+    "significado": "Assinala que é permitido o estacionamento, nas condições da informação complementar.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-6b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-6c",
+    "nome": "Proibido parar e estacionar",
+    "significado": "Assinala que são proibidos a parada e o estacionamento de veículos.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-6c.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-7",
+    "nome": "Proibido ultrapassar",
+    "significado": "Proíbe a ultrapassagem no trecho regulamentado pela(s) faixa(s) do sentido oposto.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-7.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-8a",
+    "nome": "Proibido mudar de faixa ou pista de trânsito da esquerda para direita",
+    "significado": "Proíbe a mudança de faixa ou pista da esquerda para a direita no trecho.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-8a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-8b",
+    "nome": "Proibido mudar de faixa ou pista de trânsito da direita para esquerda",
+    "significado": "Proíbe a mudança de faixa ou pista da direita para a esquerda no trecho.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-8b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-9",
+    "nome": "Proibido trânsito de caminhões",
+    "significado": "Proíbe o trânsito de caminhões a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-9.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-10",
+    "nome": "Proibido trânsito de veículos automotores",
+    "significado": "Proíbe o trânsito de qualquer veículo automotor a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-10.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-11",
+    "nome": "Proibido trânsito de veículos de tração animal",
+    "significado": "Proíbe o trânsito de veículos de tração animal a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-11.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-12",
+    "nome": "Proibido trânsito de bicicletas",
+    "significado": "Proíbe transitar de bicicleta a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-12.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-13",
+    "nome": "Proibido trânsito de tratores e máquinas de obras",
+    "significado": "Proíbe o trânsito de tratores e máquinas de obras a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-13.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-14",
+    "nome": "Peso bruto total máximo permitido",
+    "significado": "Regulamenta o peso bruto total máximo permitido ao veículo para transitar.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-14.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-15",
+    "nome": "Altura máxima permitida",
+    "significado": "Regulamenta a altura máxima permitida ao veículo para transitar.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-15.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-16",
+    "nome": "Largura máxima permitida",
+    "significado": "Regulamenta a largura máxima permitida ao veículo para transitar.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-16.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-17",
+    "nome": "Peso máximo permitido por eixo",
+    "significado": "Regulamenta o peso máximo permitido por eixo do veículo.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-17.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-18",
+    "nome": "Comprimento máximo permitido",
+    "significado": "Regulamenta o comprimento máximo permitido do veículo ou combinação de veículos.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-18.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-19",
+    "nome": "Velocidade máxima permitida",
+    "significado": "Regulamenta o limite máximo de velocidade, válido a partir do ponto onde o sinal é colocado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-19 (60).svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-20",
+    "nome": "Proibido acionar buzina ou sinal sonoro",
+    "significado": "Proíbe acionar buzina ou qualquer sinal sonoro no local regulamentado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-20.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-21",
+    "nome": "Alfândega",
+    "significado": "Assinala a presença de repartição alfandegária, onde a parada é obrigatória.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-21.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-22",
+    "nome": "Uso obrigatório de corrente",
+    "significado": "Torna obrigatório, a partir do ponto sinalizado, o uso de correntes nas rodas motrizes.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-22.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-23",
+    "nome": "Conserve-se à direita",
+    "significado": "Obriga a manter-se à direita da pista, deixando livre(s) a(s) faixa(s) da esquerda.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-23.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-24a",
+    "nome": "Sentido de circulação da via/pista",
+    "significado": "Assinala que a via/pista tem sentido único de circulação.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-24a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-24b",
+    "nome": "Passagem obrigatória",
+    "significado": "Assinala obstáculo cuja passagem é obrigatoriamente feita pelo lado indicado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-24b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-25a",
+    "nome": "Vire à esquerda",
+    "significado": "Obriga a realizar o movimento indicado (virar à esquerda).",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-25a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-25b",
+    "nome": "Vire à direita",
+    "significado": "Obriga a realizar o movimento indicado (virar à direita).",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-25b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-25c",
+    "nome": "Siga em frente ou à esquerda",
+    "significado": "Os únicos movimentos permitidos são seguir em frente ou virar à esquerda.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-25c.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-25d",
+    "nome": "Siga em frente ou à direita",
+    "significado": "Os únicos movimentos permitidos são seguir em frente ou virar à direita.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-25d.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-26",
+    "nome": "Siga em frente",
+    "significado": "Obriga a seguir em frente.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-26.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-27",
+    "nome": "Ônibus, caminhões e veículos de grande porte mantenham-se à direita",
+    "significado": "Obriga ônibus, caminhões e veículos de grande porte a circular pela(s) faixa(s) da direita.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-27.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-28",
+    "nome": "Duplo sentido de circulação",
+    "significado": "A via de sentido único passa a ter sentido duplo após o sinal.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-28.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-29",
+    "nome": "Proibido trânsito de pedestres",
+    "significado": "Proíbe o pedestre de transitar na via ou área.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-29.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-30",
+    "nome": "Pedestre, ande pela esquerda",
+    "significado": "Obriga o pedestre a andar pelo lado esquerdo da área ou via.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-30.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-31",
+    "nome": "Pedestre, ande pela direita",
+    "significado": "Obriga o pedestre a andar pelo lado direito da área ou via.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-31.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-32",
+    "nome": "Circulação exclusiva de veículos de transporte público coletivo (até 01/01/2023: \"Circulação exclusiva de ônibus\")",
+    "significado": "Área, via/pista ou faixa de circulação exclusiva de veículos de transporte público coletivo.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-32.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-33",
+    "nome": "Sentido de circulação na rotatória",
+    "significado": "Obriga o movimento no sentido anti-horário na rotatória.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-33.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-34",
+    "nome": "Circulação exclusiva de bicicletas",
+    "significado": "Área, via/pista ou faixa de circulação exclusiva de bicicletas.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-34.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-35a",
+    "nome": "Ciclista, transite à esquerda",
+    "significado": "Obriga o ciclista a transitar pelo lado esquerdo.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-35a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-35b",
+    "nome": "Ciclista, transite à direita",
+    "significado": "Obriga o ciclista a transitar pelo lado direito.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-35b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-36a",
+    "nome": "Ciclistas à esquerda, pedestres à direita",
+    "significado": "Regulamenta ciclistas à esquerda e pedestres à direita.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-36a.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-36b",
+    "nome": "Pedestres à esquerda, ciclistas à direita",
+    "significado": "Regulamenta pedestres à esquerda e ciclistas à direita.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-36b.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-37",
+    "nome": "Proibido trânsito de motocicletas, motonetas e ciclomotores",
+    "significado": "Proíbe o trânsito de motocicletas, motonetas e ciclomotores a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-37.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "R-38",
+    "nome": "Proibido trânsito de ônibus",
+    "significado": "Proíbe o trânsito de ônibus a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-38.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-39",
+    "nome": "Circulação exclusiva de caminhão",
+    "significado": "Área, via/pista ou faixa de circulação exclusiva de caminhão.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-39.svg",
+    "dominioPublico": false
+  },
+  {
+    "codigo": "R-40",
+    "nome": "Trânsito proibido a carros de mão",
+    "significado": "Proíbe o trânsito de carros de mão a partir do ponto sinalizado.",
+    "tipo": "regulamentacao",
+    "arquivoCommons": "File:Brasil R-40.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-1a",
+    "nome": "Curva acentuada à esquerda",
+    "significado": "Existência, adiante, de curva acentuada à esquerda.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-1a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-1b",
+    "nome": "Curva acentuada à direita",
+    "significado": "Existência, adiante, de curva acentuada à direita.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-1b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-2a",
+    "nome": "Curva à esquerda",
+    "significado": "Existência, adiante, de curva à esquerda.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-2a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-2b",
+    "nome": "Curva à direita",
+    "significado": "Existência, adiante, de curva à direita.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-2b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-3a",
+    "nome": "Pista sinuosa à esquerda",
+    "significado": "Três ou mais curvas sucessivas adiante, a primeira à esquerda.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-3a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-3b",
+    "nome": "Pista sinuosa à direita",
+    "significado": "Três ou mais curvas sucessivas adiante, a primeira à direita.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-3b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-4a",
+    "nome": "Curva acentuada em \"S\" à esquerda",
+    "significado": "Duas curvas acentuadas sucessivas formando \"S\", a primeira à esquerda.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-4a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-4b",
+    "nome": "Curva acentuada em \"S\" à direita",
+    "significado": "Duas curvas acentuadas sucessivas formando \"S\", a primeira à direita.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-4b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-5a",
+    "nome": "Curva em \"S\" à esquerda",
+    "significado": "Duas curvas sucessivas (não acentuadas) formando \"S\", a primeira à esquerda.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-5a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-5b",
+    "nome": "Curva em \"S\" à direita",
+    "significado": "Duas curvas sucessivas (não acentuadas) formando \"S\", a primeira à direita.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-5b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-6",
+    "nome": "Cruzamento de vias",
+    "significado": "Cruzamento em nível de duas vias adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-6.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-7a",
+    "nome": "Via lateral à esquerda",
+    "significado": "Via lateral à esquerda adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-7a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-7b",
+    "nome": "Via lateral à direita",
+    "significado": "Via lateral à direita adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-7b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-8",
+    "nome": "Interseção em \"T\"",
+    "significado": "Interseção em forma de \"T\" adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-8.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-9",
+    "nome": "Bifurcação em \"Y\"",
+    "significado": "Bifurcação em forma de \"Y\" adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-9.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-10a",
+    "nome": "Entroncamento oblíquo à esquerda",
+    "significado": "Entroncamento oblíquo à esquerda adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-10a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-10b",
+    "nome": "Entroncamento oblíquo à direita",
+    "significado": "Entroncamento oblíquo à direita adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-10b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-11a",
+    "nome": "Junções sucessivas contrárias primeira à esquerda",
+    "significado": "Junções sucessivas contrárias, a primeira via lateral à esquerda.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-11a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-11b",
+    "nome": "Junções sucessivas contrárias primeira à direita",
+    "significado": "Junções sucessivas contrárias, a primeira via lateral à direita.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-11b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-12",
+    "nome": "Interseção em círculo",
+    "significado": "Interseção em círculo (rotatória) adiante; circulação no sentido anti-horário.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-12.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-13a",
+    "nome": "Confluência à esquerda",
+    "significado": "Confluência de uma via pela esquerda adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-13a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-13b",
+    "nome": "Confluência à direita",
+    "significado": "Confluência de uma via pela direita adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-13b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-14",
+    "nome": "Semáforo à frente",
+    "significado": "Sinalização semafórica de regulamentação adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-14.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-15",
+    "nome": "Parada obrigatória à frente",
+    "significado": "Sinal R-1 (Parada obrigatória) adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-15.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-16",
+    "nome": "Bonde / VLT (Res. 160/2004 e MBST 2007: \"Bonde\")",
+    "significado": "Cruzamento ou circulação de bondes/VLT adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-16.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-17",
+    "nome": "Pista irregular",
+    "significado": "Trecho de pista com superfície irregular adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-17.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-18",
+    "nome": "Saliência ou lombada",
+    "significado": "Saliência ou lombada (ondulação transversal) na pista adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-18.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-19",
+    "nome": "Depressão",
+    "significado": "Depressão na pista adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-19.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-20a",
+    "nome": "Declive acentuado",
+    "significado": "Declive acentuado adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-20a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-20b",
+    "nome": "Aclive acentuado",
+    "significado": "Aclive acentuado adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-20b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-21a",
+    "nome": "Estreitamento de pista ao centro",
+    "significado": "Estreitamento da pista dos dois lados adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-21a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-21b",
+    "nome": "Estreitamento de pista à esquerda",
+    "significado": "Estreitamento da pista no lado esquerdo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-21b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-21c",
+    "nome": "Estreitamento de pista à direita",
+    "significado": "Estreitamento da pista no lado direito adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-21c.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-21d",
+    "nome": "Alargamento de pista à esquerda",
+    "significado": "Alargamento da pista no lado esquerdo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-21d.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-21e",
+    "nome": "Alargamento de pista à direita",
+    "significado": "Alargamento da pista no lado direito adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-21e.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-22",
+    "nome": "Ponte estreita",
+    "significado": "Ponte ou viaduto com largura inferior à da via adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-22.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-23",
+    "nome": "Ponte móvel",
+    "significado": "Ponte móvel adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-23.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-24",
+    "nome": "Obras",
+    "significado": "Interferência devido a obras adiante (fundo laranja).",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-24.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-25",
+    "nome": "Mão dupla adiante",
+    "significado": "A via de sentido único passa a ter sentido duplo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-25.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-26a",
+    "nome": "Sentido único",
+    "significado": "Informa o sentido (único) de circulação da via (placa retangular).",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-26a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-26b",
+    "nome": "Sentido duplo",
+    "significado": "Informa que a via tem sentido duplo de circulação (placa retangular).",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-26b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-27",
+    "nome": "Área com desmoronamento",
+    "significado": "Área sujeita a desmoronamento adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-27.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-28",
+    "nome": "Pista escorregadia",
+    "significado": "Trecho que, em certas condições, pode ficar escorregadio.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-28.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-29",
+    "nome": "Projeção de cascalho",
+    "significado": "Trecho em que pode ocorrer projeção de cascalho.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-29.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-30a",
+    "nome": "Trânsito de ciclistas",
+    "significado": "Trecho em que ciclistas circulam pela via ou cruzam a pista.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-30a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-30b",
+    "nome": "Passagem sinalizada de ciclistas",
+    "significado": "Faixa sinalizada para travessia de ciclistas adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-30b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-30c",
+    "nome": "Trânsito compartilhado por ciclistas e pedestres",
+    "significado": "Adverte ciclistas e pedestres de trecho com trânsito compartilhado.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-30c.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-31",
+    "nome": "Trânsito de tratores ou maquinária agrícola",
+    "significado": "Cruzamento ou trânsito eventual de tratores e máquinas agrícolas adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-31.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-32a",
+    "nome": "Trânsito de pedestres",
+    "significado": "Trecho de via com trânsito de pedestres adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-32a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-32b",
+    "nome": "Passagem sinalizada de pedestres",
+    "significado": "Faixa de travessia de pedestres adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-32b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-33a",
+    "nome": "Área escolar",
+    "significado": "Trecho de via com trânsito de escolares adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-33a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-33b",
+    "nome": "Passagem sinalizada de escolares",
+    "significado": "Faixa de travessia com predominância de escolares adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-33b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-34",
+    "nome": "Crianças",
+    "significado": "Área adjacente usada para lazer de crianças adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-34.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-35",
+    "nome": "Animais",
+    "significado": "Possível presença de animais na via adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-35.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-36",
+    "nome": "Animais selvagens",
+    "significado": "Possível presença de animais selvagens na via adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-36.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-37",
+    "nome": "Altura limitada",
+    "significado": "Restrição de altura máxima do veículo (com ou sem carga) adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-37.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-38",
+    "nome": "Largura limitada",
+    "significado": "Restrição de largura máxima do veículo (com ou sem carga) adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-38.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-39",
+    "nome": "Passagem de nível sem barreira",
+    "significado": "Cruzamento em nível com linha férrea, sem barreira, adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-39.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-40",
+    "nome": "Passagem de nível com barreira",
+    "significado": "Cruzamento em nível com linha férrea, com barreira, adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-40.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-41",
+    "nome": "Cruz de Santo André",
+    "significado": "Indica, no próprio local, o cruzamento em nível com linha férrea (forma em X).",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-41a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-42a",
+    "nome": "Início de pista dupla",
+    "significado": "Fluxos opostos passam a ser separados por canteiro/obstáculo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-42a.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-42b",
+    "nome": "Fim de pista dupla",
+    "significado": "Fluxos opostos deixam de ser separados por canteiro/obstáculo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-42b.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-42c",
+    "nome": "Pista dividida",
+    "significado": "Fluxos de mesmo sentido passam a ser divididos por canteiro/obstáculo.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-42c.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-43",
+    "nome": "Aeroporto",
+    "significado": "Aeroporto ou aeródromo próximo à via adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-43.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-44",
+    "nome": "Vento lateral",
+    "significado": "Trecho com vento lateral forte frequente adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-44.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-45",
+    "nome": "Rua sem saída",
+    "significado": "Via sem continuidade.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-45.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-46",
+    "nome": "Peso bruto total limitado",
+    "significado": "Restrição de peso bruto total máximo do veículo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-46.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-47",
+    "nome": "Peso limitado por eixo",
+    "significado": "Restrição de peso por eixo do veículo adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-47.svg",
+    "dominioPublico": true
+  },
+  {
+    "codigo": "A-48",
+    "nome": "Comprimento limitado",
+    "significado": "Restrição de comprimento máximo do veículo ou combinação adiante.",
+    "tipo": "advertencia",
+    "arquivoCommons": "File:Brasil A-48.svg",
+    "dominioPublico": true
+  }
+]

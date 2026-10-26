@@ -1,0 +1,962 @@
+[
+  {
+    "codigo": "R-1",
+    "arquivoCommons": "File:Brasil R-1.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-1.svg"
+  },
+  {
+    "codigo": "R-2",
+    "arquivoCommons": "File:BR road sign R-2.svg",
+    "autor": "Conselho Nacional de Trânsito (CONTRAN)",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:BR_road_sign_R-2.svg"
+  },
+  {
+    "codigo": "R-3",
+    "arquivoCommons": "File:Brasil R-3.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-3.svg"
+  },
+  {
+    "codigo": "R-4a",
+    "arquivoCommons": "File:Brasil R-4a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-4a.svg"
+  },
+  {
+    "codigo": "R-4b",
+    "arquivoCommons": "File:Brasil R-4b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-4b.svg"
+  },
+  {
+    "codigo": "R-5a",
+    "arquivoCommons": "File:Brasil R-5a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-5a.svg"
+  },
+  {
+    "codigo": "R-5b",
+    "arquivoCommons": "File:Brasil R-5b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-5b.svg"
+  },
+  {
+    "codigo": "R-6a",
+    "arquivoCommons": "File:Brasil R-6a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-6a.svg"
+  },
+  {
+    "codigo": "R-6b",
+    "arquivoCommons": "File:Brasil R-6b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-6b.svg"
+  },
+  {
+    "codigo": "R-6c",
+    "arquivoCommons": "File:Brasil R-6c.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-6c.svg"
+  },
+  {
+    "codigo": "R-7",
+    "arquivoCommons": "File:Brasil R-7.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-7.svg"
+  },
+  {
+    "codigo": "R-8a",
+    "arquivoCommons": "File:Brasil R-8a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-8a.svg"
+  },
+  {
+    "codigo": "R-8b",
+    "arquivoCommons": "File:Brasil R-8b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-8b.svg"
+  },
+  {
+    "codigo": "R-9",
+    "arquivoCommons": "File:Brasil R-9.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-9.svg"
+  },
+  {
+    "codigo": "R-10",
+    "arquivoCommons": "File:Brasil R-10.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-10.svg"
+  },
+  {
+    "codigo": "R-11",
+    "arquivoCommons": "File:Brasil R-11.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-11.svg"
+  },
+  {
+    "codigo": "R-12",
+    "arquivoCommons": "File:Brasil R-12.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-12.svg"
+  },
+  {
+    "codigo": "R-13",
+    "arquivoCommons": "File:Brasil R-13.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-13.svg"
+  },
+  {
+    "codigo": "R-14",
+    "arquivoCommons": "File:Brasil R-14.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-14.svg"
+  },
+  {
+    "codigo": "R-15",
+    "arquivoCommons": "File:Brasil R-15.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-15.svg"
+  },
+  {
+    "codigo": "R-16",
+    "arquivoCommons": "File:Brasil R-16.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-16.svg"
+  },
+  {
+    "codigo": "R-17",
+    "arquivoCommons": "File:Brasil R-17.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-17.svg"
+  },
+  {
+    "codigo": "R-18",
+    "arquivoCommons": "File:Brasil R-18.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-18.svg"
+  },
+  {
+    "codigo": "R-19",
+    "arquivoCommons": "File:Brasil R-19 (60).svg",
+    "autor": "มองโกเลีย๔๔",
+    "licenca": "CC BY-SA 4.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/4.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-19_(60).svg"
+  },
+  {
+    "codigo": "R-20",
+    "arquivoCommons": "File:Brasil R-20.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-20.svg"
+  },
+  {
+    "codigo": "R-21",
+    "arquivoCommons": "File:Brasil R-21.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-21.svg"
+  },
+  {
+    "codigo": "R-22",
+    "arquivoCommons": "File:Brasil R-22.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-22.svg"
+  },
+  {
+    "codigo": "R-23",
+    "arquivoCommons": "File:Brasil R-23.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-23.svg"
+  },
+  {
+    "codigo": "R-24a",
+    "arquivoCommons": "File:Brasil R-24a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-24a.svg"
+  },
+  {
+    "codigo": "R-24b",
+    "arquivoCommons": "File:Brasil R-24b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-24b.svg"
+  },
+  {
+    "codigo": "R-25a",
+    "arquivoCommons": "File:Brasil R-25a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-25a.svg"
+  },
+  {
+    "codigo": "R-25b",
+    "arquivoCommons": "File:Brasil R-25b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-25b.svg"
+  },
+  {
+    "codigo": "R-25c",
+    "arquivoCommons": "File:Brasil R-25c.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-25c.svg"
+  },
+  {
+    "codigo": "R-25d",
+    "arquivoCommons": "File:Brasil R-25d.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-25d.svg"
+  },
+  {
+    "codigo": "R-26",
+    "arquivoCommons": "File:Brasil R-26.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-26.svg"
+  },
+  {
+    "codigo": "R-27",
+    "arquivoCommons": "File:Brasil R-27.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-27.svg"
+  },
+  {
+    "codigo": "R-28",
+    "arquivoCommons": "File:Brasil R-28.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-28.svg"
+  },
+  {
+    "codigo": "R-29",
+    "arquivoCommons": "File:Brasil R-29.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-29.svg"
+  },
+  {
+    "codigo": "R-30",
+    "arquivoCommons": "File:Brasil R-30.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-30.svg"
+  },
+  {
+    "codigo": "R-31",
+    "arquivoCommons": "File:Brasil R-31.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-31.svg"
+  },
+  {
+    "codigo": "R-32",
+    "arquivoCommons": "File:Brasil R-32.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-32.svg"
+  },
+  {
+    "codigo": "R-33",
+    "arquivoCommons": "File:Brasil R-33.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-33.svg"
+  },
+  {
+    "codigo": "R-34",
+    "arquivoCommons": "File:Brasil R-34.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-34.svg"
+  },
+  {
+    "codigo": "R-35a",
+    "arquivoCommons": "File:Brasil R-35a.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-35a.svg"
+  },
+  {
+    "codigo": "R-35b",
+    "arquivoCommons": "File:Brasil R-35b.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-35b.svg"
+  },
+  {
+    "codigo": "R-36a",
+    "arquivoCommons": "File:Brasil R-36a.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-36a.svg"
+  },
+  {
+    "codigo": "R-36b",
+    "arquivoCommons": "File:Brasil R-36b.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-36b.svg"
+  },
+  {
+    "codigo": "R-37",
+    "arquivoCommons": "File:Brasil R-37.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-37.svg"
+  },
+  {
+    "codigo": "R-38",
+    "arquivoCommons": "File:Brasil R-38.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-38.svg"
+  },
+  {
+    "codigo": "R-39",
+    "arquivoCommons": "File:Brasil R-39.svg",
+    "autor": "Amateria1121",
+    "licenca": "CC BY-SA 3.0",
+    "urlLicenca": "https://creativecommons.org/licenses/by-sa/3.0",
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-39.svg"
+  },
+  {
+    "codigo": "R-40",
+    "arquivoCommons": "File:Brasil R-40.svg",
+    "autor": "Departamento Nacional de Trânsito",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_R-40.svg"
+  },
+  {
+    "codigo": "A-1a",
+    "arquivoCommons": "File:Brasil A-1a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-1a.svg"
+  },
+  {
+    "codigo": "A-1b",
+    "arquivoCommons": "File:Brasil A-1b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-1b.svg"
+  },
+  {
+    "codigo": "A-2a",
+    "arquivoCommons": "File:Brasil A-2a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-2a.svg"
+  },
+  {
+    "codigo": "A-2b",
+    "arquivoCommons": "File:Brasil A-2b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-2b.svg"
+  },
+  {
+    "codigo": "A-3a",
+    "arquivoCommons": "File:Brasil A-3a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-3a.svg"
+  },
+  {
+    "codigo": "A-3b",
+    "arquivoCommons": "File:Brasil A-3b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-3b.svg"
+  },
+  {
+    "codigo": "A-4a",
+    "arquivoCommons": "File:Brasil A-4a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-4a.svg"
+  },
+  {
+    "codigo": "A-4b",
+    "arquivoCommons": "File:Brasil A-4b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-4b.svg"
+  },
+  {
+    "codigo": "A-5a",
+    "arquivoCommons": "File:Brasil A-5a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-5a.svg"
+  },
+  {
+    "codigo": "A-5b",
+    "arquivoCommons": "File:Brasil A-5b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-5b.svg"
+  },
+  {
+    "codigo": "A-6",
+    "arquivoCommons": "File:Brasil A-6.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-6.svg"
+  },
+  {
+    "codigo": "A-7a",
+    "arquivoCommons": "File:Brasil A-7a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-7a.svg"
+  },
+  {
+    "codigo": "A-7b",
+    "arquivoCommons": "File:Brasil A-7b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-7b.svg"
+  },
+  {
+    "codigo": "A-8",
+    "arquivoCommons": "File:Brasil A-8.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-8.svg"
+  },
+  {
+    "codigo": "A-9",
+    "arquivoCommons": "File:Brasil A-9.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-9.svg"
+  },
+  {
+    "codigo": "A-10a",
+    "arquivoCommons": "File:Brasil A-10a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-10a.svg"
+  },
+  {
+    "codigo": "A-10b",
+    "arquivoCommons": "File:Brasil A-10b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-10b.svg"
+  },
+  {
+    "codigo": "A-11a",
+    "arquivoCommons": "File:Brasil A-11a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-11a.svg"
+  },
+  {
+    "codigo": "A-11b",
+    "arquivoCommons": "File:Brasil A-11b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-11b.svg"
+  },
+  {
+    "codigo": "A-12",
+    "arquivoCommons": "File:Brasil A-12.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-12.svg"
+  },
+  {
+    "codigo": "A-13a",
+    "arquivoCommons": "File:Brasil A-13a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-13a.svg"
+  },
+  {
+    "codigo": "A-13b",
+    "arquivoCommons": "File:Brasil A-13b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-13b.svg"
+  },
+  {
+    "codigo": "A-14",
+    "arquivoCommons": "File:Brasil A-14.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-14.svg"
+  },
+  {
+    "codigo": "A-15",
+    "arquivoCommons": "File:Brasil A-15.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-15.svg"
+  },
+  {
+    "codigo": "A-16",
+    "arquivoCommons": "File:Brasil A-16.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-16.svg"
+  },
+  {
+    "codigo": "A-17",
+    "arquivoCommons": "File:Brasil A-17.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-17.svg"
+  },
+  {
+    "codigo": "A-18",
+    "arquivoCommons": "File:Brasil A-18.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-18.svg"
+  },
+  {
+    "codigo": "A-19",
+    "arquivoCommons": "File:Brasil A-19.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-19.svg"
+  },
+  {
+    "codigo": "A-20a",
+    "arquivoCommons": "File:Brasil A-20a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-20a.svg"
+  },
+  {
+    "codigo": "A-20b",
+    "arquivoCommons": "File:Brasil A-20b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-20b.svg"
+  },
+  {
+    "codigo": "A-21a",
+    "arquivoCommons": "File:Brasil A-21a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-21a.svg"
+  },
+  {
+    "codigo": "A-21b",
+    "arquivoCommons": "File:Brasil A-21b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-21b.svg"
+  },
+  {
+    "codigo": "A-21c",
+    "arquivoCommons": "File:Brasil A-21c.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-21c.svg"
+  },
+  {
+    "codigo": "A-21d",
+    "arquivoCommons": "File:Brasil A-21d.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-21d.svg"
+  },
+  {
+    "codigo": "A-21e",
+    "arquivoCommons": "File:Brasil A-21e.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-21e.svg"
+  },
+  {
+    "codigo": "A-22",
+    "arquivoCommons": "File:Brasil A-22.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-22.svg"
+  },
+  {
+    "codigo": "A-23",
+    "arquivoCommons": "File:Brasil A-23.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-23.svg"
+  },
+  {
+    "codigo": "A-24",
+    "arquivoCommons": "File:Brasil A-24.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-24.svg"
+  },
+  {
+    "codigo": "A-25",
+    "arquivoCommons": "File:Brasil A-25.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-25.svg"
+  },
+  {
+    "codigo": "A-26a",
+    "arquivoCommons": "File:Brasil A-26a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-26a.svg"
+  },
+  {
+    "codigo": "A-26b",
+    "arquivoCommons": "File:Brasil A-26b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-26b.svg"
+  },
+  {
+    "codigo": "A-27",
+    "arquivoCommons": "File:Brasil A-27.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-27.svg"
+  },
+  {
+    "codigo": "A-28",
+    "arquivoCommons": "File:Brasil A-28.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-28.svg"
+  },
+  {
+    "codigo": "A-29",
+    "arquivoCommons": "File:Brasil A-29.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-29.svg"
+  },
+  {
+    "codigo": "A-30a",
+    "arquivoCommons": "File:Brasil A-30a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-30a.svg"
+  },
+  {
+    "codigo": "A-30b",
+    "arquivoCommons": "File:Brasil A-30b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-30b.svg"
+  },
+  {
+    "codigo": "A-30c",
+    "arquivoCommons": "File:Brasil A-30c.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-30c.svg"
+  },
+  {
+    "codigo": "A-31",
+    "arquivoCommons": "File:Brasil A-31.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-31.svg"
+  },
+  {
+    "codigo": "A-32a",
+    "arquivoCommons": "File:Brasil A-32a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-32a.svg"
+  },
+  {
+    "codigo": "A-32b",
+    "arquivoCommons": "File:Brasil A-32b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-32b.svg"
+  },
+  {
+    "codigo": "A-33a",
+    "arquivoCommons": "File:Brasil A-33a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-33a.svg"
+  },
+  {
+    "codigo": "A-33b",
+    "arquivoCommons": "File:Brasil A-33b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-33b.svg"
+  },
+  {
+    "codigo": "A-34",
+    "arquivoCommons": "File:Brasil A-34.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-34.svg"
+  },
+  {
+    "codigo": "A-35",
+    "arquivoCommons": "File:Brasil A-35.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-35.svg"
+  },
+  {
+    "codigo": "A-36",
+    "arquivoCommons": "File:Brasil A-36.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-36.svg"
+  },
+  {
+    "codigo": "A-37",
+    "arquivoCommons": "File:Brasil A-37.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-37.svg"
+  },
+  {
+    "codigo": "A-38",
+    "arquivoCommons": "File:Brasil A-38.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-38.svg"
+  },
+  {
+    "codigo": "A-39",
+    "arquivoCommons": "File:Brasil A-39.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-39.svg"
+  },
+  {
+    "codigo": "A-40",
+    "arquivoCommons": "File:Brasil A-40.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-40.svg"
+  },
+  {
+    "codigo": "A-41",
+    "arquivoCommons": "File:Brasil A-41a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-41a.svg"
+  },
+  {
+    "codigo": "A-42a",
+    "arquivoCommons": "File:Brasil A-42a.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-42a.svg"
+  },
+  {
+    "codigo": "A-42b",
+    "arquivoCommons": "File:Brasil A-42b.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-42b.svg"
+  },
+  {
+    "codigo": "A-42c",
+    "arquivoCommons": "File:Brasil A-42c.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-42c.svg"
+  },
+  {
+    "codigo": "A-43",
+    "arquivoCommons": "File:Brasil A-43.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-43.svg"
+  },
+  {
+    "codigo": "A-44",
+    "arquivoCommons": "File:Brasil A-44.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-44.svg"
+  },
+  {
+    "codigo": "A-45",
+    "arquivoCommons": "File:Brasil A-45.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-45.svg"
+  },
+  {
+    "codigo": "A-46",
+    "arquivoCommons": "File:Brasil A-46.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-46.svg"
+  },
+  {
+    "codigo": "A-47",
+    "arquivoCommons": "File:Brasil A-47.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-47.svg"
+  },
+  {
+    "codigo": "A-48",
+    "arquivoCommons": "File:Brasil A-48.svg",
+    "autor": "Departamento Nacional de Infraestrutura de Transportes",
+    "licenca": "Public domain",
+    "urlLicenca": null,
+    "urlPagina": "https://commons.wikimedia.org/wiki/File:Brasil_A-48.svg"
+  }
+]

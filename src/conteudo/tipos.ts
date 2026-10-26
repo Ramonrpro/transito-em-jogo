@@ -30,3 +30,21 @@ export interface QuestaoBruta {
   fonte: string;
   observacao: string | null;
 }
+
+export interface Placa {
+  codigo: string;
+  nome: string;
+  significado: string;
+  tipo: 'regulamentacao' | 'advertencia';
+  arquivoCommons: string;
+  dominioPublico: boolean;
+}
+
+export interface Credito {
+  codigo: string;
+  arquivoCommons: string;
+  autor: string;
+  licenca: string;
+  urlLicenca: string | null;
+  urlPagina: string;
+}
