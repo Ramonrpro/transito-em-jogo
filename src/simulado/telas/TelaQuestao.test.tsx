@@ -1,4 +1,4 @@
-import { act, screen } from '@testing-library/react'
+import { act, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { IDBFactory } from 'fake-indexeddb'
 import { afterEach, beforeEach, expect, test, vi } from 'vitest'
@@ -54,9 +54,11 @@ test('prova mostra "Questão 1 de 30" e 60:00, e entrega sozinha ao zerar', asyn
 test('prova: marcar, revisar e entregar pelo mapa pedindo confirmação', async () => {
   const t = await prepararProva()
   await userEvent.click(screen.getByRole('button', { name: /^B/ }))
-  expect(screen.getByRole('button', { name: /^B/ })).toHaveAttribute('aria-pressed', 'true')
+  await waitFor(() =>
+    expect(screen.getByRole('button', { name: /^B/ })).toHaveAttribute('aria-pressed', 'true'),
+  )
   await userEvent.click(screen.getByRole('button', { name: '☆ Revisar depois' }))
-  expect(screen.getByRole('button', { name: '★ Marcada para revisar' })).toBeInTheDocument()
+  expect(await screen.findByRole('button', { name: '★ Marcada para revisar' })).toBeInTheDocument()
   await userEvent.click(screen.getByText('Questão 1 de 30'))
   await userEvent.click(screen.getByRole('button', { name: 'Entregar prova' }))
   expect(await screen.findByText('Entregar a prova?')).toBeInTheDocument()
