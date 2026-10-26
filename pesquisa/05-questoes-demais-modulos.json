@@ -1,0 +1,3026 @@
+[
+  {
+    "id": "dd-001",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Qual atitude evita aquaplanagem na chuva forte?",
+    "alternativas": [
+      "Acelerar para “furar” a água.",
+      "Frear de uma vez no molhado.",
+      "Reduzir a velocidade, não frear bruscamente e manter os pneus em bom estado.",
+      "Ligar farol alto e acelerar."
+    ],
+    "correta": 2,
+    "explicacao": "A aquaplanagem acontece quando uma lâmina de água separa o pneu do asfalto; velocidade menor e pneus com sulcos em bom estado mantêm a aderência, e frear bruscamente só piora a perda de controle.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 43",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=114",
+    "observacao": null
+  },
+  {
+    "id": "dd-002",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Aquaplanagem pode ocorrer quando:",
+    "alternativas": [
+      "A pista está seca.",
+      "Chove forte e a velocidade é alta.",
+      "Os pneus são novos e a velocidade é baixa.",
+      "Há vento lateral."
+    ],
+    "correta": 1,
+    "explicacao": "Com muita água na pista e velocidade alta, os sulcos do pneu não conseguem escoar a água e o veículo 'flutua', perdendo a aderência.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=166",
+    "observacao": null
+  },
+  {
+    "id": "dd-003",
+    "tema": "direcao_defensiva",
+    "subtema": "curvas",
+    "enunciado": "Você começou a derrapar numa curva. O que NÃO se deve fazer?",
+    "alternativas": [
+      "Soltar o acelerador suavemente e segurar firme o volante.",
+      "Manter a calma e corrigir com cuidado.",
+      "Evitar movimentos bruscos.",
+      "Frear bruscamente ou virar o volante de uma vez."
+    ],
+    "correta": 3,
+    "explicacao": "Na derrapagem, freadas ou giros bruscos do volante agravam a perda de aderência; o certo é aliviar o acelerador e corrigir a direção com suavidade.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=115",
+    "observacao": null
+  },
+  {
+    "id": "dd-004",
+    "tema": "direcao_defensiva",
+    "subtema": "distancia-seguimento",
+    "enunciado": "Qual é a distância segura entre veículos?",
+    "alternativas": [
+      "A que permite parar o veículo com segurança; ela varia conforme a velocidade, a pista, o clima e o tipo de veículo.",
+      "Sempre um metro.",
+      "Sempre três metros.",
+      "Não importa em baixa velocidade."
+    ],
+    "correta": 0,
+    "explicacao": "O CTB manda guardar distância de segurança considerando a velocidade e as condições do local, do veículo e do clima; não existe um valor fixo em metros.",
+    "base_legal": "CTB art. 29, II",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=144",
+    "observacao": null
+  },
+  {
+    "id": "dd-005",
+    "tema": "direcao_defensiva",
+    "subtema": "distancia-seguimento",
+    "enunciado": "Qual é a \"boa regra\" de tempo recomendada para manter a distância de segurança do veículo da frente em rodovias?",
+    "alternativas": [
+      "Manter pelo menos 2 segundos de distância do veículo da frente.",
+      "Manter 1 segundo de distância do veículo da frente.",
+      "Manter a distância de 5 metros do veículo da frente.",
+      "Manter a distância de 30 metros do veículo da frente."
+    ],
+    "correta": 0,
+    "explicacao": "Pela regra dos dois segundos, conta-se o tempo entre o veículo da frente e o seu passarem pelo mesmo ponto de referência; com chuva ou pista ruim esse tempo deve ser maior.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 29, II",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=216",
+    "observacao": null
+  },
+  {
+    "id": "dd-006",
+    "tema": "direcao_defensiva",
+    "subtema": "distancia-seguimento",
+    "enunciado": "Por que ficar muito próximo ao carro à frente é perigoso?",
+    "alternativas": [
+      "Porque diminui o tempo e a distância disponíveis para reagir e frear.",
+      "Porque economiza combustível.",
+      "Porque ajuda a “puxar fila”.",
+      "Porque evita ultrapassagens."
+    ],
+    "correta": 0,
+    "explicacao": "Colado no veículo da frente, o condutor não tem tempo nem espaço para perceber o perigo e frear, o que leva a colisões traseiras.",
+    "base_legal": "CTB art. 29, II",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=188",
+    "observacao": null
+  },
+  {
+    "id": "dd-007",
+    "tema": "direcao_defensiva",
+    "subtema": "distancia-parada",
+    "enunciado": "O que é distância de reação?",
+    "alternativas": [
+      "Distância do carro até o pedestre.",
+      "Espaço entre duas faixas.",
+      "Tamanho do veículo.",
+      "A distância que o veículo percorre desde o momento em que o condutor percebe o perigo até acionar o freio."
+    ],
+    "correta": 3,
+    "explicacao": "Durante o tempo de reação (cerca de 1 segundo, em média) o veículo continua andando na mesma velocidade; essa distância se soma à de frenagem e forma a distância de parada.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=157",
+    "observacao": "Redação da alternativa correta ajustada: o original dizia 'espaço percorrido até o cérebro perceber o perigo e acionar o freio'; pelo manual de direção defensiva, a distância de reação é contada a partir do momento em que o condutor percebe o perigo até acionar o freio."
+  },
+  {
+    "id": "dd-008",
+    "tema": "direcao_defensiva",
+    "subtema": "distancia-parada",
+    "enunciado": "A distância de frenagem depende principalmente de:",
+    "alternativas": [
+      "Idade do motorista.",
+      "Tipo de combustível.",
+      "Cor do veículo.",
+      "Velocidade, condições da via, pneus, freios e forma de frear."
+    ],
+    "correta": 3,
+    "explicacao": "Quanto maior a velocidade e pior o estado da pista, dos pneus ou dos freios, mais o veículo demora para parar.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=165",
+    "observacao": null
+  },
+  {
+    "id": "dd-009",
+    "tema": "direcao_defensiva",
+    "subtema": "distancia-parada",
+    "enunciado": "O que ocorre quando o motorista reage tardiamente ao perigo?",
+    "alternativas": [
+      "Aumenta a distância total de parada.",
+      "Diminui o risco.",
+      "Melhora a frenagem.",
+      "Reduz a distância de reação."
+    ],
+    "correta": 0,
+    "explicacao": "Distância de parada = distância de reação + distância de frenagem; reagindo tarde, o veículo anda mais antes de começar a frear.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=168",
+    "observacao": null
+  },
+  {
+    "id": "dd-010",
+    "tema": "direcao_defensiva",
+    "subtema": "velocidade",
+    "enunciado": "Qual relação direta existe entre velocidade e frenagem?",
+    "alternativas": [
+      "A distância de frenagem é sempre a mesma.",
+      "Aumentar a velocidade não altera a distância de parada.",
+      "Pequeno aumento na velocidade exige muito mais distância para parar.",
+      "Só o freio influencia."
+    ],
+    "correta": 2,
+    "explicacao": "A energia do movimento cresce com o quadrado da velocidade: ao dobrar a velocidade, a distância de frenagem fica cerca de quatro vezes maior.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=172",
+    "observacao": null
+  },
+  {
+    "id": "dd-011",
+    "tema": "direcao_defensiva",
+    "subtema": "velocidade",
+    "enunciado": "O que mais define a gravidade de uma batida?",
+    "alternativas": [
+      "A cor do carro.",
+      "A marca do pneu.",
+      "A velocidade do veículo no impacto.",
+      "O número de portas."
+    ],
+    "correta": 2,
+    "explicacao": "Quanto maior a velocidade no momento do impacto, maior a energia liberada e mais graves as lesões.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=177",
+    "observacao": null
+  },
+  {
+    "id": "dd-012",
+    "tema": "direcao_defensiva",
+    "subtema": "velocidade",
+    "enunciado": "O que é velocidade segura?",
+    "alternativas": [
+      "A velocidade máxima da placa, sempre.",
+      "A velocidade dos carros mais rápidos.",
+      "A velocidade ajustada às condições do momento (chuva, fluxo e visibilidade).",
+      "A maior velocidade que o carro alcança."
+    ],
+    "correta": 2,
+    "explicacao": "Velocidade segura é a que permite manter o controle e parar a tempo nas condições do momento; pode ser bem menor que a máxima da placa.",
+    "base_legal": "CTB art. 43",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=177",
+    "observacao": null
+  },
+  {
+    "id": "dd-013",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Em uma rodovia sinalizada com velocidade máxima de 100 km/h, começa a chover forte. O que o condutor deve fazer?",
+    "alternativas": [
+      "Manter 100 km/h, porque a placa obriga.",
+      "Ligar o farol alto e acelerar.",
+      "Parar no canteiro central.",
+      "Reduzir a velocidade, aumentar distância e manter farol baixo, mesmo que o limite da placa seja maior."
+    ],
+    "correta": 3,
+    "explicacao": "O limite da placa é o máximo para condições normais; sob chuva o CTB exige farol baixo aceso e a velocidade deve ser compatível com a menor aderência e visibilidade.",
+    "base_legal": "CTB arts. 40, I, 'b', e 43",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=137",
+    "observacao": null
+  },
+  {
+    "id": "dd-014",
+    "tema": "direcao_defensiva",
+    "subtema": "animais-na-pista",
+    "enunciado": "Qual o comportamento seguro ao se avistar animais na pista?",
+    "alternativas": [
+      "Buzinar para o animal e avançar.",
+      "Reduzir a velocidade, sinalizar, manter distância e só prosseguir quando for seguro para todos.",
+      "Acelerar para assustar.",
+      "Jogar farol alto e seguir."
+    ],
+    "correta": 1,
+    "explicacao": "Animais têm reações imprevisíveis; reduzir, sinalizar para quem vem atrás e manter distância evita atropelar o animal e colisões.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 28",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=145",
+    "observacao": null
+  },
+  {
+    "id": "dd-015",
+    "tema": "direcao_defensiva",
+    "subtema": "animais-na-pista",
+    "enunciado": "Por que é perigoso buzinar quando há animais na pista?",
+    "alternativas": [
+      "Porque o som pode assustar o animal e fazê-lo correr na direção do veículo.",
+      "Porque o som atrai outros animais.",
+      "Porque o buzinaço é proibido em toda a zona rural.",
+      "Porque gasta bateria."
+    ],
+    "correta": 0,
+    "explicacao": "Um ruído repentino pode assustar o animal e fazê-lo correr em direção ao veículo; o certo é reduzir a velocidade e passar devagar.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=199",
+    "observacao": null
+  },
+  {
+    "id": "dd-016",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Com pista escorregadia por óleo, a decisão segura é:",
+    "alternativas": [
+      "Reduzir a velocidade e evitar manobras bruscas.",
+      "Acelerar para passar rápido.",
+      "Frear no último momento.",
+      "Virar o volante de uma vez."
+    ],
+    "correta": 0,
+    "explicacao": "Óleo na pista reduz muito a aderência; com menos velocidade e movimentos suaves o pneu continua aderindo ao piso.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=146",
+    "observacao": null
+  },
+  {
+    "id": "dd-017",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Em pista com óleo, o carro começa a deslizar. Qual ação correta?",
+    "alternativas": [
+      "Pisar fundo no freio.",
+      "Tirar o pé do acelerador, segurar firme o volante e evitar frear ou fazer manobras bruscas.",
+      "Virar todo o volante de uma vez.",
+      "Acelerar para \"estabilizar\"."
+    ],
+    "correta": 1,
+    "explicacao": "Ao deslizar, freadas e giros bruscos travam as rodas ou agravam o deslizamento; aliviar o acelerador devolve a aderência aos poucos.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=175",
+    "observacao": null
+  },
+  {
+    "id": "dd-018",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Quais fatores reduzem a aderência do veículo?",
+    "alternativas": [
+      "Água, areia, óleo ou buracos na pista.",
+      "Pista seca e limpa.",
+      "Pneu calibrado corretamente.",
+      "Direção suave."
+    ],
+    "correta": 0,
+    "explicacao": "Água, areia, óleo e buracos diminuem o atrito entre pneu e pista, aumentando o risco de derrapagem.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=170",
+    "observacao": null
+  },
+  {
+    "id": "dd-019",
+    "tema": "direcao_defensiva",
+    "subtema": "iluminacao",
+    "enunciado": "Durante uma chuva intensa em uma rodovia de pista simples, o motorista aciona o farol alto para enxergar melhor. Essa atitude:",
+    "alternativas": [
+      "Está incorreta, pois o farol alto ofusca a visão dos outros condutores e aumenta o risco de sinistro.",
+      "Está correta, desde que a pista tenha baixa iluminação.",
+      "É aceitável, se não houver veículos no sentido contrário.",
+      "É obrigatória, conforme o CTB, para compensar a falta de visibilidade."
+    ],
+    "correta": 0,
+    "explicacao": "Sob chuva o CTB exige luz baixa; o farol alto reflete nas gotas, piora a visão de quem dirige e ofusca os outros condutores.",
+    "base_legal": "CTB art. 40, I, 'b'",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=147",
+    "observacao": null
+  },
+  {
+    "id": "dd-020",
+    "tema": "direcao_defensiva",
+    "subtema": "iluminacao",
+    "enunciado": "Começou a chover forte enquanto você dirige na cidade. O que deve fazer primeiro?",
+    "alternativas": [
+      "Ligar o farol alto para “abrir” visão.",
+      "Acelerar para sair rápido da chuva.",
+      "Reduzir a velocidade e manter o farol baixo aceso.",
+      "Frear forte para enxergar melhor."
+    ],
+    "correta": 2,
+    "explicacao": "A chuva reduz aderência e visibilidade; o CTB exige farol baixo aceso sob chuva, mesmo de dia, e a velocidade deve ser reduzida.",
+    "base_legal": "CTB arts. 40, I, 'b', e 43",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=150",
+    "observacao": null
+  },
+  {
+    "id": "dd-021",
+    "tema": "direcao_defensiva",
+    "subtema": "iluminacao",
+    "enunciado": "Qual o procedimento correto que o condutor deve adotar ao dirigir sob neblina pesada?",
+    "alternativas": [
+      "Ligar o farol baixo e os faróis de neblina (se tiver), e nunca usar o farol alto.",
+      "Usar apenas o farol alto, pois ele consegue \"cortar\" melhor a neblina densa.",
+      "Desligar todos os faróis para que as luzes não reflitam na neblina e ofusquem o motorista.",
+      "Ligar apenas o pisca-alerta e manter a velocidade normal."
+    ],
+    "correta": 0,
+    "explicacao": "Na neblina, o farol baixo (e o de neblina, se houver) ilumina a pista sem refletir nas gotículas; o farol alto cria uma 'parede de luz' que ofusca.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 40, I, 'b'",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=218",
+    "observacao": null
+  },
+  {
+    "id": "dd-022",
+    "tema": "direcao_defensiva",
+    "subtema": "iluminacao",
+    "enunciado": "Por que não se deve usar farol alto em situações de neblina?",
+    "alternativas": [
+      "Porque gasta mais bateria do que o farol baixo.",
+      "Porque o farol alto pode superaquecer e queimar.",
+      "Porque é proibido por lei usar farol alto em rodovias.",
+      "Porque a luz forte reflete nas partículas de água e piora a visibilidade."
+    ],
+    "correta": 3,
+    "explicacao": "A luz alta bate nas gotículas de água e volta para os olhos do condutor, diminuindo ainda mais a visibilidade.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 40",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=299",
+    "observacao": null
+  },
+  {
+    "id": "dd-023",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "O que fazer diante de uma área alagada na via?",
+    "alternativas": [
+      "Não arriscar a travessia e buscar uma rota segura.",
+      "Passar rápido para cortar a água.",
+      "Seguir bem perto de outro veículo.",
+      "Acelerar com farol alto."
+    ],
+    "correta": 0,
+    "explicacao": "A água pode esconder buracos, ter correnteza e entrar no motor, arrastando ou parando o veículo; o mais seguro é evitar o trecho.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=166",
+    "observacao": null
+  },
+  {
+    "id": "dd-024",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Qual exemplo é uma condição adversa de luz?",
+    "alternativas": [
+      "Ofuscamento ao sair de túnel.",
+      "Pista seca e clara.",
+      "Dia nublado sem chuva.",
+      "Via duplicada e limpa."
+    ],
+    "correta": 0,
+    "explicacao": "Mudanças bruscas de luminosidade, como sair de um túnel para o sol forte, ofuscam e reduzem a visão por alguns instantes.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=162",
+    "observacao": null
+  },
+  {
+    "id": "dd-025",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Como reduzir ofuscamento ao dirigir contra o sol?",
+    "alternativas": [
+      "Ligar farol alto.",
+      "Usar o para-sol e óculos escuros e reduzir a velocidade.",
+      "Fechar os olhos por instantes.",
+      "Acelerar para passar rápido."
+    ],
+    "correta": 1,
+    "explicacao": "O para-sol e os óculos escuros diminuem o ofuscamento, e a velocidade menor compensa a visão prejudicada.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=166",
+    "observacao": null
+  },
+  {
+    "id": "dd-026",
+    "tema": "direcao_defensiva",
+    "subtema": "iluminacao",
+    "enunciado": "Por que é mais arriscado dirigir com os faróis apagados ao entardecer?",
+    "alternativas": [
+      "Porque melhora o consumo de energia elétrica.",
+      "Porque indica economia de lâmpadas.",
+      "Porque diminui a capacidade dos outros motoristas de verem o veículo.",
+      "Porque só causa risco em rodovias."
+    ],
+    "correta": 2,
+    "explicacao": "No entardecer a luminosidade cai e, com os faróis apagados, o veículo é percebido mais tarde por pedestres e outros condutores.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 40, I, 'a'",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=152",
+    "observacao": null
+  },
+  {
+    "id": "dd-027",
+    "tema": "direcao_defensiva",
+    "subtema": "iluminacao",
+    "enunciado": "Condução noturna segura em rodovia pede:",
+    "alternativas": [
+      "Velocidade reduzida e farol baixo ao cruzar veículos.",
+      "Farol alto constante.",
+      "Ignorar pedestres e animais.",
+      "Aproximar-se muito do veículo à frente."
+    ],
+    "correta": 0,
+    "explicacao": "À noite a visão é menor: reduza a velocidade e troque para o farol baixo ao cruzar ou seguir outro veículo, para não ofuscá-lo.",
+    "base_legal": "CTB art. 40, II",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=166",
+    "observacao": null
+  },
+  {
+    "id": "dd-028",
+    "tema": "direcao_defensiva",
+    "subtema": "condicoes-adversas",
+    "enunciado": "Qual das opções representa uma condição adversa do veículo?",
+    "alternativas": [
+      "Pneus carecas.",
+      "Revisão em dia.",
+      "Freios regulados.",
+      "Limpadores novos."
+    ],
+    "correta": 0,
+    "explicacao": "Condições adversas do veículo são falhas que reduzem a segurança, como pneus gastos, freios ruins ou luzes queimadas.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=154",
+    "observacao": null
+  },
+  {
+    "id": "dd-029",
+    "tema": "direcao_defensiva",
+    "subtema": "fundamentos",
+    "enunciado": "Quais cinco princípios sustentam a direção defensiva?",
+    "alternativas": [
+      "Conhecimento, atenção, previsão, decisão e habilidade.",
+      "Pressa, potência, sorte, risco, ousadia.",
+      "Velocidade, coragem, ruído, farol alto, disputa.",
+      "Experiência, carisma, música, rotina, atalho."
+    ],
+    "correta": 0,
+    "explicacao": "Conhecimento, atenção, previsão, decisão e habilidade são os cinco elementos da direção defensiva no manual do Denatran.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=169",
+    "observacao": null
+  },
+  {
+    "id": "dd-030",
+    "tema": "direcao_defensiva",
+    "subtema": "fundamentos",
+    "enunciado": "Previsão, na direção defensiva, significa:",
+    "alternativas": [
+      "Reagir apenas após o perigo.",
+      "Imaginar o que pode acontecer e agir antes do risco.",
+      "Confiar no olhar dos outros.",
+      "Andar sempre mais rápido."
+    ],
+    "correta": 1,
+    "explicacao": "Prever é antecipar o que pode acontecer (um pedestre que surge, um carro que freia) e agir antes que o risco se concretize.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=161",
+    "observacao": null
+  },
+  {
+    "id": "dd-031",
+    "tema": "direcao_defensiva",
+    "subtema": "fundamentos",
+    "enunciado": "O que diferencia a direção segura de uma simples reação a perigos?",
+    "alternativas": [
+      "A sorte de escapar dos sinistros.",
+      "O uso de equipamentos caros.",
+      "A capacidade de prever e agir antes do risco.",
+      "Frear sem observar os arredores."
+    ],
+    "correta": 2,
+    "explicacao": "Dirigir com segurança é antecipar os riscos, e não depender de reflexos ou de sorte depois que o perigo já apareceu.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=147",
+    "observacao": null
+  },
+  {
+    "id": "dd-032",
+    "tema": "direcao_defensiva",
+    "subtema": "fundamentos",
+    "enunciado": "Quando um condutor visualiza uma bola rolando para a via, ele deve:",
+    "alternativas": [
+      "Manter velocidade constante.",
+      "Desviar rapidamente da bola.",
+      "Reduzir e preparar-se para possível travessia de criança.",
+      "Acionar a buzina para alertar."
+    ],
+    "correta": 2,
+    "explicacao": "Uma bola na rua costuma vir seguida de uma criança correndo atrás dela; reduzir e preparar-se para parar é previsão.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 29, §2º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=164",
+    "observacao": null
+  },
+  {
+    "id": "dd-033",
+    "tema": "direcao_defensiva",
+    "subtema": "ultrapassagem",
+    "enunciado": "Durante uma ultrapassagem em pista simples, o condutor sinaliza e inicia a manobra mesmo sem visibilidade completa do trecho à frente. Essa conduta:",
+    "alternativas": [
+      "É aceitável se o outro veículo mantiver velocidade constante.",
+      "É perigosa, pois viola o dever de assegurar condições de segurança antes de ultrapassar.",
+      "É permitida quando não há sinalização proibitiva.",
+      "É uma infração leve, sem risco relevante."
+    ],
+    "correta": 1,
+    "explicacao": "Antes de ultrapassar, o condutor deve ter certeza de que a faixa contrária está livre numa extensão suficiente; sem visibilidade, o risco de colisão frontal é enorme.",
+    "base_legal": "CTB arts. 29, X, e 32",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=147",
+    "observacao": null
+  },
+  {
+    "id": "dd-034",
+    "tema": "direcao_defensiva",
+    "subtema": "ultrapassagem",
+    "enunciado": "Antes de iniciar uma manobra de ultrapassagem, quais são as principais verificações que o condutor deve realizar?",
+    "alternativas": [
+      "Só se o carro é potente.",
+      "Se ninguém atrás já começou a ultrapassá-lo, se o veículo da frente não indicou que vai ultrapassar outro e se a faixa oposta está livre numa distância segura.",
+      "Se há vaga para parar após a manobra.",
+      "Se a música está alta."
+    ],
+    "correta": 1,
+    "explicacao": "São exatamente as verificações que o CTB exige antes de qualquer ultrapassagem.",
+    "base_legal": "CTB art. 29, X",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=135",
+    "observacao": null
+  },
+  {
+    "id": "dd-035",
+    "tema": "direcao_defensiva",
+    "subtema": "ultrapassagem",
+    "enunciado": "Qual é a atitude correta ao ser ultrapassado?",
+    "alternativas": [
+      "Aumentar a velocidade para impedir a ultrapassagem.",
+      "Manter a velocidade ou reduzir, sem acelerar.",
+      "Fechar a passagem.",
+      "Mudar de faixa repentinamente."
+    ],
+    "correta": 1,
+    "explicacao": "Quem está sendo ultrapassado não deve acelerar; se estiver na faixa da esquerda, deve se deslocar para a direita.",
+    "base_legal": "CTB art. 30",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=130",
+    "observacao": null
+  },
+  {
+    "id": "dd-036",
+    "tema": "direcao_defensiva",
+    "subtema": "curvas",
+    "enunciado": "Qual atitude evita derrapagens em curvas?",
+    "alternativas": [
+      "Frear bruscamente dentro da curva.",
+      "Acelerar forte na saída.",
+      "Girar o volante rapidamente.",
+      "Reduzir a velocidade antes da curva."
+    ],
+    "correta": 3,
+    "explicacao": "Reduzir antes de entrar na curva mantém a aderência; frear ou girar o volante bruscamente dentro dela provoca derrapagem.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=161",
+    "observacao": null
+  },
+  {
+    "id": "dd-037",
+    "tema": "direcao_defensiva",
+    "subtema": "curvas",
+    "enunciado": "Quando o veículo entra rápido demais em uma curva, o que tende a acontecer?",
+    "alternativas": [
+      "Ele faz a curva com mais facilidade.",
+      "Seguir reto, por causa da inércia.",
+      "Ele freia automaticamente.",
+      "Nada. A curva independe da velocidade."
+    ],
+    "correta": 1,
+    "explicacao": "Pela inércia o veículo tende a seguir em linha reta; em velocidade excessiva, os pneus não conseguem fazê-lo contornar a curva.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=163",
+    "observacao": null
+  },
+  {
+    "id": "dd-038",
+    "tema": "direcao_defensiva",
+    "subtema": "curvas",
+    "enunciado": "Em uma curva acentuada à esquerda, a força centrífuga (gerada ao entrar em curva) atua de que forma?",
+    "alternativas": [
+      "Empurrando o veículo para o centro da curva.",
+      "Ajudando o veículo a fazer a curva.",
+      "Empurrando o veículo para fora da curva, em direção ao lado direito da via.",
+      "Mantendo o veículo parado."
+    ],
+    "correta": 2,
+    "explicacao": "Numa curva à esquerda o veículo tende a ser 'jogado' para fora, isto é, para a direita; por isso a velocidade deve ser reduzida antes da curva.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=201",
+    "observacao": null
+  },
+  {
+    "id": "dd-039",
+    "tema": "direcao_defensiva",
+    "subtema": "curvas",
+    "enunciado": "Se você está dirigindo na rodovia e tem que fazer uma curva fechada, qual erro você deve evitar durante a manobra?",
+    "alternativas": [
+      "Frear bruscamente durante a curva.",
+      "Reduzir a velocidade antes de entrar na curva.",
+      "Acelerar suavemente na saída da curva.",
+      "Usar o farol baixo ligado."
+    ],
+    "correta": 0,
+    "explicacao": "Frear forte no meio da curva desestabiliza o veículo e pode causar derrapagem; a redução deve ser feita antes de entrar nela.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=208",
+    "observacao": null
+  },
+  {
+    "id": "dd-040",
+    "tema": "direcao_defensiva",
+    "subtema": "declives",
+    "enunciado": "Qual atitude demonstra direção defensiva em um declive acentuado?",
+    "alternativas": [
+      "Descer em ponto morto e frear só no final.",
+      "Reduzir a marcha antes da descida, manter controle e não frear continuamente.",
+      "Acelerar para ganhar tempo.",
+      "Ligar o pisca-alerta durante toda a descida."
+    ],
+    "correta": 1,
+    "explicacao": "Com a marcha reduzida, o freio-motor ajuda a segurar o veículo e evita o superaquecimento dos freios.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 231, IX",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=195",
+    "observacao": null
+  },
+  {
+    "id": "dd-041",
+    "tema": "direcao_defensiva",
+    "subtema": "declives",
+    "enunciado": "Por que é perigoso descer em ponto morto?",
+    "alternativas": [
+      "Porque o veículo fica sem o freio-motor: o condutor perde o controle da velocidade e os freios esquentam mais rápido.",
+      "Porque o pisca-alerta deixa de funcionar.",
+      "Porque o rádio deixa de funcionar.",
+      "Porque o ar-condicionado para de funcionar."
+    ],
+    "correta": 0,
+    "explicacao": "Em ponto morto o veículo fica sem o freio-motor: os freios trabalham sozinhos, esquentam e perdem eficiência. Descer desengrenado ainda é infração média.",
+    "base_legal": "CTB art. 231, IX; Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=199",
+    "observacao": "Distratores 'o carro gasta mais combustível' e 'o motor pode desligar' substituídos: em carros com injeção eletrônica, descer engrenado sem acelerar corta a injeção, então descer em ponto morto pode de fato gastar mais combustível, o que tornava a alternativa ambígua."
+  },
+  {
+    "id": "dd-042",
+    "tema": "direcao_defensiva",
+    "subtema": "declives",
+    "enunciado": "Durante uma longa descida, o que pode acontecer se o motorista usar só o freio de pé o tempo todo?",
+    "alternativas": [
+      "O carro vai parar mais rápido.",
+      "O motor economiza energia.",
+      "O freio pode esquentar e perder a eficiência.",
+      "Nada acontece."
+    ],
+    "correta": 2,
+    "explicacao": "O uso contínuo do freio de serviço em descidas longas superaquece o sistema e reduz a eficiência da frenagem; use marcha reduzida.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=201",
+    "observacao": null
+  },
+  {
+    "id": "dd-043",
+    "tema": "direcao_defensiva",
+    "subtema": "declives",
+    "enunciado": "O que o condutor deve fazer se o carro ganhar velocidade demais na descida?",
+    "alternativas": [
+      "Desligar o motor.",
+      "Frear bruscamente.",
+      "Jogar o carro para o acostamento.",
+      "Reduzir a marcha e controlar com o freio-motor."
+    ],
+    "correta": 3,
+    "explicacao": "Reduzir a marcha usa o freio-motor para controlar a velocidade sem sobrecarregar os freios.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=201",
+    "observacao": null
+  },
+  {
+    "id": "dd-044",
+    "tema": "direcao_defensiva",
+    "subtema": "passagem-de-nivel",
+    "enunciado": "O que o condutor deve fazer ao se aproximar de uma passagem de nível sem barreira?",
+    "alternativas": [
+      "Reduzir a velocidade, parar, olhar para os dois lados e só atravessar se for seguro.",
+      "Acelerar para atravessar rapidamente.",
+      "Buzinar e seguir direto.",
+      "Parar sobre os trilhos e observar."
+    ],
+    "correta": 0,
+    "explicacao": "O CTB obriga a parar antes de transpor linha férrea; o trem não consegue frear a tempo, então só se atravessa com certeza de segurança.",
+    "base_legal": "CTB art. 212",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=195",
+    "observacao": null
+  },
+  {
+    "id": "dd-045",
+    "tema": "direcao_defensiva",
+    "subtema": "vias-rapidas",
+    "enunciado": "Qual é a função da faixa de aceleração ao entrar em uma via de trânsito rápido?",
+    "alternativas": [
+      "Aumentar a velocidade para se igualar ao fluxo da via principal.",
+      "Aguardar parado até que haja uma brecha no trânsito.",
+      "Servir como acostamento temporário para emergências.",
+      "Reduzir a velocidade antes de entrar na pista principal."
+    ],
+    "correta": 0,
+    "explicacao": "A faixa de aceleração serve para ganhar velocidade e entrar no fluxo da via principal sem obrigar os outros a frear.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=300",
+    "observacao": null
+  },
+  {
+    "id": "dd-046",
+    "tema": "direcao_defensiva",
+    "subtema": "vias-rapidas",
+    "enunciado": "Ao sair de uma rodovia, quando o condutor deve começar a reduzir a velocidade?",
+    "alternativas": [
+      "Assim que avistar a placa indicando a saída.",
+      "Ainda na pista principal, antes de entrar na faixa de desaceleração.",
+      "Apenas no final da faixa de desaceleração, freando bruscamente.",
+      "Somente após ter entrado completamente na faixa de desaceleração."
+    ],
+    "correta": 3,
+    "explicacao": "A redução de velocidade deve ser feita na faixa de desaceleração, fora do fluxo principal, para não provocar colisão traseira.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 43, II",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=295",
+    "observacao": null
+  },
+  {
+    "id": "dd-047",
+    "tema": "direcao_defensiva",
+    "subtema": "vias-rapidas",
+    "enunciado": "Você perdeu a saída da rodovia. O que fazer?",
+    "alternativas": [
+      "Seguir até o próximo acesso ou retorno, sem frear de repente nem cortar pela direita de forma perigosa.",
+      "Parar no acostamento e dar ré.",
+      "Cruzar a pista de última hora.",
+      "Cortar por cima do canteiro."
+    ],
+    "correta": 0,
+    "explicacao": "Manobras de última hora, ré no acostamento ou cruzar o canteiro causam colisões; o seguro é seguir e retornar adiante.",
+    "base_legal": "CTB arts. 28 e 34",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=146",
+    "observacao": null
+  },
+  {
+    "id": "dd-048",
+    "tema": "direcao_defensiva",
+    "subtema": "espelhos-pontos-cegos",
+    "enunciado": "Como devem ser ajustados os espelhos laterais?",
+    "alternativas": [
+      "Devem exibir só uma pequena parte da lateral do carro.",
+      "Devem mostrar grande parte da própria porta.",
+      "Devem apontar para o chão.",
+      "Devem mostrar apenas o céu."
+    ],
+    "correta": 0,
+    "explicacao": "Ver só uma pequena parte da lateral do carro serve de referência e deixa o resto do espelho livre para enxergar a faixa ao lado.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=151",
+    "observacao": null
+  },
+  {
+    "id": "dd-049",
+    "tema": "direcao_defensiva",
+    "subtema": "espelhos-pontos-cegos",
+    "enunciado": "Como deve estar ajustado o espelho interno?",
+    "alternativas": [
+      "Mostrando metade do teto.",
+      "Mostrando apenas o banco traseiro.",
+      "Mostrando todo o vidro traseiro.",
+      "Voltado para o passageiro."
+    ],
+    "correta": 2,
+    "explicacao": "O retrovisor interno bem ajustado mostra todo o vidro traseiro sem que o condutor precise mexer a cabeça.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=151",
+    "observacao": null
+  },
+  {
+    "id": "dd-050",
+    "tema": "direcao_defensiva",
+    "subtema": "espelhos-pontos-cegos",
+    "enunciado": "Para checar os pontos cegos ao mudar de faixa, o que o condutor deve fazer?",
+    "alternativas": [
+      "Confiar só no espelho interno.",
+      "Olhar os espelhos e virar levemente a cabeça para conferir.",
+      "Usar apenas a audição.",
+      "Mudar de faixa sem sinalizar."
+    ],
+    "correta": 1,
+    "explicacao": "Os espelhos não mostram tudo; uma rápida olhada por cima do ombro confere o ponto cego antes de mudar de faixa.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3; CTB art. 34",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=158",
+    "observacao": null
+  },
+  {
+    "id": "dd-051",
+    "tema": "direcao_defensiva",
+    "subtema": "espelhos-pontos-cegos",
+    "enunciado": "Por que evitar pontos cegos de caminhões e ônibus?",
+    "alternativas": [
+      "Porque a multa é maior.",
+      "Porque economiza combustível.",
+      "Porque facilita ouvir música.",
+      "Porque o condutor desses veículos pode não enxergar você."
+    ],
+    "correta": 3,
+    "explicacao": "Caminhões e ônibus têm grandes pontos cegos; se você não vê o motorista no espelho dele, ele provavelmente não vê você.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=160",
+    "observacao": null
+  },
+  {
+    "id": "dd-052",
+    "tema": "direcao_defensiva",
+    "subtema": "espelhos-pontos-cegos",
+    "enunciado": "Ao abrir a porta do carro parado na rua, a atitude segura é:",
+    "alternativas": [
+      "Abrir rápido e descer logo.",
+      "Abrir no fluxo para parar o trânsito.",
+      "Pedir para outro veículo desviar.",
+      "Conferir espelhos e olhar por cima do ombro para não atingir outros usuários da via."
+    ],
+    "correta": 3,
+    "explicacao": "O CTB proíbe abrir a porta sem antes se certificar de que isso não traz perigo, principalmente para ciclistas e motociclistas.",
+    "base_legal": "CTB art. 49",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=173",
+    "observacao": null
+  },
+  {
+    "id": "dd-053",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Qual posicionamento do encosto de cabeça é adequado para reduzir “golpe de chicote”?",
+    "alternativas": [
+      "Abaixo da nuca e distante.",
+      "No meio das costas.",
+      "Com o topo alinhado ao topo da cabeça e próximo à parte de trás da cabeça.",
+      "Sempre retirado."
+    ],
+    "correta": 2,
+    "explicacao": "Bem ajustado, o encosto limita o movimento da cabeça para trás numa colisão traseira, evitando o 'efeito chicote' no pescoço.",
+    "base_legal": "CTB art. 105, III; Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=148",
+    "observacao": "Ajuste de redação: o original dizia 'próximo à nuca'; o recomendado é o encosto próximo à parte de trás da cabeça."
+  },
+  {
+    "id": "dd-054",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Qual é a regra de segurança sobre a faixa diagonal do cinto em relação ao braço do ocupante?",
+    "alternativas": [
+      "Pode ser passada por baixo do braço para evitar atrito no pescoço.",
+      "Deve ser colocada abaixo da axila para manter o braço em posição de defesa.",
+      "Deve passar sobre o ombro e atravessar o centro do tórax, nunca por baixo do braço.",
+      "Deve passar na altura do pescoço, desde que não esteja justa demais."
+    ],
+    "correta": 2,
+    "explicacao": "A faixa diagonal deve cruzar ombro e tórax, que suportam a força do impacto; passada por baixo do braço, ela pode causar lesões graves.",
+    "base_legal": "CTB art. 65; Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=221",
+    "observacao": null
+  },
+  {
+    "id": "dd-055",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Qual é o cuidado essencial com a faixa subabdominal do cinto de segurança, especialmente para mulheres grávidas?",
+    "alternativas": [
+      "Deve ser afrouxada para que não pressione o abdômen durante o impacto.",
+      "Deve ser passada sobre o centro da barriga para proteger a região.",
+      "Deve ser totalmente ignorada, usando apenas a faixa diagonal.",
+      "Deve repousar sobre os ossos do quadril (pélvis), e nunca sobre o abdômen."
+    ],
+    "correta": 3,
+    "explicacao": "A faixa de baixo deve ficar sobre os ossos do quadril; sobre a barriga, num impacto, ela pode lesionar órgãos e o bebê.",
+    "base_legal": "CTB art. 65; Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=221",
+    "observacao": null
+  },
+  {
+    "id": "dd-056",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Pessoas sem cinto no banco traseiro podem:",
+    "alternativas": [
+      "Proteger quem está à frente.",
+      "Melhorar a frenagem.",
+      "Evitar danos no painel.",
+      "Ser projetadas para a frente e ferir os da frente."
+    ],
+    "correta": 3,
+    "explicacao": "Sem cinto, quem está atrás é lançado para a frente com enorme força e pode matar ou ferir quem está no banco da frente.",
+    "base_legal": "CTB art. 65",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=168",
+    "observacao": null
+  },
+  {
+    "id": "dd-057",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Por que é perigoso duas pessoas usarem o mesmo cinto?",
+    "alternativas": [
+      "Fica mais confortável.",
+      "O airbag não inflará.",
+      "O cinto não distribui forças corretamente e pode ferir ambos.",
+      "Evita multa."
+    ],
+    "correta": 2,
+    "explicacao": "Cada cinto é projetado para uma única pessoa; com duas, ele não segura o corpo corretamente e uma pode esmagar a outra.",
+    "base_legal": "CTB art. 65",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=169",
+    "observacao": null
+  },
+  {
+    "id": "dd-058",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Sem cinto, o airbag pode:",
+    "alternativas": [
+      "Proteger ainda melhor.",
+      "Economizar combustível.",
+      "Causar ferimentos graves, porque infla com muita força e velocidade.",
+      "Não abrir."
+    ],
+    "correta": 2,
+    "explicacao": "O airbag é complementar ao cinto; sem o cinto, o corpo vai de encontro à bolsa ainda inflando, com risco de lesões graves.",
+    "base_legal": "CTB arts. 65 e 105, VII",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=172",
+    "observacao": null
+  },
+  {
+    "id": "dd-059",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Por que as crianças devem viajar no banco traseiro, mesmo que o veículo tenha airbag?",
+    "alternativas": [
+      "O airbag dianteiro pode ser extremamente perigoso devido à força de sua abertura.",
+      "O banco traseiro é sempre mais confortável e silencioso para as crianças.",
+      "O airbag dianteiro pode acionar mesmo sem colisão, devido ao peso da criança.",
+      "É proibido instalar cadeirinha no banco dianteiro em qualquer circunstância."
+    ],
+    "correta": 0,
+    "explicacao": "A força de abertura do airbag frontal pode ferir gravemente uma criança; por isso ela deve ir no banco traseiro, no dispositivo de retenção adequado.",
+    "base_legal": "CTB art. 64",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=222",
+    "observacao": null
+  },
+  {
+    "id": "dd-060",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "O que a inércia faz com o corpo dos ocupantes de um veículo em caso de colisão?",
+    "alternativas": [
+      "Faz com que seu corpo se fixe imediatamente ao assento, amortecendo o impacto.",
+      "Faz com que a força do impacto seja distribuída apenas no ombro.",
+      "Faz com que seu corpo continue se movendo na velocidade original do veículo.",
+      "Faz com que o airbag infle mais lentamente, protegendo o ocupante."
+    ],
+    "correta": 2,
+    "explicacao": "Numa colisão o veículo para, mas o corpo continua na velocidade anterior; é esse movimento que o cinto segura.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=220",
+    "observacao": null
+  },
+  {
+    "id": "dd-061",
+    "tema": "direcao_defensiva",
+    "subtema": "equipamentos-seguranca",
+    "enunciado": "Por que não se deve deixar objetos soltos dentro do carro?",
+    "alternativas": [
+      "Podem virar projéteis em caso de sinistro.",
+      "Atrapalham a limpeza.",
+      "Aumentam o conforto.",
+      "Melhoram o consumo."
+    ],
+    "correta": 0,
+    "explicacao": "Numa freada ou batida, objetos soltos continuam em movimento e atingem os ocupantes com força.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=160",
+    "observacao": null
+  },
+  {
+    "id": "dd-062",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Qual tipo de calçado é desaconselhado para conduzir o veículo?",
+    "alternativas": [
+      "Chinelos e calçados que não ficam firmes nos pés.",
+      "Tênis esportivo com cadarços bem amarrados.",
+      "Sapato fechado e bem preso aos pés.",
+      "Bota fechada que fica firme no pé."
+    ],
+    "correta": 0,
+    "explicacao": "O CTB proíbe dirigir com calçado que não se firme nos pés ou que atrapalhe o uso dos pedais.",
+    "base_legal": "CTB art. 252, IV",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=219",
+    "observacao": "Distratores 'sapatos de salto alto, desde que justos' e 'botas de cano alto' substituídos: salto alto também é desaconselhado, o que criava duas respostas possíveis."
+  },
+  {
+    "id": "dd-063",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Marcos dirige ouvindo música no fone de ouvido. Isso é perigoso porque:",
+    "alternativas": [
+      "O som melhora sua concentração.",
+      "Só causa problema em estrada.",
+      "Atrapalha apenas os passageiros.",
+      "Ele não escuta buzinas ou sirenes."
+    ],
+    "correta": 3,
+    "explicacao": "Com fones, o condutor não ouve buzinas, sirenes e outros alertas; dirigir usando fones conectados a aparelho de som ou celular é infração média.",
+    "base_legal": "CTB art. 252, VI",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=176",
+    "observacao": null
+  },
+  {
+    "id": "dd-064",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Qual é a principal razão pela qual manusear o celular ao volante é tão perigoso?",
+    "alternativas": [
+      "Porque a multa é muito cara.",
+      "Porque o desvio de atenção, mesmo por poucos segundos, faz o carro percorrer uma longa distância sem o motorista estar prestando atenção.",
+      "Porque o aparelho pode ser danificado numa freada brusca.",
+      "Porque é apenas uma infração leve."
+    ],
+    "correta": 1,
+    "explicacao": "A 60 km/h, olhar o celular por 2 segundos significa percorrer mais de 30 metros 'às cegas'; segurar ou manusear o celular dirigindo é infração gravíssima.",
+    "base_legal": "CTB art. 252, parágrafo único",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=301",
+    "observacao": "Distrator 'Porque é uma das infrações grave' reescrito (erro de português e classificação imprecisa: manusear o celular ao dirigir é infração gravíssima)."
+  },
+  {
+    "id": "dd-065",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Qual é o efeito do cansaço, do sono e de certos medicamentos nos reflexos do motorista?",
+    "alternativas": [
+      "Aumentam a concentração.",
+      "Não causam impacto significativo.",
+      "Apenas dão sono, mas não afetam a direção.",
+      "Reduzem os reflexos; o recomendado é não dirigir nessas condições."
+    ],
+    "correta": 3,
+    "explicacao": "Cansaço, sono e alguns medicamentos deixam a reação mais lenta e prejudicam o julgamento; o ideal é não dirigir nessas condições.",
+    "base_legal": "CTB art. 252, III; Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=226",
+    "observacao": null
+  },
+  {
+    "id": "dd-066",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Um motorista está cansado e bocejando, mas quer terminar a viagem. O que ele deveria fazer?",
+    "alternativas": [
+      "Beber café e seguir.",
+      "Parar em local seguro e descansar.",
+      "Abrir o vidro e continuar.",
+      "Aumentar o som do rádio."
+    ],
+    "correta": 1,
+    "explicacao": "Café, vento ou som alto não eliminam o sono; só o descanso resolve, e insistir pode levar a cochilos ao volante.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=242",
+    "observacao": null
+  },
+  {
+    "id": "dd-067",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Um cochilo de apenas 3 ou 4 segundos a 80 km/h faz o veículo percorrer aproximadamente:",
+    "alternativas": [
+      "Apenas 10 metros com o controle total do carro.",
+      "Cerca de 30 metros, mas com o carro se autocontrolando.",
+      "Menos de 5 metros, sem risco.",
+      "Quase 100 metros sem controle nenhum do veículo, o equivalente a dirigir de olhos fechados por um quarteirão inteiro."
+    ],
+    "correta": 3,
+    "explicacao": "A 80 km/h o carro anda cerca de 22 metros por segundo; em 4 segundos de cochilo são quase 90 metros sem ninguém no controle.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=249",
+    "observacao": null
+  },
+  {
+    "id": "dd-068",
+    "tema": "direcao_defensiva",
+    "subtema": "condutor",
+    "enunciado": "Um condutor nervoso e ansioso tende a:",
+    "alternativas": [
+      "Dirigir com mais segurança.",
+      "Perder concentração e cometer erros simples.",
+      "Aumentar o controle do veículo.",
+      "Reduzir o risco de sinistros."
+    ],
+    "correta": 1,
+    "explicacao": "Nervosismo e ansiedade tiram a concentração e levam a erros simples e decisões impulsivas.",
+    "base_legal": "Manual de Direção Defensiva (Denatran); Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=241",
+    "observacao": null
+  },
+  {
+    "id": "dd-069",
+    "tema": "direcao_defensiva",
+    "subtema": "sinalizacao-emergencia",
+    "enunciado": "Em vias de velocidade alta ou com pouca visibilidade (neblina), o que fazer em relação à distância mínima de 30 metros para posicionar o triângulo?",
+    "alternativas": [
+      "Reduzir a distância de sinalização para que o triângulo fique perto do carro.",
+      "Aumentar a distância de sinalização, pois 30 metros é apenas o mínimo.",
+      "Manter a distância de exatamente 30 metros.",
+      "Usar o pisca-alerta e não o triângulo."
+    ],
+    "correta": 1,
+    "explicacao": "Os 30 metros são o mínimo; quanto maior a velocidade da via ou pior a visibilidade, mais longe o triângulo deve ficar para dar tempo de reação a quem se aproxima.",
+    "base_legal": "CTB art. 46; Res. Contran 36/1998",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=249",
+    "observacao": null
+  },
+  {
+    "id": "dd-070",
+    "tema": "direcao_defensiva",
+    "subtema": "sinistro-sem-vitima",
+    "enunciado": "Em um sinistro sem vítimas que esteja bloqueando o trânsito, qual a atitude correta a ser tomada após a troca de informações?",
+    "alternativas": [
+      "Retirar os veículos da via e levá-los para um local mais seguro, como o acostamento.",
+      "Deixar os veículos onde estão até a chegada da polícia.",
+      "Ignorar o bloqueio e sinalizar a 5 metros.",
+      "Fugir do local rapidamente."
+    ],
+    "correta": 0,
+    "explicacao": "Num sinistro sem vítimas, os veículos devem ser retirados do local quando isso for necessário para a segurança e a fluidez do trânsito; não fazê-lo é infração média.",
+    "base_legal": "CTB art. 178",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=247",
+    "observacao": null
+  },
+  {
+    "id": "dd-071",
+    "tema": "direcao_defensiva",
+    "subtema": "comunicacao",
+    "enunciado": "Como a buzina deve ser usada?",
+    "alternativas": [
+      "Para expressar raiva.",
+      "De forma prolongada, sempre.",
+      "Para abrir caminho na cidade.",
+      "Em toques breves, para advertir e evitar sinistros."
+    ],
+    "correta": 3,
+    "explicacao": "O CTB só permite a buzina em toque breve, para advertências que evitem sinistros (e, fora da cidade, para avisar que vai ultrapassar).",
+    "base_legal": "CTB arts. 41 e 227",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=148",
+    "observacao": null
+  },
+  {
+    "id": "ps-001",
+    "tema": "primeiros_socorros",
+    "subtema": "seguranca-do-local",
+    "enunciado": "O que deve ser feito primeiro ao chegar a um local de um sinistro?",
+    "alternativas": [
+      "Tentar remover as vítimas imediatamente.",
+      "Acionar o socorro apenas após avaliar as lesões.",
+      "Verificar se o local é seguro antes de se aproximar.",
+      "Aplicar os primeiros socorros sem observar o ambiente."
+    ],
+    "correta": 2,
+    "explicacao": "Antes de ajudar é preciso garantir que o local não oferece riscos (trânsito, fogo, fios); senão quem socorre pode virar outra vítima.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=243",
+    "observacao": null
+  },
+  {
+    "id": "ps-002",
+    "tema": "primeiros_socorros",
+    "subtema": "sinalizacao-do-local",
+    "enunciado": "Após parar o veículo em local seguro num sinistro, o que o condutor deve acionar imediatamente para alertar os outros motoristas?",
+    "alternativas": [
+      "O farol alto.",
+      "O pisca-alerta do veículo.",
+      "O sistema de som.",
+      "O limpador de para-brisa."
+    ],
+    "correta": 1,
+    "explicacao": "O pisca-alerta deve ser usado em imobilizações e emergências; é a forma mais rápida de avisar quem vem atrás.",
+    "base_legal": "CTB art. 40, V, 'a'",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=246",
+    "observacao": null
+  },
+  {
+    "id": "ps-003",
+    "tema": "primeiros_socorros",
+    "subtema": "sinalizacao-do-local",
+    "enunciado": "Ana furou o pneu e parou no acostamento. Logo após ligar o pisca-alerta, qual é o passo essencial para sinalizar a emergência?",
+    "alternativas": [
+      "Posicionar o triângulo de sinalização a, no mínimo, 30 metros atrás do veículo.",
+      "Posicionar o triângulo a 5 metros do carro, no acostamento.",
+      "Ligar o farol alto.",
+      "Deixar a porta aberta para que outros motoristas vejam o problema."
+    ],
+    "correta": 0,
+    "explicacao": "Na imobilização de emergência a sinalização com pisca-alerta e triângulo é obrigatória; 30 metros é a distância mínima e deve ser aumentada em vias rápidas.",
+    "base_legal": "CTB art. 46; Res. Contran 36/1998",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=251",
+    "observacao": null
+  },
+  {
+    "id": "ps-004",
+    "tema": "primeiros_socorros",
+    "subtema": "avaliacao-da-cena",
+    "enunciado": "Antes de acionar o socorro especializado, o que deve ser observado na avaliação da situação de um sinistro?",
+    "alternativas": [
+      "Tentar apagar um vazamento de combustível.",
+      "Observar se há vazamentos de combustível, fumaça, fios elétricos soltos ou risco de incêndio/explosão.",
+      "Fazer procedimentos médicos na vítima.",
+      "Fugir do local."
+    ],
+    "correta": 1,
+    "explicacao": "Riscos como vazamento, fumaça ou fios soltos determinam se é seguro se aproximar e são informações importantes para o socorro.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=247",
+    "observacao": null
+  },
+  {
+    "id": "ps-005",
+    "tema": "primeiros_socorros",
+    "subtema": "avaliacao-da-cena",
+    "enunciado": "Em um sinistro com vítimas, qual a principal ação que o condutor deve tomar para garantir a segurança de todos ao redor, além de chamar o socorro?",
+    "alternativas": [
+      "Retirar os pneus dos carros.",
+      "Retirar os documentos das vítimas.",
+      "Desligar o motor dos veículos envolvidos, se possível.",
+      "Ligar para a seguradora."
+    ],
+    "correta": 2,
+    "explicacao": "Desligar a ignição reduz o risco de incêndio e evita que o veículo se movimente.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4; CTB art. 176, II",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=248",
+    "observacao": null
+  },
+  {
+    "id": "ps-006",
+    "tema": "primeiros_socorros",
+    "subtema": "avaliacao-da-cena",
+    "enunciado": "Um motorista envolvido em um sinistro percebe um cheiro de combustível e fumaça saindo de um dos carros. Qual deve ser a sua prioridade máxima?",
+    "alternativas": [
+      "Tentar ligar o carro novamente para tirá-lo do local.",
+      "Avaliar os danos materiais para acionar o seguro.",
+      "Pegar o extintor de incêndio e tentar apagar a fumaça.",
+      "Garantir a própria segurança e a de outros, afastando-se do local e acionando os bombeiros."
+    ],
+    "correta": 3,
+    "explicacao": "Cheiro de combustível e fumaça indicam risco de incêndio ou explosão; primeiro proteja a vida, afastando-se, e chame os bombeiros (193).",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=312",
+    "observacao": null
+  },
+  {
+    "id": "ps-007",
+    "tema": "primeiros_socorros",
+    "subtema": "riscos-especiais",
+    "enunciado": "Beatriz viu cabos elétricos caídos na via após um sinistro. Qual é o comportamento seguro?",
+    "alternativas": [
+      "Tentar retirar os cabos com um galho.",
+      "Manter distância e acionar as autoridades (bombeiros e concessionária de energia).",
+      "Aproximar-se para ver melhor.",
+      "Chutar o fio para longe."
+    ],
+    "correta": 1,
+    "explicacao": "Fios caídos podem estar energizados; só equipes especializadas podem lidar com eles.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=274",
+    "observacao": null
+  },
+  {
+    "id": "ps-008",
+    "tema": "primeiros_socorros",
+    "subtema": "riscos-especiais",
+    "enunciado": "Um carro bate em um poste, e cabos elétricos caem sobre ele. O que o motorista, que não se feriu, deve fazer enquanto está dentro do veículo?",
+    "alternativas": [
+      "Permanecer dentro do veículo sem tocar nas partes metálicas e ligar para os bombeiros (193).",
+      "Tentar empurrar os cabos para longe do carro com um objeto não condutor.",
+      "Sair imediatamente do carro, tomando cuidado para não tocar nos fios.",
+      "Abrir a porta do veículo."
+    ],
+    "correta": 0,
+    "explicacao": "Se não houver fogo, o mais seguro é ficar dentro do veículo sem tocar nas partes metálicas e chamar os bombeiros; ao descer, a pessoa pode tocar o carro e o chão ao mesmo tempo e levar um choque.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=312",
+    "observacao": null
+  },
+  {
+    "id": "ps-009",
+    "tema": "primeiros_socorros",
+    "subtema": "riscos-especiais",
+    "enunciado": "Ao se deparar com um sinistro envolvendo um veículo que transporta cargas perigosas, identificado pelo painel laranja, qual é o procedimento mais seguro a ser seguido?",
+    "alternativas": [
+      "Utilizar o extintor do seu carro para conter qualquer princípio de incêndio e evacuar as vítimas do local.",
+      "Sinalizar o local com o triângulo a 30 metros e aguardar dentro do seu veículo a chegada do socorro.",
+      "Manter distância segura (pelo menos 50 metros), ficar com o vento pelas costas (soprando de você para o local) e informar aos bombeiros o número do painel laranja.",
+      "Aproximar-se para identificar o número no painel e prestar os primeiros socorros imediatamente."
+    ],
+    "correta": 2,
+    "explicacao": "Produtos perigosos podem liberar gases tóxicos ou inflamáveis; com o vento pelas costas a fumaça vai para longe de você, e o número do painel identifica o produto para as equipes.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4; Manual para Atendimento a Emergências com Produtos Perigosos (ABIQUIM/Pró-Química)",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=306",
+    "observacao": "Alternativa correta corrigida: o original dizia 'posicionar-se contra o vento', mas o próprio comentário do banco explica o contrário (ficar a favor do vento, com o vento pelas costas, para não inalar gases)."
+  },
+  {
+    "id": "ps-010",
+    "tema": "primeiros_socorros",
+    "subtema": "acionamento-do-socorro",
+    "enunciado": "João viu uma colisão grave na cidade, com um motociclista ferido e sangrando no chão. Para qual número ele deve ligar para pedir atendimento médico de urgência?",
+    "alternativas": [
+      "193",
+      "192",
+      "190",
+      "191"
+    ],
+    "correta": 1,
+    "explicacao": "192 é o SAMU (atendimento médico de urgência); 193 é o Corpo de Bombeiros, 190 a Polícia Militar e 191 a Polícia Rodoviária Federal.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=250",
+    "observacao": "Enunciado resumido e retirada a sigla 'SAMU', que entregava a resposta."
+  },
+  {
+    "id": "ps-011",
+    "tema": "primeiros_socorros",
+    "subtema": "acionamento-do-socorro",
+    "enunciado": "Maria viu um carro pegando fogo no acostamento. Para qual número ela deve ligar? (O mesmo vale para resgates e riscos com cabos elétricos.)",
+    "alternativas": [
+      "193 (Corpo de Bombeiros).",
+      "192 (SAMU).",
+      "190 (Polícia Militar).",
+      "191 (PRF)."
+    ],
+    "correta": 0,
+    "explicacao": "O Corpo de Bombeiros (193) atende incêndios, resgate de vítimas presas e situações com risco elétrico.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=250",
+    "observacao": null
+  },
+  {
+    "id": "ps-012",
+    "tema": "primeiros_socorros",
+    "subtema": "acionamento-do-socorro",
+    "enunciado": "Para comunicar um sinistro ao órgão responsável pelo policiamento e fiscalização de uma rodovia federal, qual número o condutor deve ligar?",
+    "alternativas": [
+      "190 – Polícia Militar.",
+      "192 – SAMU.",
+      "191 – Polícia Rodoviária Federal (PRF).",
+      "193 – Corpo de Bombeiros."
+    ],
+    "correta": 2,
+    "explicacao": "A PRF (191) é a autoridade responsável pelas rodovias federais; se houver feridos, o SAMU (192) também deve ser acionado.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=311",
+    "observacao": "Enunciado ajustado para pedir o órgão responsável pela rodovia federal; na versão original, com feridos, o 192 (SAMU) também seria defensável."
+  },
+  {
+    "id": "ps-013",
+    "tema": "primeiros_socorros",
+    "subtema": "acionamento-do-socorro",
+    "enunciado": "Ao ligar para o socorro em um sinistro com vítimas, o que é fundamental informar com clareza para agilizar o atendimento?",
+    "alternativas": [
+      "Seu nome e CPF completo.",
+      "Apenas o tipo de veículo envolvido.",
+      "Localização exata, número de vítimas e a situação delas (se estão presas, inconscientes, sangrando etc.).",
+      "A cor da roupa das vítimas."
+    ],
+    "correta": 2,
+    "explicacao": "Com localização exata, número de vítimas e estado delas, a central envia a equipe e os recursos certos mais rápido.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=248",
+    "observacao": null
+  },
+  {
+    "id": "ps-014",
+    "tema": "primeiros_socorros",
+    "subtema": "acionamento-do-socorro",
+    "enunciado": "Diante de um sinistro com vítimas, Rafael pensou em ligar primeiro para a família. Qual é o procedimento correto?",
+    "alternativas": [
+      "Ligar primeiro para os números de emergência.",
+      "Ligar primeiro para amigos.",
+      "Postar o ocorrido nas redes sociais.",
+      "Gravar um vídeo do sinistro."
+    ],
+    "correta": 0,
+    "explicacao": "Cada minuto conta: o socorro especializado deve ser acionado antes de qualquer outra ligação.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=273",
+    "observacao": null
+  },
+  {
+    "id": "ps-015",
+    "tema": "primeiros_socorros",
+    "subtema": "nao-movimentar",
+    "enunciado": "Qual a regra de ouro sobre a assistência à vítima, a fim de não agravar os ferimentos?",
+    "alternativas": [
+      "\"Movimente apenas em caso de dor.\"",
+      "\"Não remova, não movimente, não transporte.\"",
+      "\"Movimente sempre para o acostamento.\"",
+      "\"Remova a vítima o mais rápido possível.\""
+    ],
+    "correta": 1,
+    "explicacao": "Movimentar a vítima pode agravar lesões de coluna e fraturas; ela deve ficar como está até a chegada do socorro.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=248",
+    "observacao": null
+  },
+  {
+    "id": "ps-016",
+    "tema": "primeiros_socorros",
+    "subtema": "nao-movimentar",
+    "enunciado": "Qual é a única exceção à regra \"não remova, não movimente, não transporte\" em um sinistro com vítimas?",
+    "alternativas": [
+      "Quando a vítima pedir para ser movida.",
+      "Quando o motorista estiver com pressa.",
+      "Quando houver risco iminente à vida, como incêndio, explosão ou atropelamento.",
+      "Quando a vítima estiver deitada sobre o asfalto."
+    ],
+    "correta": 2,
+    "explicacao": "A vítima só deve ser movida quando permanecer no local for mais perigoso do que a remoção.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=249",
+    "observacao": null
+  },
+  {
+    "id": "ps-017",
+    "tema": "primeiros_socorros",
+    "subtema": "nao-movimentar",
+    "enunciado": "Uma vítima com suspeita de fratura de coluna deve ser:",
+    "alternativas": [
+      "Sentada para facilitar a respiração.",
+      "Colocada de lado.",
+      "Movimentada para avaliar os danos.",
+      "Mantida imóvel até a chegada do socorro."
+    ],
+    "correta": 3,
+    "explicacao": "Com suspeita de lesão na coluna, qualquer movimento pode causar paralisia; mantenha a vítima imóvel e aguarde o socorro.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=244",
+    "observacao": null
+  },
+  {
+    "id": "ps-018",
+    "tema": "primeiros_socorros",
+    "subtema": "capacete",
+    "enunciado": "O que se deve fazer com uma vítima de trânsito que está usando capacete?",
+    "alternativas": [
+      "Não remover o capacete.",
+      "Retirar o capacete para facilitar o atendimento.",
+      "Retirar o capacete imediatamente para verificar ferimentos.",
+      "Levantar a cabeça da vítima."
+    ],
+    "correta": 0,
+    "explicacao": "Retirar o capacete pode agravar lesões no pescoço e na coluna; isso só deve ser feito por equipe treinada.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=243",
+    "observacao": null
+  },
+  {
+    "id": "ps-019",
+    "tema": "primeiros_socorros",
+    "subtema": "vitima-presa",
+    "enunciado": "Após um sinistro grave, Eduardo tentou retirar sozinho uma vítima presa nas ferragens. Por que isso é perigoso?",
+    "alternativas": [
+      "Porque as vítimas preferem ficar sozinhas.",
+      "Porque essas situações exigem equipe e equipamentos especializados; a retirada improvisada pode agravar as lesões.",
+      "Porque o carro provavelmente está sem risco.",
+      "Porque é sempre melhor agir rápido, sem pensar."
+    ],
+    "correta": 1,
+    "explicacao": "Vítimas presas devem ser retiradas pelos bombeiros, com técnica e equipamentos que protegem a coluna.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=274",
+    "observacao": null
+  },
+  {
+    "id": "ps-020",
+    "tema": "primeiros_socorros",
+    "subtema": "vitima-inconsciente",
+    "enunciado": "O que deve ser feito se houver vítima inconsciente após um sinistro?",
+    "alternativas": [
+      "Jogar água no rosto da vítima.",
+      "Verificar se respira e chamar o socorro.",
+      "Dar álcool para a vítima cheirar.",
+      "Tentar levantá-la."
+    ],
+    "correta": 1,
+    "explicacao": "Verificar a respiração indica a gravidade do caso, e o socorro especializado deve ser chamado imediatamente; não se deve levantar, molhar ou dar algo para a vítima cheirar.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=244",
+    "observacao": null
+  },
+  {
+    "id": "ps-021",
+    "tema": "primeiros_socorros",
+    "subtema": "vitima-inconsciente",
+    "enunciado": "Ao se deparar com uma vítima de sinistro que não responde e parece não respirar, o que uma pessoa sem treinamento em reanimação deve fazer?",
+    "alternativas": [
+      "Virar a vítima de lado para que ela possa respirar melhor.",
+      "Jogar água no rosto da vítima para tentar acordá-la.",
+      "Sacudir a vítima com força até ela reagir.",
+      "Informar imediatamente ao SAMU (192) e seguir as orientações do atendente por telefone."
+    ],
+    "correta": 3,
+    "explicacao": "Quem não tem treinamento deve ligar para o 192 na hora: o atendente orienta por telefone, inclusive como fazer compressões no peito até a ambulância chegar.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4; diretrizes de RCP orientada por telefone (AHA/ERC)",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=306",
+    "observacao": "Distrator 'tentar fazer massagem cardíaca de qualquer jeito, pois é melhor que nada' substituído: pelas diretrizes atuais (AHA/ERC), tentar compressões é melhor do que não fazer nada, o que tornava a alternativa ambígua."
+  },
+  {
+    "id": "ps-022",
+    "tema": "primeiros_socorros",
+    "subtema": "cuidados-com-a-vitima",
+    "enunciado": "Paula parou para ajudar uma vítima de sinistro que estava consciente e com sede. O que Paula NÃO deve dar à vítima, mesmo que ela peça?",
+    "alternativas": [
+      "Apoio e conforto.",
+      "Cobertor se estiver com frio.",
+      "Água, comida ou medicamentos.",
+      "Informação sobre a chegada do socorro."
+    ],
+    "correta": 2,
+    "explicacao": "A vítima pode precisar de cirurgia ou vomitar e aspirar; por isso não se oferece nada para ela ingerir.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=251",
+    "observacao": null
+  },
+  {
+    "id": "ps-023",
+    "tema": "primeiros_socorros",
+    "subtema": "cuidados-com-a-vitima",
+    "enunciado": "Uma vítima estava desmaiada e Joice pensou em lhe dar água. Por que isso é perigoso?",
+    "alternativas": [
+      "A água pode estar quente.",
+      "A vítima pode não gostar.",
+      "A garrafa pode cair.",
+      "Pode causar engasgo ou aspiração do líquido para os pulmões."
+    ],
+    "correta": 3,
+    "explicacao": "Uma pessoa inconsciente não consegue engolir com segurança; o líquido pode ir para as vias aéreas.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=275",
+    "observacao": null
+  },
+  {
+    "id": "ps-024",
+    "tema": "primeiros_socorros",
+    "subtema": "cuidados-com-a-vitima",
+    "enunciado": "Um pedestre atropelado está deitado no chão, sentindo muito frio. O que fazer para ajudá-lo a manter a temperatura e evitar o agravamento do estado de choque?",
+    "alternativas": [
+      "Dar uma bebida quente.",
+      "Apenas ignorar, pois é mais seguro.",
+      "Movimentá-lo para um local quente.",
+      "Cobri-lo com um cobertor, agasalho ou manta térmica, se disponível."
+    ],
+    "correta": 3,
+    "explicacao": "Manter a vítima aquecida ajuda a prevenir o agravamento do estado de choque; ela deve ser coberta sem ser movimentada.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=252",
+    "observacao": null
+  },
+  {
+    "id": "ps-025",
+    "tema": "primeiros_socorros",
+    "subtema": "cuidados-com-a-vitima",
+    "enunciado": "Ao falar com uma vítima consciente em um sinistro, o que você deve fazer?",
+    "alternativas": [
+      "Dar água e medicamentos.",
+      "Tentar mover a vítima para um local mais seguro.",
+      "Conversar com ela para mantê-la calma e consciente, e cobri-la se estiver com frio.",
+      "Fazer procedimentos médicos."
+    ],
+    "correta": 2,
+    "explicacao": "Conversar tranquiliza a vítima e permite acompanhar se ela continua consciente até a chegada do socorro.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=246",
+    "observacao": null
+  },
+  {
+    "id": "ps-026",
+    "tema": "primeiros_socorros",
+    "subtema": "papel-do-leigo",
+    "enunciado": "No contexto de primeiros socorros em um sinistro, qual é o papel do condutor leigo que presta assistência?",
+    "alternativas": [
+      "Dar apoio emocional, informar a vítima sobre a chegada do socorro e nunca tentar fazer procedimentos médicos.",
+      "Tentar fazer um procedimento médico.",
+      "Apenas observar a vítima sem falar nada.",
+      "Mover a vítima para o carro."
+    ],
+    "correta": 0,
+    "explicacao": "O leigo ajuda sinalizando, chamando o socorro e dando apoio; procedimentos que não domina podem piorar o quadro.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=248",
+    "observacao": null
+  },
+  {
+    "id": "ps-027",
+    "tema": "primeiros_socorros",
+    "subtema": "fraturas",
+    "enunciado": "O que deve ser evitado ao socorrer uma vítima com fratura exposta?",
+    "alternativas": [
+      "Tentar alinhar o osso quebrado.",
+      "Cobrir o ferimento com pano limpo.",
+      "Evitar movimentos bruscos.",
+      "Chamar o socorro."
+    ],
+    "correta": 0,
+    "explicacao": "Tentar recolocar o osso no lugar causa dor, hemorragia e mais lesões; cubra o ferimento com pano limpo e aguarde o socorro.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=243",
+    "observacao": null
+  },
+  {
+    "id": "ps-028",
+    "tema": "primeiros_socorros",
+    "subtema": "hemorragia",
+    "enunciado": "Uma vítima apresenta hemorragia nasal. Qual deve ser o procedimento correto?",
+    "alternativas": [
+      "Deitar e levantar o queixo.",
+      "Inclinar a cabeça para trás.",
+      "Inclinar levemente a cabeça para a frente e comprimir o nariz.",
+      "Tampar uma narina e inspirar profundamente."
+    ],
+    "correta": 2,
+    "explicacao": "Inclinar a cabeça para a frente evita que o sangue desça para a garganta; inclinar para trás é um erro comum.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4; diretrizes de primeiros socorros (ERC 2021)",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=243",
+    "observacao": null
+  },
+  {
+    "id": "ps-029",
+    "tema": "primeiros_socorros",
+    "subtema": "queimaduras",
+    "enunciado": "O que NÃO se deve fazer ao atender uma vítima de queimadura em um sinistro de trânsito?",
+    "alternativas": [
+      "Resfriar a área com água corrente.",
+      "Passar pasta de dente ou pomada caseira.",
+      "Cobrir com pano limpo.",
+      "Manter a vítima calma e acionar o socorro."
+    ],
+    "correta": 1,
+    "explicacao": "Pasta de dente, manteiga ou pomadas caseiras agravam a queimadura e aumentam o risco de infecção; o certo é resfriar com água corrente e cobrir com pano limpo, sem estourar as bolhas.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=245",
+    "observacao": "Distrator 'Estourar as bolhas que se formarem' substituído: também é algo que NÃO se deve fazer, o que deixava a questão com duas respostas corretas."
+  },
+  {
+    "id": "ps-030",
+    "tema": "primeiros_socorros",
+    "subtema": "mal-subito",
+    "enunciado": "Quando uma vítima está consciente e se queixando de dor no peito, o que deve ser feito?",
+    "alternativas": [
+      "Pedir para ela caminhar.",
+      "Acalmá-la e acionar imediatamente o socorro especializado.",
+      "Dar água fria à vítima.",
+      "Mandar a pessoa deitar e esperar a dor passar."
+    ],
+    "correta": 1,
+    "explicacao": "Dor no peito pode ser infarto; mantenha a vítima em repouso e calma e chame o 192 sem demora.",
+    "base_legal": "Manual de Primeiros Socorros (Denatran); Curso CNH do Brasil (Senatran), Módulo 4",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=244",
+    "observacao": null
+  },
+  {
+    "id": "ps-031",
+    "tema": "primeiros_socorros",
+    "subtema": "obrigacoes-legais",
+    "enunciado": "Em um sinistro com vítimas, qual é a obrigação legal do condutor envolvido?",
+    "alternativas": [
+      "Fugir imediatamente para não ser acusado.",
+      "Prestar ou providenciar socorro à vítima e permanecer no local, colaborando com as autoridades.",
+      "Fazer procedimentos médicos na vítima.",
+      "Mover a vítima para o acostamento."
+    ],
+    "correta": 1,
+    "explicacao": "Deixar de prestar socorro (ou de pedir socorro, se não puder prestá-lo) é crime e infração gravíssima; fugir do local para escapar da responsabilidade também é crime.",
+    "base_legal": "CTB arts. 176, 304 e 305; Código Penal art. 135",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=247",
+    "observacao": "Alternativa correta reescrita: o original dizia que 'fugir é crime de omissão de socorro', misturando dois crimes distintos do CTB (omissão de socorro, art. 304, e fuga do local, art. 305)."
+  },
+  {
+    "id": "ps-032",
+    "tema": "primeiros_socorros",
+    "subtema": "obrigacoes-legais",
+    "enunciado": "Em caso de atropelamento, o que o condutor envolvido deve fazer?",
+    "alternativas": [
+      "Afastar-se do local.",
+      "Retirar a vítima da pista imediatamente.",
+      "Aguardar sem comunicar o ocorrido.",
+      "Parar o veículo em local seguro e prestar socorro, chamando ajuda especializada."
+    ],
+    "correta": 3,
+    "explicacao": "O condutor envolvido deve parar, sinalizar e prestar ou providenciar socorro; abandonar a vítima é crime.",
+    "base_legal": "CTB arts. 176 e 304",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=244",
+    "observacao": null
+  },
+  {
+    "id": "ma-001",
+    "tema": "meio_ambiente",
+    "subtema": "residuos",
+    "enunciado": "Baterias automotivas usadas devem ser:",
+    "alternativas": [
+      "Jogadas no lixo comum.",
+      "Enterradas no quintal.",
+      "Lavadas e reutilizadas sempre.",
+      "Enviadas para reciclagem específica em locais autorizados."
+    ],
+    "correta": 3,
+    "explicacao": "Baterias têm chumbo e ácido; devem voltar ao comércio ou a pontos de coleta para reciclagem (logística reversa).",
+    "base_legal": "Lei 12.305/2010 (PNRS), art. 33; Res. Conama 401/2008",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=234",
+    "observacao": null
+  },
+  {
+    "id": "ma-002",
+    "tema": "meio_ambiente",
+    "subtema": "residuos",
+    "enunciado": "Quais itens de manutenção do veículo exigem descarte especial para evitar danos ao meio ambiente?",
+    "alternativas": [
+      "Óleo lubrificante usado, filtros e baterias.",
+      "Tapete e capa de banco.",
+      "Odorizador.",
+      "Sacola plástica."
+    ],
+    "correta": 0,
+    "explicacao": "Óleo usado, filtros e baterias contêm substâncias tóxicas e metais pesados e precisam de coleta específica.",
+    "base_legal": "Lei 12.305/2010 (PNRS), art. 33; Res. Conama 362/2005",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=236",
+    "observacao": null
+  },
+  {
+    "id": "ma-003",
+    "tema": "meio_ambiente",
+    "subtema": "residuos",
+    "enunciado": "Por que o descarte correto de óleo usado é importante?",
+    "alternativas": [
+      "Aumenta o brilho da calçada.",
+      "Some sozinho com o tempo.",
+      "Evita poluição do solo e da água por substâncias tóxicas.",
+      "Pode ser despejado no ralo."
+    ],
+    "correta": 2,
+    "explicacao": "O óleo lubrificante usado contamina o solo e a água; deve ser recolhido para rerrefino, nunca jogado no ralo ou na terra.",
+    "base_legal": "Res. Conama 362/2005",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=238",
+    "observacao": null
+  },
+  {
+    "id": "ma-004",
+    "tema": "meio_ambiente",
+    "subtema": "residuos",
+    "enunciado": "Por que pneus velhos precisam de descarte correto?",
+    "alternativas": [
+      "São leves e voam.",
+      "Não ocupam espaço.",
+      "Servem como adubo.",
+      "Acumulam água (criadouro do mosquito da dengue) e demoram muito para se decompor."
+    ],
+    "correta": 3,
+    "explicacao": "Pneus abandonados viram criadouros de mosquitos e poluem por décadas; devem ir para pontos de coleta.",
+    "base_legal": "Res. Conama 416/2009; Lei 12.305/2010, art. 33",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=239",
+    "observacao": null
+  },
+  {
+    "id": "ma-005",
+    "tema": "meio_ambiente",
+    "subtema": "conducao-economica",
+    "enunciado": "Como contribuir com o meio ambiente ao dirigir?",
+    "alternativas": [
+      "Deixar o motor em marcha lenta.",
+      "Acelerar forte nas saídas.",
+      "Ignorar pneus murchos.",
+      "Adotar condução suave e ter a manutenção do veículo em dia."
+    ],
+    "correta": 3,
+    "explicacao": "Dirigir de forma suave e manter o veículo regulado reduz o consumo e a emissão de poluentes.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar; CTB art. 1º, §5º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=234",
+    "observacao": null
+  },
+  {
+    "id": "ma-006",
+    "tema": "meio_ambiente",
+    "subtema": "poluicao-do-ar",
+    "enunciado": "O trânsito é uma das principais fontes de:",
+    "alternativas": [
+      "Água potável.",
+      "Sombra urbana.",
+      "Silêncio.",
+      "Poluição do ar nas cidades."
+    ],
+    "correta": 3,
+    "explicacao": "Os gases dos escapamentos estão entre as maiores fontes de poluição do ar nas cidades.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar; CTB art. 1º, §5º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=238",
+    "observacao": null
+  },
+  {
+    "id": "ma-007",
+    "tema": "meio_ambiente",
+    "subtema": "poluicao-sonora",
+    "enunciado": "A poluição sonora no trânsito pode causar:",
+    "alternativas": [
+      "Melhora da audição.",
+      "Aumento da concentração dos motoristas.",
+      "Apenas incômodo leve, sem efeito na saúde.",
+      "Estresse, insônia, irritabilidade e problemas cardíacos."
+    ],
+    "correta": 3,
+    "explicacao": "O ruído excessivo do trânsito afeta a saúde física e mental de quem vive e circula nas cidades.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=238",
+    "observacao": "Distrator 'Menor atenção ao volante' substituído, pois o ruído excessivo também pode reduzir a atenção (alternativa parcialmente verdadeira)."
+  },
+  {
+    "id": "ma-008",
+    "tema": "meio_ambiente",
+    "subtema": "poluicao-sonora",
+    "enunciado": "Qual alteração gera poluição sonora?",
+    "alternativas": [
+      "Pneus calibrados.",
+      "Filtros trocados.",
+      "Escapamento alterado (descarga livre).",
+      "Luzes originais."
+    ],
+    "correta": 2,
+    "explicacao": "Alterar ou danificar o silenciador aumenta o ruído; circular com descarga livre ou silenciador defeituoso é infração grave.",
+    "base_legal": "CTB art. 230, XI",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=239",
+    "observacao": null
+  },
+  {
+    "id": "ma-009",
+    "tema": "meio_ambiente",
+    "subtema": "poluicao-sonora",
+    "enunciado": "Por que o uso excessivo da buzina é considerado prejudicial à convivência no trânsito?",
+    "alternativas": [
+      "Porque gasta bateria.",
+      "Porque aumenta o consumo de combustível.",
+      "Porque danifica os pneus.",
+      "Porque causa poluição sonora e confunde os demais usuários da via."
+    ],
+    "correta": 3,
+    "explicacao": "A buzina só deve ser usada em toques breves de advertência; o uso prolongado ou entre 22h e 6h é infração.",
+    "base_legal": "CTB arts. 41 e 227",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=199",
+    "observacao": null
+  },
+  {
+    "id": "ma-010",
+    "tema": "meio_ambiente",
+    "subtema": "conducao-economica",
+    "enunciado": "Por que pneus calibrados ajudam o ambiente?",
+    "alternativas": [
+      "Só deixam o carro “alto”.",
+      "Não têm relação com poluição.",
+      "Diminuem consumo e emissões ao reduzir resistência ao rolamento.",
+      "Gastam mais combustível."
+    ],
+    "correta": 2,
+    "explicacao": "Pneu murcho aumenta a resistência ao rolamento, o que eleva o consumo de combustível e a emissão de poluentes.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=238",
+    "observacao": null
+  },
+  {
+    "id": "ma-011",
+    "tema": "meio_ambiente",
+    "subtema": "poluicao-do-ar",
+    "enunciado": "Qual atitude reduz poluição do ar no uso diário?",
+    "alternativas": [
+      "Acelerar para chegar antes.",
+      "Ligar o carro parado por longos períodos.",
+      "Rodar com manutenção atrasada.",
+      "Planejar rotas, evitar picos e, quando possível, usar transporte coletivo."
+    ],
+    "correta": 3,
+    "explicacao": "Menos tempo em congestionamento e menos carros na rua significam menos combustível queimado e menos poluição.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=239",
+    "observacao": null
+  },
+  {
+    "id": "ma-012",
+    "tema": "meio_ambiente",
+    "subtema": "conducao-economica",
+    "enunciado": "Qual boa prática reduz a emissão de gases e a poluição sonora?",
+    "alternativas": [
+      "Desligar o motor em paradas longas.",
+      "Acelerar bruscamente em semáforos.",
+      "Usar escapamento esportivo.",
+      "Deixar o motor ligado durante longas esperas."
+    ],
+    "correta": 0,
+    "explicacao": "Motor ligado com o carro parado consome combustível, polui e faz barulho sem necessidade.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=269",
+    "observacao": "Distrator 'Evitar o uso do ar-condicionado' substituído, pois usar menos o ar-condicionado também reduz consumo e emissões (alternativa ambígua)."
+  },
+  {
+    "id": "ma-013",
+    "tema": "meio_ambiente",
+    "subtema": "conducao-economica",
+    "enunciado": "Qual é o resultado positivo de retirar o peso desnecessário do porta-malas?",
+    "alternativas": [
+      "Maior desgaste dos freios e dos pneus.",
+      "Aumento do tempo gasto nas rotas.",
+      "Menos esforço do motor e menor consumo.",
+      "Maior consumo de combustível."
+    ],
+    "correta": 2,
+    "explicacao": "Menos peso exige menos força do motor, o que reduz o consumo e as emissões.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=269",
+    "observacao": "Distrator 'Redução da poluição sonora' substituído por ser discutível (menos carga também pode reduzir ruído)."
+  },
+  {
+    "id": "ma-014",
+    "tema": "meio_ambiente",
+    "subtema": "combustiveis",
+    "enunciado": "Qual combustível renovável, produzido a partir da cana-de-açúcar, é um dos principais responsáveis pela redução de emissões de gases poluentes na frota de veículos leves no Brasil?",
+    "alternativas": [
+      "Etanol.",
+      "Gasolina pura.",
+      "Óleo diesel.",
+      "Gás Natural Veicular (GNV)."
+    ],
+    "correta": 0,
+    "explicacao": "O etanol é renovável: a cana absorve CO₂ enquanto cresce, compensando parte do que é emitido na queima.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=269",
+    "observacao": null
+  },
+  {
+    "id": "ma-015",
+    "tema": "meio_ambiente",
+    "subtema": "poluicao-do-ar",
+    "enunciado": "Qual situação é infração de trânsito e indica problemas no motor e emissão excessiva de poluentes?",
+    "alternativas": [
+      "Estacionar sobre a calçada.",
+      "Circular com o veículo soltando fumaça preta acima dos níveis permitidos.",
+      "Avançar o sinal vermelho.",
+      "Dirigir sem cinto de segurança."
+    ],
+    "correta": 1,
+    "explicacao": "Transitar produzindo fumaça, gases ou partículas acima dos limites do Contran é infração grave e sinal de motor desregulado.",
+    "base_legal": "CTB art. 231, III",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=270",
+    "observacao": null
+  },
+  {
+    "id": "ma-016",
+    "tema": "meio_ambiente",
+    "subtema": "veiculos-eletricos",
+    "enunciado": "Qual é uma vantagem dos veículos elétricos?",
+    "alternativas": [
+      "Aumentam a emissão de fumaça.",
+      "Têm motor mais complexo.",
+      "Dispensam qualquer cuidado.",
+      "Não emitem gases poluentes durante o uso e geram menos ruído."
+    ],
+    "correta": 3,
+    "explicacao": "Veículos elétricos não emitem gases pelo escapamento durante o uso e fazem menos ruído, embora precisem de manutenção e descarte correto das baterias.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=241",
+    "observacao": null
+  },
+  {
+    "id": "ma-017",
+    "tema": "meio_ambiente",
+    "subtema": "veiculos-eletricos",
+    "enunciado": "Dentre as opções apresentadas, qual é uma recomendação de segurança ao dirigir um veículo elétrico na cidade?",
+    "alternativas": [
+      "Usar buzina longa para avisar sempre.",
+      "Andar só com farol alto.",
+      "Ignorar a sinalização.",
+      "Redobrar atenção a pedestres e ciclistas, pois o veículo é silencioso."
+    ],
+    "correta": 3,
+    "explicacao": "Por serem silenciosos, os elétricos podem não ser percebidos por pedestres e ciclistas; o condutor deve redobrar a atenção.",
+    "base_legal": "CTB art. 29, §2º; Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=235",
+    "observacao": null
+  },
+  {
+    "id": "ma-018",
+    "tema": "meio_ambiente",
+    "subtema": "mobilidade",
+    "enunciado": "Qual das alternativas de mobilidade é apresentada como ideal para trajetos pequenos, combinando benefícios para a saúde, custo zero e impacto ambiental nulo?",
+    "alternativas": [
+      "Carona solidária.",
+      "Motocicleta.",
+      "Ciclomotor.",
+      "Caminhada."
+    ],
+    "correta": 3,
+    "explicacao": "Para trajetos curtos, caminhar não polui, não custa nada e faz bem à saúde.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=310",
+    "observacao": null
+  },
+  {
+    "id": "ma-019",
+    "tema": "meio_ambiente",
+    "subtema": "conducao-economica",
+    "enunciado": "Qual das seguintes ações é um exemplo de condução ecológica que ajuda a reduzir o consumo de combustível e a poluição do ar?",
+    "alternativas": [
+      "Manter o ar-condicionado sempre ligado na potência máxima para o motor funcionar melhor.",
+      "Acelerar de forma suave e progressiva, antecipando as paradas para evitar freadas bruscas.",
+      "Retirar o catalisador do escapamento para dar mais potência ao veículo.",
+      "Acelerar e frear bruscamente para tornar o fluxo do trânsito mais dinâmico."
+    ],
+    "correta": 1,
+    "explicacao": "Acelerar de forma progressiva e antecipar as paradas mantém o motor em rotação eficiente, economizando combustível.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=310",
+    "observacao": null
+  },
+  {
+    "id": "ma-020",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "O que significa empatia no trânsito?",
+    "alternativas": [
+      "Reclamar quando alguém erra.",
+      "Colocar-se no lugar do outro e agir com respeito.",
+      "Ser sempre o primeiro a passar.",
+      "Ignorar o pedestre."
+    ],
+    "correta": 1,
+    "explicacao": "Empatia é se colocar no lugar do outro (pedestre, ciclista, idoso, motorista iniciante) e agir com respeito.",
+    "base_legal": "CTB art. 26; Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=178",
+    "observacao": null
+  },
+  {
+    "id": "ma-021",
+    "tema": "meio_ambiente",
+    "subtema": "usuarios-vulneraveis",
+    "enunciado": "Por que pedestres, ciclistas e motociclistas são “vulneráveis”?",
+    "alternativas": [
+      "Porque “atrapalham” os carros.",
+      "Porque desrespeitam mais a lei.",
+      "Porque estão mais expostos e sofrem mais em caso de impacto.",
+      "Porque não usam a via."
+    ],
+    "correta": 2,
+    "explicacao": "Sem a proteção de uma carroceria, pedestres, ciclistas e motociclistas sofrem lesões mais graves em qualquer impacto.",
+    "base_legal": "CTB art. 29, §2º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=180",
+    "observacao": null
+  },
+  {
+    "id": "ma-022",
+    "tema": "meio_ambiente",
+    "subtema": "usuarios-vulneraveis",
+    "enunciado": "O que significa o princípio “o maior cuida do menor” no trânsito?",
+    "alternativas": [
+      "Veículos maiores, como caminhões, sempre têm a preferência.",
+      "Apenas veículos de emergência, como ambulâncias, precisam seguir esta regra.",
+      "O condutor de um veículo motorizado tem a responsabilidade de zelar pela segurança de ciclistas e pedestres.",
+      "Pedestres e ciclistas devem sempre ceder a passagem para os carros."
+    ],
+    "correta": 2,
+    "explicacao": "O CTB determina que os veículos maiores respondem pela segurança dos menores, os motorizados pelos não motorizados e todos pelos pedestres.",
+    "base_legal": "CTB art. 29, §2º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=301",
+    "observacao": null
+  },
+  {
+    "id": "ma-023",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "O que significa dizer que o trânsito é um espaço coletivo?",
+    "alternativas": [
+      "Que só os motoristas decidem as regras.",
+      "Que é cada um por si.",
+      "Que todos compartilham as vias e têm deveres e direitos próprios.",
+      "Que quem paga imposto manda."
+    ],
+    "correta": 2,
+    "explicacao": "A via é um espaço público compartilhado; cada usuário tem direitos e deveres e deve evitar atos que ponham os outros em perigo.",
+    "base_legal": "CTB arts. 1º e 26",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=178",
+    "observacao": null
+  },
+  {
+    "id": "ma-024",
+    "tema": "meio_ambiente",
+    "subtema": "seguranca-viaria",
+    "enunciado": "O que diz a ideia da Visão Zero?",
+    "alternativas": [
+      "Nenhuma morte no trânsito é aceitável.",
+      "Alguns acidentes são inevitáveis.",
+      "O pedestre é sempre culpado.",
+      "Só punir resolve."
+    ],
+    "correta": 0,
+    "explicacao": "A Visão Zero parte da ideia de que nenhuma morte ou lesão grave no trânsito é aceitável e de que vias, veículos e regras devem tolerar o erro humano.",
+    "base_legal": "Pnatrans; abordagem Sistema Seguro (ONU – Década de Ação pela Segurança no Trânsito 2021–2030)",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=177",
+    "observacao": null
+  },
+  {
+    "id": "ma-025",
+    "tema": "meio_ambiente",
+    "subtema": "seguranca-viaria",
+    "enunciado": "Qual é a meta principal do Pnatrans?",
+    "alternativas": [
+      "Reduzir pela metade, no mínimo, o índice de mortes no trânsito até o fim de 2030.",
+      "Fazer novas estradas.",
+      "Aumentar o número de radares.",
+      "Criar mais multas."
+    ],
+    "correta": 0,
+    "explicacao": "O CTB fixa como objetivo do Pnatrans reduzir à metade, até o fim de 2030, o índice de mortes por grupo de habitantes em relação a 2020.",
+    "base_legal": "CTB art. 326-A, §1º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=181",
+    "observacao": null
+  },
+  {
+    "id": "ma-026",
+    "tema": "meio_ambiente",
+    "subtema": "seguranca-viaria",
+    "enunciado": "Por que usar o termo \"sinistro\" em vez de \"acidente\" de trânsito?",
+    "alternativas": [
+      "Porque fica mais \"bonito\".",
+      "Para confundir o motorista.",
+      "Porque ninguém tem culpa.",
+      "Porque a maioria dos eventos de trânsito é causada por falhas humanas previsíveis e evitáveis, e não pelo acaso."
+    ],
+    "correta": 3,
+    "explicacao": "'Acidente' sugere fatalidade; 'sinistro' reforça que esses eventos podem ser evitados. O termo foi adotado pela ABNT NBR 10697:2020 e pela Lei 14.599/2023 no CTB.",
+    "base_legal": "Lei 14.599/2023; ABNT NBR 10697:2020",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=188",
+    "observacao": null
+  },
+  {
+    "id": "ma-027",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "O que o condutor deve fazer se uma pessoa com deficiência precisar embarcar ou desembarcar?",
+    "alternativas": [
+      "Acelerar para sair logo.",
+      "Esperar com paciência, sem pressionar ou buzinar.",
+      "Ficar reclamando.",
+      "Passar bem próximo."
+    ],
+    "correta": 1,
+    "explicacao": "Respeitar o tempo da pessoa com deficiência é dever de convivência; pressionar ou buzinar gera risco e constrangimento.",
+    "base_legal": "CTB arts. 26 e 29, §2º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=178",
+    "observacao": null
+  },
+  {
+    "id": "ma-028",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "Ao cruzar com um cadeirante perto de uma rampa de acesso, o que o condutor NÃO deve fazer?",
+    "alternativas": [
+      "Aguardar e manter distância segura.",
+      "Parar sobre a guia rebaixada ou bloquear a rampa.",
+      "Oferecer passagem livre e sinalizar.",
+      "Evitar estacionar em vaga PCD sem credencial."
+    ],
+    "correta": 1,
+    "explicacao": "A rampa e a guia rebaixada garantem a autonomia de cadeirantes; bloqueá-las obriga a pessoa a circular pela pista.",
+    "base_legal": "CTB arts. 26 e 29, §2º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=174",
+    "observacao": null
+  },
+  {
+    "id": "ma-029",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "Um motorista percebe que outro cometeu um erro no trânsito. Qual deve ser sua reação?",
+    "alternativas": [
+      "Fechar o outro carro para ensinar uma lição.",
+      "Buzinar de forma insistente.",
+      "Manter a calma e evitar discutir ou revidar.",
+      "Gritar para mostrar que tem razão."
+    ],
+    "correta": 2,
+    "explicacao": "Revidar ou discutir transforma um erro em conflito e aumenta o risco de sinistros; manter a calma é atitude defensiva.",
+    "base_legal": "CTB art. 28; Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=196",
+    "observacao": null
+  },
+  {
+    "id": "ma-030",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "O que é a \"gentileza no trânsito\"?",
+    "alternativas": [
+      "Dirigir sempre muito devagar.",
+      "Ceder passagem, sinalizar, manter distância e evitar disputas.",
+      "Deixar o veículo na garagem em horários de pico.",
+      "Ignorar os erros dos outros motoristas."
+    ],
+    "correta": 1,
+    "explicacao": "Gentileza no trânsito são atitudes de cortesia que tornam o trânsito mais previsível e seguro para todos.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 3",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=226",
+    "observacao": null
+  },
+  {
+    "id": "ma-031",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "O condutor do veículo à frente está aprendendo a dirigir e hesita para sair. Qual atitude tomar?",
+    "alternativas": [
+      "Acelerar e passar bem perto.",
+      "Buzinar sem parar.",
+      "Aguardar com calma e manter distância.",
+      "Xingá-lo pela janela."
+    ],
+    "correta": 2,
+    "explicacao": "Paciência com quem está aprendendo evita pressão e manobras arriscadas; buzinar ou passar rente só piora a situação.",
+    "base_legal": "CTB arts. 26 e 28",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=177",
+    "observacao": null
+  },
+  {
+    "id": "ma-032",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "Um amigo pede para você ir mais rápido na estrada. Qual é a atitude correta a ser adotada?",
+    "alternativas": [
+      "Acelerar para agradar.",
+      "Manter velocidade segura, sem ceder à pressão.",
+      "Ultrapassar em curva.",
+      "Ignorar a sinalização."
+    ],
+    "correta": 1,
+    "explicacao": "O condutor é responsável pelo domínio do veículo; ceder à pressão de passageiros para correr aumenta o risco para todos.",
+    "base_legal": "CTB arts. 28 e 43",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=191",
+    "observacao": null
+  },
+  {
+    "id": "ma-033",
+    "tema": "meio_ambiente",
+    "subtema": "convivio-social",
+    "enunciado": "Por que é errado fotografar ou filmar vítimas em um local de sinistro para divulgar na internet?",
+    "alternativas": [
+      "Porque a câmera do celular pode atrapalhar os equipamentos da equipe de resgate.",
+      "Porque as imagens podem ser consideradas falsas e gerar pânico.",
+      "Porque desrespeita a dignidade das pessoas envolvidas e atrapalha o trabalho do socorro.",
+      "Porque apenas jornalistas profissionais têm autorização para registrar essas cenas."
+    ],
+    "correta": 2,
+    "explicacao": "Filmar e divulgar vítimas expõe pessoas em sofrimento, viola o direito à imagem e tira o foco de quem poderia ajudar.",
+    "base_legal": "Constituição Federal, art. 5º, X; Curso CNH do Brasil (Senatran), Módulo 4 – Cuidar, Agir e Preservar",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=309",
+    "observacao": null
+  },
+  {
+    "id": "ma-034",
+    "tema": "meio_ambiente",
+    "subtema": "seguranca-viaria",
+    "enunciado": "Qual deve ser a prioridade número um no trânsito?",
+    "alternativas": [
+      "O tempo de viagem.",
+      "O valor do combustível.",
+      "O tamanho da via.",
+      "A vida das pessoas."
+    ],
+    "correta": 3,
+    "explicacao": "A preservação da vida é a prioridade do Sistema Nacional de Trânsito e de todos os usuários da via.",
+    "base_legal": "CTB art. 1º, §5º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=180",
+    "observacao": null
+  },
+  {
+    "id": "mec-001",
+    "tema": "mecanica",
+    "subtema": "suspensao-direcao",
+    "enunciado": "Um alinhamento comprometido das rodas pode causar:",
+    "alternativas": [
+      "Consumo menor.",
+      "Carro puxando, desgaste irregular dos pneus e instabilidade.",
+      "Volante sempre reto.",
+      "Pneu mais frio."
+    ],
+    "correta": 1,
+    "explicacao": "Rodas desalinhadas fazem o carro 'puxar', gastam os pneus de forma irregular e prejudicam a estabilidade.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=233",
+    "observacao": null
+  },
+  {
+    "id": "mec-002",
+    "tema": "mecanica",
+    "subtema": "suspensao-direcao",
+    "enunciado": "Qual o sinal de problema na suspensão que o condutor pode observar ao dirigir, além de ruídos estranhos e desalinhamento?",
+    "alternativas": [
+      "O retrovisor externo estar quebrado.",
+      "O nível de combustível estar baixo.",
+      "Desgaste irregular dos pneus.",
+      "A luz de freio estar queimada."
+    ],
+    "correta": 2,
+    "explicacao": "Peças da suspensão gastas (como amortecedores) causam ruídos, instabilidade e desgaste irregular dos pneus.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=261",
+    "observacao": null
+  },
+  {
+    "id": "mec-003",
+    "tema": "mecanica",
+    "subtema": "freios",
+    "enunciado": "Um motorista sente o volante vibrar fortemente ao frear. O que essa percepção indica?",
+    "alternativas": [
+      "Normalidade do piso e dos pneus.",
+      "Que deve acelerar para estabilizar.",
+      "Possível irregularidade na pista ou falha no sistema de freios.",
+      "Que o veículo precisa de alinhamento apenas."
+    ],
+    "correta": 2,
+    "explicacao": "Vibração ao frear pode vir de pista irregular ou de discos de freio empenados; se persistir, o sistema deve ser revisado.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=164",
+    "observacao": null
+  },
+  {
+    "id": "mec-004",
+    "tema": "mecanica",
+    "subtema": "freios",
+    "enunciado": "O que pode acontecer quando o veículo está com as pastilhas de freio gastas ou com o fluido de freio em más condições?",
+    "alternativas": [
+      "Melhoram conforto.",
+      "Não alteram nada.",
+      "Só fazem barulho.",
+      "Aumentam a distância de parada e o risco de colisão."
+    ],
+    "correta": 3,
+    "explicacao": "Pastilhas gastas e fluido velho ou contaminado reduzem a eficiência da frenagem.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=235",
+    "observacao": null
+  },
+  {
+    "id": "mec-005",
+    "tema": "mecanica",
+    "subtema": "freios",
+    "enunciado": "Quais indícios pedem revisão de freios?",
+    "alternativas": [
+      "Ruídos ou trepidações ao frear e pedal baixo.",
+      "Rádio com chiado.",
+      "Luzes queimando com facilidade.",
+      "Ar-condicionado fraco."
+    ],
+    "correta": 0,
+    "explicacao": "Barulho, trepidação e pedal baixo indicam desgaste de pastilhas ou discos, ou problema no fluido de freio.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=239",
+    "observacao": "Distrator 'Volante inclinando para um dos lados' substituído: o carro puxar para um lado também pode ser sintoma de problema nos freios, o que tornava a alternativa ambígua."
+  },
+  {
+    "id": "mec-006",
+    "tema": "mecanica",
+    "subtema": "freios",
+    "enunciado": "Qual a verificação mensal que o condutor deve fazer no sistema de freios, e o que a baixa no nível desse componente pode indicar?",
+    "alternativas": [
+      "Observar o nível da água do radiador; se estiver baixo, pode indicar aquecimento.",
+      "Observar o nível do óleo do motor; se estiver baixo, pode indicar entupimento.",
+      "Observar o nível do combustível; se estiver baixo, pode indicar sujeira.",
+      "Observar o nível do fluido de freio; se estiver baixo, pode indicar vazamento."
+    ],
+    "correta": 3,
+    "explicacao": "O fluido de freio deve ficar entre as marcas do reservatório; queda no nível pode indicar vazamento (ou pastilhas muito gastas) e exige revisão.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=258",
+    "observacao": null
+  },
+  {
+    "id": "mec-007",
+    "tema": "mecanica",
+    "subtema": "freios",
+    "enunciado": "Ao frear em um sinal, você nota que o carro \"puxa\" bruscamente para a direita e ouve um ruído metálico. Qual é o sinal de alerta de segurança que você não pode ignorar?",
+    "alternativas": [
+      "O sinal indica que os pneus estão apenas descalibrados.",
+      "É um aviso sério de que há um problema no sistema de freios, exigindo a procura imediata de um mecânico.",
+      "O problema é causado pela sujeira no reservatório de água do limpador.",
+      "O sinal é causado por um vazamento de óleo do motor."
+    ],
+    "correta": 1,
+    "explicacao": "Puxar para um lado ao frear e ruído metálico indicam falha nos freios, como pastilha gasta ou problema em uma das rodas.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=264",
+    "observacao": null
+  },
+  {
+    "id": "mec-008",
+    "tema": "mecanica",
+    "subtema": "iluminacao-sinalizacao",
+    "enunciado": "Você percebe que a luz de freio do seu veículo não está acendendo. A que essa falha está associada?",
+    "alternativas": [
+      "Ao aumento muito grande do risco de colisão traseira, pois o motorista de trás não será avisado da sua desaceleração.",
+      "Ao vazamento de fluido do sistema de arrefecimento.",
+      "Ao aumento do consumo de combustível.",
+      "Ao desgaste irregular dos pneus dianteiros."
+    ],
+    "correta": 0,
+    "explicacao": "A luz de freio avisa quem vem atrás que você está reduzindo; sem ela, cresce muito o risco de colisão traseira.",
+    "base_legal": "CTB art. 230, XXII",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=264",
+    "observacao": null
+  },
+  {
+    "id": "mec-009",
+    "tema": "mecanica",
+    "subtema": "iluminacao-sinalizacao",
+    "enunciado": "O que pode ocorrer quando o veículo circula com farol, seta ou lanterna queimados?",
+    "alternativas": [
+      "É apenas um detalhe estético.",
+      "Prejudica o ver e ser visto; as lâmpadas devem ser trocadas.",
+      "Melhora a economia.",
+      "Só importa de dia."
+    ],
+    "correta": 1,
+    "explicacao": "Lâmpadas queimadas atrapalham a comunicação com os outros usuários; circular com elas é infração média, com retenção do veículo para regularização.",
+    "base_legal": "CTB art. 230, XXII",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=236",
+    "observacao": null
+  },
+  {
+    "id": "mec-010",
+    "tema": "mecanica",
+    "subtema": "pneus",
+    "enunciado": "Pneus bem calibrados e com sulcos:",
+    "alternativas": [
+      "Só deixam o carro mais alto.",
+      "Aumentam a distância de frenagem.",
+      "Não influenciam na chuva.",
+      "Melhoram estabilidade e reduzem consumo."
+    ],
+    "correta": 3,
+    "explicacao": "Pressão correta e sulcos em bom estado garantem aderência, estabilidade e menor consumo.",
+    "base_legal": "Res. Contran 913/2022; Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=238",
+    "observacao": null
+  },
+  {
+    "id": "mec-011",
+    "tema": "mecanica",
+    "subtema": "pneus",
+    "enunciado": "Qual é o procedimento correto para calibrar os pneus?",
+    "alternativas": [
+      "Calibrar logo após uma viagem longa, com os pneus quentes.",
+      "Calibrar \"a olho\".",
+      "Encher além do recomendado.",
+      "Calibrar com os pneus frios, na pressão indicada no manual ou na etiqueta do veículo, sem esquecer o estepe."
+    ],
+    "correta": 3,
+    "explicacao": "Pneu quente dá leitura de pressão maior; a pressão correta é a do fabricante, e o estepe também precisa estar calibrado.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=240",
+    "observacao": null
+  },
+  {
+    "id": "mec-012",
+    "tema": "mecanica",
+    "subtema": "pneus",
+    "enunciado": "Qual o perigo principal dos pneus com desgaste ou \"carecas\", especialmente em pistas molhadas?",
+    "alternativas": [
+      "Pneus gastos aumentam a aderência em pista molhada.",
+      "Pneus gastos fazem o carro puxar sempre para o lado esquerdo.",
+      "Pneus gastos apenas aumentam o ruído de rodagem.",
+      "Pneus gastos não conseguem expulsar água da pista e podem causar aquaplanagem."
+    ],
+    "correta": 3,
+    "explicacao": "Sem sulcos, o pneu não escoa a água e o veículo pode aquaplanar; é proibido circular com pneu gasto até o indicador de desgaste (1,6 mm).",
+    "base_legal": "Res. Contran 913/2022, art. 4º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=257",
+    "observacao": "Distrator 'Pneus gastos podem causar vibração excessiva no volante' substituído, por ser parcialmente verdadeiro."
+  },
+  {
+    "id": "mec-013",
+    "tema": "mecanica",
+    "subtema": "pneus",
+    "enunciado": "Antes de uma viagem, você percebe que o estepe está visivelmente murcho. Qual é o risco de não cuidar do pneu reserva?",
+    "alternativas": [
+      "Você gastará mais combustível durante a viagem.",
+      "Corre o risco de ter um pneu reserva murcho quando mais precisar dele em uma emergência.",
+      "O estepe murcho causará ruídos estranhos na suspensão.",
+      "O pneu reserva murcho aumenta a vida útil dos pneus que estão rodando."
+    ],
+    "correta": 1,
+    "explicacao": "O estepe também deve ser verificado regularmente; murcho, ele não resolve a emergência quando um pneu furar.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=262",
+    "observacao": null
+  },
+  {
+    "id": "mec-014",
+    "tema": "mecanica",
+    "subtema": "motor-lubrificacao",
+    "enunciado": "O óleo é chamado de \"sangue do motor\". Qual é a sua principal função?",
+    "alternativas": [
+      "Apenas alimenta o motor com energia para funcionar.",
+      "Lubrifica as peças móveis, reduz o atrito e ajuda a controlar a temperatura.",
+      "Apenas limpa o escapamento do veículo.",
+      "Apenas aumenta a pressão dos pneus."
+    ],
+    "correta": 1,
+    "explicacao": "O óleo lubrifica as peças móveis, reduz atrito e desgaste e ajuda a resfriar o motor.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=259",
+    "observacao": null
+  },
+  {
+    "id": "mec-015",
+    "tema": "mecanica",
+    "subtema": "motor-lubrificacao",
+    "enunciado": "Com pressa, você verifica o nível do óleo logo após estacionar, com o carro ainda quente e o motor ligado. Qual foi o erro?",
+    "alternativas": [
+      "O óleo precisa estar quente para que sua viscosidade seja medida corretamente.",
+      "O motor deve estar ligado para que o óleo circule.",
+      "O nível de óleo não pode ser verificado em dias úteis, apenas nos finais de semana.",
+      "A verificação deve ser feita com o motor desligado e o carro em local plano, esperando o óleo escorrer para o cárter (de preferência com o motor frio)."
+    ],
+    "correta": 3,
+    "explicacao": "Com o motor ligado ou o carro inclinado, o óleo não está todo no cárter e a vareta mostra um nível errado.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=263",
+    "observacao": "Alternativa correta ajustada: o essencial é motor desligado, local plano e aguardar o óleo assentar; alguns manuais pedem motor frio e outros motor aquecido e desligado há alguns minutos (siga o manual do veículo)."
+  },
+  {
+    "id": "mec-016",
+    "tema": "mecanica",
+    "subtema": "motor-lubrificacao",
+    "enunciado": "Ao checar o óleo com a vareta, você percebe que o nível está bem abaixo da marca \"mínimo\". Qual é a primeira atitude?",
+    "alternativas": [
+      "Adicionar qualquer tipo de óleo disponível, desde que o nível suba acima da marca mínima.",
+      "Ignorar o nível, pois o carro foi revisado há seis meses.",
+      "Adicionar apenas água no reservatório do óleo.",
+      "Completar o nível com o tipo de óleo recomendado no manual e, se o consumo for frequente, procurar um mecânico."
+    ],
+    "correta": 3,
+    "explicacao": "Óleo abaixo do mínimo pode danificar o motor; complete com o tipo indicado no manual e investigue se o consumo for frequente.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=263",
+    "observacao": null
+  },
+  {
+    "id": "mec-017",
+    "tema": "mecanica",
+    "subtema": "motor-lubrificacao",
+    "enunciado": "O que deve ser trocado junto com o óleo do motor para que o óleo novo tenha seus benefícios completos?",
+    "alternativas": [
+      "O óleo de transmissão.",
+      "O pneu estepe.",
+      "O fluido de freio.",
+      "O filtro de óleo."
+    ],
+    "correta": 3,
+    "explicacao": "O filtro retém as impurezas do óleo; se não for trocado junto, contamina o óleo novo.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=260",
+    "observacao": null
+  },
+  {
+    "id": "mec-018",
+    "tema": "mecanica",
+    "subtema": "filtros",
+    "enunciado": "Filtros de ar, de óleo e de combustível entupidos causam o quê no veículo?",
+    "alternativas": [
+      "Prejudicam o desempenho e aumentam o consumo.",
+      "Melhoram o sistema de freios.",
+      "Diminuem o ruído do escapamento.",
+      "Aumentam a vida útil do pneu."
+    ],
+    "correta": 0,
+    "explicacao": "Filtros entupidos dificultam a passagem de ar, óleo ou combustível, reduzindo o desempenho e aumentando o consumo.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=261",
+    "observacao": null
+  },
+  {
+    "id": "mec-019",
+    "tema": "mecanica",
+    "subtema": "combustivel",
+    "enunciado": "Por que o motorista deve evitar andar na reserva de combustível?",
+    "alternativas": [
+      "Andar na reserva estraga o reservatório do limpador de para-brisa.",
+      "Andar na reserva faz o sistema de freios falhar.",
+      "Andar na reserva pode sugar sujeira do tanque e entupir o sistema.",
+      "Andar na reserva causa ruídos estranhos na suspensão."
+    ],
+    "correta": 2,
+    "explicacao": "Rodar sempre na reserva pode puxar resíduos do fundo do tanque para o sistema de alimentação e entupir filtros e bicos.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=259",
+    "observacao": null
+  },
+  {
+    "id": "mec-020",
+    "tema": "mecanica",
+    "subtema": "combustivel",
+    "enunciado": "Você pensa em abastecer num posto desconhecido com preço muito abaixo da média. Qual é o risco?",
+    "alternativas": [
+      "O carro automaticamente puxará para o lado ao acelerar.",
+      "O risco de abastecer com combustível adulterado, que pode causar danos sérios ao motor.",
+      "Os pneus serão descalibrados automaticamente após o abastecimento.",
+      "A bateria do veículo durará mais de 4 anos."
+    ],
+    "correta": 1,
+    "explicacao": "Preço muito abaixo do mercado pode indicar combustível adulterado, que danifica o motor e aumenta a poluição.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=263",
+    "observacao": null
+  },
+  {
+    "id": "mec-021",
+    "tema": "mecanica",
+    "subtema": "arrefecimento",
+    "enunciado": "Quais são os cuidados necessários com o sistema de arrefecimento do veículo?",
+    "alternativas": [
+      "Abrir o radiador quente para \"resfriar\".",
+      "Usar sempre só água da torneira.",
+      "Verificar regularmente o nível do líquido de arrefecimento e realizar a troca conforme o recomendado pelo fabricante.",
+      "Ignorar mangueiras ressecadas."
+    ],
+    "correta": 2,
+    "explicacao": "O sistema de arrefecimento evita o superaquecimento; o nível e a troca do líquido (com aditivo) devem seguir o manual.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=235",
+    "observacao": null
+  },
+  {
+    "id": "mec-022",
+    "tema": "mecanica",
+    "subtema": "arrefecimento",
+    "enunciado": "Qual é o cuidado de segurança obrigatório ao verificar o nível do líquido do radiador?",
+    "alternativas": [
+      "Verificar o nível com o motor frio e nunca abrir com o motor quente.",
+      "Abrir o reservatório com o motor quente para checar a pressão.",
+      "Usar o dedo para verificar se a água está quente.",
+      "Verificar apenas o nível, sem se preocupar com a temperatura."
+    ],
+    "correta": 0,
+    "explicacao": "O sistema fica pressurizado e muito quente; abrir o reservatório com o motor quente pode causar queimaduras graves.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=261",
+    "observacao": null
+  },
+  {
+    "id": "mec-023",
+    "tema": "mecanica",
+    "subtema": "eletrica-bateria",
+    "enunciado": "Os terminais da bateria estão cobertos por uma substância esverdeada ou branca (zinabre). Qual é a manutenção simples indicada?",
+    "alternativas": [
+      "Adicionar mais fluido de freio nos terminais.",
+      "Limpar os terminais com uma escova para garantir o bom funcionamento da bateria.",
+      "Passar a mão nos terminais para remover o zinabre.",
+      "Abrir o radiador com o motor quente para dissipar o zinabre."
+    ],
+    "correta": 1,
+    "explicacao": "O zinabre atrapalha a passagem de corrente; os terminais devem ser limpos com cuidado, com escova, para a bateria funcionar bem.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=264",
+    "observacao": null
+  },
+  {
+    "id": "mec-024",
+    "tema": "mecanica",
+    "subtema": "painel",
+    "enunciado": "O que significa a luz do airbag permanecer acesa no painel?",
+    "alternativas": [
+      "Indica falha no sistema; o condutor deve procurar manutenção.",
+      "Economia de bateria.",
+      "Airbag desligado por segurança.",
+      "Que a revisão é desnecessária."
+    ],
+    "correta": 0,
+    "explicacao": "A luz do airbag deve apagar logo após a partida; acesa, indica que o airbag pode não funcionar numa colisão.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo; CTB art. 105, VII",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=236",
+    "observacao": null
+  },
+  {
+    "id": "mec-025",
+    "tema": "mecanica",
+    "subtema": "visibilidade",
+    "enunciado": "O que palhetas gastas do limpador de para-brisa podem causar, prejudicando a visibilidade, principalmente à noite?",
+    "alternativas": [
+      "Diminuem o consumo de combustível.",
+      "Melhoram a estabilidade do veículo.",
+      "Riscam o vidro e deixam marcas no momento da limpeza.",
+      "Aumentam a vida útil do reservatório de água."
+    ],
+    "correta": 2,
+    "explicacao": "Palhetas ressecadas deixam marcas e riscam o vidro, o que piora muito a visão com chuva e à noite.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=258",
+    "observacao": null
+  },
+  {
+    "id": "mec-026",
+    "tema": "mecanica",
+    "subtema": "visibilidade",
+    "enunciado": "Num dia frio e chuvoso, o vidro do carro embaça rapidamente e compromete a visão. Qual sistema é essencial nessa situação?",
+    "alternativas": [
+      "O sistema de suspensão.",
+      "O sistema de desembaçamento, que deve estar funcionando.",
+      "A correta calibragem do estepe.",
+      "O sistema de iluminação de emergência."
+    ],
+    "correta": 1,
+    "explicacao": "O desembaçador remove a umidade dos vidros; para-brisa embaçado tira a visão em dias frios e chuvosos.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=262",
+    "observacao": null
+  },
+  {
+    "id": "mec-027",
+    "tema": "mecanica",
+    "subtema": "escapamento",
+    "enunciado": "O que o motorista deve fazer imediatamente ao notar que o escapamento do veículo está furado?",
+    "alternativas": [
+      "Cobrir o furo com fita isolante.",
+      "Desligar o sistema de ar-condicionado.",
+      "Consertar, pois faz barulho excessivo e pode intoxicar os ocupantes com gases.",
+      "Ignorar, pois o problema é apenas estético."
+    ],
+    "correta": 2,
+    "explicacao": "Escapamento furado aumenta o barulho e pode deixar gases tóxicos (como o monóxido de carbono) entrarem no veículo; circular com silenciador defeituoso é infração grave.",
+    "base_legal": "CTB art. 230, XI; Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=260",
+    "observacao": null
+  },
+  {
+    "id": "mec-028",
+    "tema": "mecanica",
+    "subtema": "manutencao-preventiva",
+    "enunciado": "Qual documento traz o cronograma de revisões do veículo, com as quilometragens recomendadas?",
+    "alternativas": [
+      "A nota fiscal do último abastecimento.",
+      "O Certificado de Registro e Licenciamento do Veículo (CRLV).",
+      "O manual do proprietário.",
+      "A CNH do condutor."
+    ],
+    "correta": 2,
+    "explicacao": "O manual do proprietário traz o plano de revisões, por quilometragem ou tempo, definido pelo fabricante.",
+    "base_legal": "Curso CNH do Brasil (Senatran), Módulo 4; manual do proprietário do veículo",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=260",
+    "observacao": null
+  },
+  {
+    "id": "mec-029",
+    "tema": "mecanica",
+    "subtema": "recall",
+    "enunciado": "O que é recall de veículo?",
+    "alternativas": [
+      "Promoção para trocar o carro.",
+      "Chamado da montadora para corrigir defeito que pode afetar segurança, funcionamento ou ambiente.",
+      "Revisão paga de rotina.",
+      "Convite para test-drive."
+    ],
+    "correta": 1,
+    "explicacao": "Recall é o chamamento feito pelo fabricante para corrigir, sem custo, um defeito que pode afetar a segurança, o funcionamento ou o meio ambiente.",
+    "base_legal": "Código de Defesa do Consumidor (Lei 8.078/1990), art. 10",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=237",
+    "observacao": null
+  },
+  {
+    "id": "mec-030",
+    "tema": "mecanica",
+    "subtema": "recall",
+    "enunciado": "Quanto custa ao proprietário o reparo de um recall?",
+    "alternativas": [
+      "Metade do valor da peça.",
+      "Nada, é gratuito para o proprietário.",
+      "Apenas a mão de obra.",
+      "Taxa de oficina."
+    ],
+    "correta": 1,
+    "explicacao": "O reparo do recall é responsabilidade do fabricante e não tem custo para o proprietário.",
+    "base_legal": "Código de Defesa do Consumidor (Lei 8.078/1990), art. 10",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=237",
+    "observacao": null
+  },
+  {
+    "id": "mec-031",
+    "tema": "mecanica",
+    "subtema": "recall",
+    "enunciado": "O não atendimento a um recall pode gerar:",
+    "alternativas": [
+      "Impedimento do licenciamento do veículo, depois que o recall pendente passa a constar no CRLV.",
+      "Bônus no seguro.",
+      "Isenção de IPVA.",
+      "Nenhuma anotação oficial."
+    ],
+    "correta": 0,
+    "explicacao": "Recalls não atendidos em até 1 ano passam a constar no CRLV, e o veículo só é licenciado depois de comprovado o atendimento.",
+    "base_legal": "CTB art. 131, §§ 4º e 5º",
+    "placa": null,
+    "fonte": "https://sp.sindautoescola.org.br/assets/files/detran/28108973169455ea3a391d.pdf#page=236",
+    "observacao": "Alternativa correta detalhada conforme o CTB: o bloqueio do licenciamento ocorre quando o recall não é atendido em até 1 ano da comunicação."
+  }
+]
